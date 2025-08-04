@@ -1,0 +1,177 @@
+{
+    "id": "cscQueryMeetingRoom",
+    "tip": [
+      "查詢下禮拜二7樓會議室",
+      "預約3天後的16樓會議室",
+      "預約明天16樓會議室"
+    ],
+    "host": "CSC_ERP",
+    "name": "中鋼查詢會議室",
+    "format": "json",
+    "schema": {
+      "id": "cscQueryMeetingRoom",
+      "examples": [
+        {
+          "input": "查詢明天16F會議室",
+          "fields": {
+            "floor_id": "16",
+            "resource_id": "",
+            "booking_time": "明天",
+            "resource_type": "16"
+          }
+        },
+        {
+          "input": "預約後天16F會議室",
+          "fields": {
+            "floor_id": "16",
+            "resource_id": "",
+            "booking_time": "後天",
+            "resource_type": "16"
+          }
+        },
+        {
+          "input": "5/23 7樓會議室",
+          "fields": {
+            "floor_id": "7",
+            "resource_id": "",
+            "booking_time": "2024/05/23",
+            "resource_type": "7"
+          }
+        },
+        {
+          "input": "查詢禮拜三7樓研討室",
+          "fields": {
+            "floor_id": "7",
+            "resource_id": "",
+            "booking_time": "禮拜三",
+            "resource_type": "7"
+          }
+        },
+        {
+          "input": "預約禮拜三7樓研討室",
+          "fields": {
+            "floor_id": "7",
+            "resource_id": "",
+            "booking_time": "禮拜三",
+            "resource_type": "7"
+          }
+        },
+        {
+          "input": "查詢7樓教室",
+          "fields": {
+            "floor_id": "7",
+            "resource_id": "",
+            "booking_time": "",
+            "resource_type": "7"
+          }
+        },
+        {
+          "input": "Webex會議室",
+          "fields": {
+            "floor_id": "webex",
+            "resource_id": "",
+            "booking_time": "",
+            "resource_type": "webex"
+          }
+        },
+        {
+          "input": "預約移動式設備",
+          "fields": {
+            "floor_id": "equipment",
+            "resource_id": "",
+            "booking_time": "",
+            "resource_type": "equipment"
+          }
+        },
+        {
+          "input": "預約7.10移動式設備",
+          "fields": {
+            "floor_id": "equipment",
+            "resource_id": "",
+            "booking_time": "0710",
+            "resource_type": "equipment"
+          }
+        }
+      ],
+      "parameters": [
+        {
+          "id": "booking_time",
+          "label": "日期",
+          "format": "date",
+          "required": true,
+          "description": "Below, one or more relative date terms such as 'tomorrow,' 'the day after tomorrow,' 'next Monday,' etc., will be provided. Based on today's date ({now}), you need to calculate the specific dates corresponding to these relative date terms. do not include any additional explanation, only return the dates in the 'YYYYMMDD' format.",
+          "default_value": "下禮拜一"
+        },
+        {
+          "id": "floor_id",
+          "tip": "要預約的會議室類型，目前可使用: 7 or 16 or webex or  移動式設備 ",
+          "label": "樓層",
+          "required": true,
+          "description": "樓層號碼",
+          "sync_fields": [
+            "resource_type"
+          ],
+          "default_value": ""
+        },
+        {
+          "id": "resource_id",
+          "label": "會議室號碼",
+          "required": false,
+          "description": "會議室號碼",
+          "default_value": ""
+        },
+        {
+          "id": "resource_type",
+          "tip": "會議室類型或樓層號碼 ex:webex, 7, 16",
+          "label": "會議室類型",
+          "format": "code",
+          "required": true,
+          "description": "會議室類型或樓層號碼 ex: webex, 7, 16",
+          "default_value": "16"
+        }
+      ],
+      "description": "查詢會議室",
+      "code_mapping": {
+        "resource_type": {
+          "data": {
+            "7": "['A01','A08']",
+            "16": "['A05']",
+            "webex": "['A0W']",
+            "equipment": "['A0Z']",
+            "移動式設備": "['A0Z']"
+          },
+          "dataType": "object"
+        }
+      }
+    },
+    "actions": [
+      {
+        "type": "card"
+      },
+      {
+        "": "",
+        "url": "{_host}/UA/UAAVA/getRoomList",
+        "type": "api_call",
+        "message": "查詢成功",
+        "post_data": {
+          "userId": "{{_user.login_info.csc_sso.gcid}}{{_user.login_info.csc_sso.guid}}",
+          "floor_id": "{floor_id}",
+          "resource_id": "{resource_id}",
+          "booking_time": "{booking_time}",
+          "resource_type": "{resource_type}"
+        },
+        "content_type": "application/json",
+        "response_next_skill": [
+          {
+            "type": "form",
+            "next_skill": "CSCReserveMeeting"
+          }
+        ]
+      }
+    ],
+    "show_msg": false,
+    "intention": "查詢會議室",
+    "show_post": false,
+    "description": "線上查詢會議室 ",
+    "system_prompt": "請查詢指定時間內的會議室"
+  }

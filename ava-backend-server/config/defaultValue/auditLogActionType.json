@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "code": "CREATE",
+        "name": "新增",
+        "is_active": true,
+        "create_time": "2025-03-17T06:24:59.973Z",
+        "update_time": "2025-03-17T06:24:59.973Z",
+        "remark": "建立新的資源或數據"
+    },
+    {
+        "id": 2,
+        "code": "UPDATE",
+        "name": "修改",
+        "is_active": true,
+        "create_time": "2025-03-17T06:24:59.973Z",
+        "update_time": "2025-03-17T06:24:59.973Z",
+        "remark": "更新現有的資源或數據"
+    },
+    {
+        "id": 3,
+        "code": "DELETE",
+        "name": "刪除",
+        "is_active": true,
+        "create_time": "2025-03-17T06:24:59.973Z",
+        "update_time": "2025-03-17T06:24:59.973Z",
+        "remark": "刪除資源或數據"
+    },
+    {
+        "id": 4,
+        "code": "READ",
+        "name": "查詢",
+        "is_active": true,
+        "create_time": "2025-03-17T06:24:59.973Z",
+        "update_time": "2025-03-17T06:24:59.973Z",
+        "remark": "查詢或讀取資源"
+    },
+    {
+        "id": 5,
+        "code": "UPLOAD",
+        "name": "上傳",
+        "is_active": true,
+        "create_time": "2025-03-17T06:24:59.973Z",
+        "update_time": "2025-03-17T06:24:59.973Z",
+        "remark": "上傳檔案"
+    },
+    {
+        "id": 6,
+        "code": "DOWNLOAD",
+        "name": "下載",
+        "is_active": true,
+        "create_time": "2025-03-17T06:24:59.973Z",
+        "update_time": "2025-03-17T06:24:59.973Z",
+        "remark": "下載檔案"
+    },
+    {
+        "id": 7,
+        "code": "LOGIN",
+        "name": "登入",
+        "is_active": true,
+        "create_time": "2025-03-17T06:24:59.973Z",
+        "update_time": "2025-03-17T06:24:59.973Z",
+        "remark": "使用者登入系統"
+    },
+    {
+        "id": 8,
+        "code": "LOGOUT",
+        "name": "登出",
+        "is_active": true,
+        "create_time": "2025-03-17T06:24:59.973Z",
+        "update_time": "2025-03-17T06:24:59.973Z",
+        "remark": "使用者登出系統"
+    },
+    {
+        "id": 9,
+        "code": "ENABLE",
+        "name": "啟用",
+        "is_active": true,
+        "create_time": "2025-03-20T09:09:23.773Z",
+        "update_time": "2025-03-20T09:09:23.773Z",
+        "remark": "啟用現有的資源或數據"
+    },
+    {
+        "id": 10,
+        "code": "DISABLE",
+        "name": "禁用",
+        "is_active": true,
+        "create_time": "2025-03-20T09:09:23.773Z",
+        "update_time": "2025-03-20T09:09:23.773Z",
+        "remark": "禁用現有的資源或數據"
+    }
+]

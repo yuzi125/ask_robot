@@ -1,0 +1,78 @@
+module.exports = {
+    welcome_word_update_frequency: { value: "1", remark: "歡迎詞載入的天數" },
+    show_source_chunk: { value: "1", remark: "是否顯示來源" },
+    system_version: { value: "1.10.1", remark: "目前版本號" },
+    show_extra_chunk: { value: "1", remark: "是否顯示相關問題" },
+    system_bulletin: { value: "", remark: "公告文字" },
+    system_bulletin_color: { value: "#FF0000", remark: "公告顏色" },
+    system_bulletin_color_back: { value: "#FFFF00", remark: "公告背景顏色" },
+    system_client_theme_default: { value: "light", remark: "前端系統預設樣式" },
+    conversation_direction: { value: "right", remark: "對話人物頭像在左或右" },
+    is_db_ready: { value: "1", remark: "DB檢查參數" },
+    guest_enable: { value: "1", remark: "是否開啟遊客" },
+    is_record_tunnel_form: { value: "1", remark: "是否顯示隧道模式填表內容" },
+    system_client_theme: { value: "", remark: "系統要渲染的樣式例如khh" },
+    default_skill_model_config: {
+        value: '{"model":"gpt-3.5-turb","model_params":{"max_tokens":1200,"temperature":0,"frequency_penalty":0,"top_p":1.0},"system_prompt":"","intention":"","examples":[],"search_kwargs":{"k":100},"webapi":{"apiurl":"","method":"","body":{},"query":{},"params":{},"headers":{},"required":[],"response_detail":{}},"tip":[]}',
+        remark: "創建新skill的預設值",
+    },
+    need_login: { value: "0", remark: "是否一定要進行登入" },
+    users_permission: {
+        value: '["guest","IT0220","IX0011","148635","133876","163923","170142","149641","I23854","188193","IT0218","I30412","icsc-admin","I30420","I20496","I14249","IT0178","CSCY51","ICSC01","IT0220","iscs-admin"]',
+        remark: "後台的權限",
+    },
+    default_expert_model_config: {
+        value: '{"voice":{"whisper-1":{"model_params":{"system_prompt": "","default_system_prompt":"0"},"model_list_id":"60"},"current_config":"whisper-1"},"kor":{"gpt-4o":{"model_params":{"top_p":1,"max_tokens":1200,"temperature":0,"frequency_penalty":0,"system_prompt": "","default_system_prompt":"0"},"model_list_id":"17"},"current_config":"gpt-4o"},"model":"","search":{"gpt-4o":{"model_params":{"top_p":1,"max_tokens":1200,"temperature":0,"frequency_penalty":0,"system_prompt": "","default_system_prompt":"0"},"model_list_id":"1","search_kwargs":{"k":5,"cache_enabled":true,"score_threshold":0.4,"max_extra_chunk_cache_threshold":0.6,"min_extra_chunk_cache_threshold":0.2}},"current_config":"gpt-4o"},"intention":{"gpt-4o":{"model_params":{"top_p":1,"max_tokens":1200,"temperature":0,"frequency_penalty":0,"system_prompt": "","default_system_prompt":"0"},"model_list_id":"33"},"current_config":"gpt-4o"},"model_params":{"top_p":1,"max_tokens":1200,"temperature":0,"frequency_penalty":0},"system_prompt":"","suggest_question":"","no_data_found":"","content_replacement_list":"","enable_context_history":""}',
+        remark: "創建新專家的預設",
+    },
+    default_datasets_model_config: {
+        value: '{"tip":[],"examples":[],"intention":"","model_params":{"top_p":1,"max_tokens":1200,"temperature":0,"frequency_penalty":0},"search_kwargs":{"k":5},"system_prompt":"","embedding_model":"text-embedding-3-large","embedding_model_id":"85","is_downloadable":true,"content_replacement_list":"{}","deployment_name":"","endpoint":"","api_key":""}',
+        remark: "創建新知識庫的預設",
+    },
+    text_prison_words: { value: "[]", remark: "全域禁用詞" },
+    knowledge_permission: {
+        value: '{"pagePermissions":{"db":["icsc-admin"],"experts":["guest","I20496","I30412","icsc-admin"],"datasets":["guest","I20496","I30412","icsc-admin"],"skills":["guest","I20496","I30412","icsc-admin","I60567"],"usermanage":["guest","I20496","I30412"],"systemsets":["guest","I20496","I30412","icsc-admin"],"forms":["guest","I20496","I30412","icsc-admin"]},"experts":{"5132abc7-8ed3-4d81-9ea0-dbff57656a6d":["guest","icsc-admin","I20496","I30412"]},"datasets":{"ced7f0e7-4364-47b7-bcc0-3bcd90ee93fa":["guest","icsc-admin","I20496","I30412"],"02e7fb88-9a99-42ab-9db6-1752b63a713b":["guest","icsc-admin","I20496"]},"skills":{"c4ce20ab-75ca-4385-a62c-2f498f237d23":["guest","icsc-admin","I20496","I30412"]},"chatExperts": {},"actionPermissions":{"allowedToCreateExpert":["guest","icsc-admin","I20496","I30412"],"allowedToCreateDataset":["guest","icsc-admin","I20496","I30412"],"allowedToCreateAndCancelCrawler":["guest","icsc-admin","I20496","I30412"],"allowedToDownloadCrawlerLog":["guest","icsc-admin","I20496","I30412"],"allowedToUploadDocument":["guest","icsc-admin","I20496","I30412"]}}',
+        remark: "是否可看見專家、知識庫",
+    },
+    precise_cache_mode: { value: "0", remark: "是否開啟較為嚴格的cache" },
+    enable_cache_streaming_reply: { value: "1", remark: "開啟串流模式回覆" },
+    enable_rtc_recording: { value: "0", remark: "開啟語音功能" },
+    is_maintenance: { value: "0", remark: "是否開啟維護中頁面" },
+    whitelist: {
+        value: '["http://localhost:5000", "http://localhost:5005"]',
+        remark: "白名單",
+    },
+    max_message_length: { value: "200", remark: "使用者傳送訊息的最大字數限制" },
+    ner_prompt: {
+        value: "使用NER，提取使用者輸入內容中的地點名、建築物名、機構名、人名，只要輸出內容，若無法提取出任何資訊，回答'' 範例: 1. Q:介紹資訊處 ; A:資訊處 2. Q:文化中心裡面的資訊處的管理部的聯絡電話; A:文化中心、資訊處、管理部",
+        remark: "NER使用的prompt",
+    },
+    max_file_size: { value: "15", remark: "上傳檔案容量限制(單位MB)。" },
+    max_image_size: { value: "15", remark: "上傳圖檔容量限制(單位MB)。" },
+    line_select_expert: { value: "", remark: "linebot設定的專家(只能一位)" },
+    line_settings: {
+        value: '{"other_also_ask": false, "text_color": "#292929", "a_tag_color": "#0367D3", "bold_color": "#292929", "background_color": "#ffffff", "ul_marks": ["•","◦","▪︎"]}',
+        remark: "linebot設定的專家(只能一位)",
+    },
+    create_session_limit: { value: "30", remark: "使用者一天可以重複創建session的最大次數" },
+    popular_tags: {
+        value: '{"iconList":[{"icon":"fa-solid fa-code","name":"程式"},{"icon":"fa-regular fa-image","name":"圖片"},{"icon":"fa-solid fa-gift","name":"禮物"},{"icon":"fa-regular fa-newspaper","name":"報紙"},{"icon":"fa-solid fa-wind","name":"風"},{"icon":"fa-solid fa-star","name":"星星"},{"icon":"fa-solid fa-cloud","name":"雲"},{"icon":"fa-solid fa-bolt","name":"閃電"},{"icon":"fa-regular fa-bell","name":"鈴鐺"},{"icon":"fa-solid fa-lock","name":"鎖"},{"icon":"fa-solid fa-rocket","name":"火箭"},{"icon":"fa-solid fa-brain","name":"腦"},{"icon":"fa-solid fa-plane-up","name":"飛機"},{"icon":"fa-solid fa-fire-flame-simple","name":"火焰"},{"icon":"fa-solid fa-gamepad","name":"遊戲機"},{"icon":"fa-solid fa-dollar-sign","name":"錢字符"}],"currentIcons":[]}',
+        remark: "系統設定-熱門標籤；iconList為可用list，currentIcons為使用者添加的icon",
+    },
+    min_message_length: { value: "0", remark: "系統設定-聊天室基本設定 使用者輸入最低字數限制" },
+    agreement_alert: {
+        value: "請先同意使用說明才能使用此功能。",
+        remark: "在未同意使用條款時顯示的提示內容(支援Markdown)。",
+    },
+    chat_input_height: {
+        value: "1",
+        remark: "聊天室輸入框的高度行數。",
+    },
+    chat_input_placeholder: {
+        value: "請輸入訊息",
+        remark: "聊天室輸入框的提示訊息。",
+    },
+    ban_ip_expire_date: { value: "0", remark: "IP封鎖功能暫停期限，-1為永久暫停功能，0為功能開啟，大於0為過期時間" },
+    chat_file_upload_enable: { value: "0", remark: "聊天室檔案上傳功能" },
+    chat_file_translate_enable: { value: "0", remark: "聊天室檔案翻譯功能" },
+};

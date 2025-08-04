@@ -1,0 +1,213 @@
+{
+    "id": "cscReserveClinicSchedule",
+    "tip": [
+      "預約診療所",
+      "預約10/1~10/15黃小明醫生的復健科",
+      "預約10/15~10/18下午3~5點的身心科",
+      "預約10/16骨科"
+    ],
+    "host": "CSC_ERP",
+    "name": "中鋼診療所可預約時段查詢",
+    "format": "json",
+    "schema": {
+      "id": "reserveClinicSchedule",
+      "examples": [
+        {
+          "input": "預約明天總部的營養科與運動科看診",
+          "fields": {
+            "hosp": "營養,運動",
+            "doctor": "",
+            "frDate": "明天",
+            "frTime": "",
+            "toDate": "明天",
+            "toTime": "",
+            "location": "總部"
+          }
+        },
+        {
+          "input": "預約3天後小港的運動科",
+          "fields": {
+            "hosp": "運動",
+            "doctor": "",
+            "frDate": "3天後",
+            "frTime": "",
+            "toDate": "3天後",
+            "toTime": "",
+            "location": "小港"
+          }
+        },
+        {
+          "input": "預約10/1~10/15黃小明醫生的復健科",
+          "fields": {
+            "hosp": "復健",
+            "doctor": "黃小明",
+            "frDate": "10/01",
+            "frTime": "",
+            "toDate": "10/15",
+            "toTime": "",
+            "location": ""
+          }
+        },
+        {
+          "input": "預約總部10/15~10/18下午3~5點的身心科",
+          "fields": {
+            "hosp": "身心",
+            "doctor": "",
+            "frDate": "10/15",
+            "frTime": "1500",
+            "toDate": "10/18",
+            "toTime": "1700",
+            "location": "總部"
+          }
+        },
+        {
+          "input": "預約10/16骨科",
+          "fields": {
+            "hosp": "骨科",
+            "doctor": "",
+            "frDate": "10/16",
+            "frTime": "",
+            "toDate": "10/16",
+            "toTime": "",
+            "location": ""
+          }
+        }
+      ],
+      "parameters": [
+        {
+          "id": "location",
+          "tip": "總部: 01, 小港: 02",
+          "label": "地點",
+          "format": "code",
+          "required": true,
+          "button_tip": [
+            "小港",
+            "總部"
+          ],
+          "description": "總部: 01, 小港: 02",
+          "default_value": ""
+        },
+        {
+          "id": "hosp",
+          "tip": "ex: 營養, 運動",
+          "label": "科別",
+          "required": true,
+          "button_tip": [
+            "口腔衛生保健",
+            "心理諮商",
+            "肝膽內科",
+            "長青門診",
+            "職業醫學科",
+            "一般外科",
+            "內科",
+            "心血管內科",
+            "心臟外科",
+            "牙科",
+            "皮膚科",
+            "耳鼻喉科",
+            "身心科",
+            "泌尿外科",
+            "直腸外科",
+            "家醫科",
+            "神經外科",
+            "胸腔內科",
+            "胸腔外科",
+            "骨科",
+            "眼科",
+            "超音波檢查",
+            "新陳代謝科",
+            "腸胃內科",
+            "運動諮詢",
+            "整形外科",
+            "糖尿病衛教",
+            "營養諮詢"
+          ],
+          "description": "要預約的診療科別 ex: 營養, 運動",
+          "default_value": ""
+        },
+        {
+          "id": "doctor",
+          "label": "醫生",
+          "required": false,
+          "description": "要指定的醫生名稱",
+          "default_value": "[]"
+        },
+        {
+          "id": "frDate",
+          "tip": "ex:  113/10/14",
+          "label": "起始日",
+          "format": "date",
+          "required": true,
+          "description": "要查詢可預約時段的起始日期 ex:  1131014",
+          "default_value": ""
+        },
+        {
+          "id": "toDate",
+          "tip": "ex: 113/10/18",
+          "label": "截止日",
+          "format": "date",
+          "required": true,
+          "description": "要查詢可預約時段的截止日期 ex:  1131018",
+          "default_value": ""
+        },
+        {
+          "id": "frTime",
+          "tip": "ex: 1200, 0800",
+          "label": "起始時間",
+          "required": false,
+          "description": "要查詢可預約時段的起始時間 ex: 1200, 0800",
+          "default_value": "今天"
+        },
+        {
+          "id": "toTime",
+          "tip": "ex: 0900, 1500",
+          "label": "截止時間",
+          "required": false,
+          "description": "要查詢可預約時段的截止時間 ex: 1200, 0800",
+          "default_value": "三個月後"
+        }
+      ],
+      "description": "查詢診療所可預約時段",
+      "code_mapping": {
+        "location": {
+          "data": {
+            "小港": "02",
+            "總部": "01"
+          }
+        }
+      }
+    },
+    "actions": [
+      {
+        "type": "card"
+      },
+      {
+        "url": "{_host}/PH/PHAVA/getReserList",
+        "type": "api_call",
+        "message": "查詢成功",
+        "post_data": {
+          "hosp": "{hosp}",
+          "doctor": "{doctor}",
+          "frDate": "{frDate}",
+          "frTime": "{frTime}",
+          "toDate": "{toDate}",
+          "toTime": "{toTime}",
+          "location": "{location}",
+          "doCompUser": "{{_user.login_info.csc_sso.gcid}}{{_user.login_info.csc_sso.guid}}"
+        },
+        "content_type": "application/json",
+        "response_next_skill": [
+          {
+            "type": "form",
+            "next_skill": "CSCReserveClinic"
+          }
+        ]
+      }
+    ],
+    "show_msg": false,
+    "intention": "查詢診療所可預約時段",
+    "show_post": false,
+    "description": "查詢診療所可預約時段",
+    "system_prompt": "查詢診療所可預約時段",
+    "show_fill_record": true
+  }

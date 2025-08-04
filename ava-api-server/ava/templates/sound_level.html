@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sound Level</title>
+    <style>
+        #recordButton {
+            background-color: #ffffff;
+            border: none;
+            border-radius: 50%;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+<button id="recordButton">
+    <i class="fas fa-microphone"></i>
+</button>
+
+
+</body>
+<script>
+    const recordButton = document.getElementById('recordButton');
+    let mediaRecorder;
+    let chunks = [];
+
+    recordButton.addEventListener('click', () => {
+        if (!mediaRecorder || mediaRecorder.state === 'inactive') {
+            navigator.mediaDevices.getUserMedia({audio: true})
+                .then((stream) => {
+                    mediaRecorder = new MediaRecorder(stream);
+                    mediaRecorder.start();
+
+                    const audioContext = new AudioContext();
+                    const analyser = audioContext.createAnalyser();
+                    const source = audioContext.createMediaStreamSource(stream);
+                    source.connect(analyser);
+
+                    const dataArray = new Uint8Array(analyser.frequencyBinCount);
+
+                    const draw = () => {
+                        analyser.getByteTimeDomainData(dataArray);
+                        // Use the dataArray values to visualize the sound level in real-time
+                        requestAnimationFrame(draw);
+                    }
+
+                    draw();
+                })
+                .catch((error) => {
+                    console.error('Error accessing microphone:', error);
+                });
+        } else if (mediaRecorder.state === 'recording') {
+            mediaRecorder.stop();
+        }
+    });
+
+    // Event listener for when the media recorder has data available
+    mediaRecorder.addEventListener('dataavailable', (event) => {
+        chunks.push(event.data);
+    });
+
+    // Event listener for when the media recorder has stopped
+    mediaRecorder.addEventListener('stop', () => {
+        const recordedAudio = new Blob(chunks, {type: 'audio/webm'});
+        // Do something with the recorded audio, e.g., save it or play it back
+    });
+
+</script>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+        <style>
+            #main {
+                width: 100%;
+                height: 272px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main"></div>
+
+        <script>
+            const url = new URL(window.location.href);
+            const params = new URLSearchParams(url.search);
+            const search = params.get("search");
+            let chartDom = document.getElementById("main");
+            let months;
+            let myChart;
+            let option;
+            let allYear = 50;
+            let data = {};
+            initParam();
+            initEcharts();
+
+            function initParam() {
+                let series = [
+                    { name: "師", data: [] },
+                    { name: "員", data: [] },
+                ];
+                series.forEach((item) => {
+                    for (let i = 0; i < allYear * 12; i++) {
+                        item.data.push(parseInt(Math.random() * 300));
+                    }
+                });
+                let total = { name: "總計", data: [] };
+                for (let i = 0; i < allYear * 12; i++) {
+                    total.data.push(series[0].data[i] + series[1].data[i]);
+                }
+                series.push(total);
+                data.series = series;
+                switch (search) {
+                    case "近1年":
+                        months = 12;
+                        break;
+                    case "近2年":
+                        months = 24;
+                        break;
+                    case "近10年":
+                        months = 120;
+                        break;
+                    case "近20年":
+                        months = 240;
+                        break;
+                    case "全部":
+                        months = 600;
+                        break;
+                }
+            }
+            function initEcharts() {
+                myChart = echarts.init(chartDom);
+                // myChart = echarts.init(document.querySelector(".chartDom"));
+
+                option = {
+                    title: {
+                        // text: "Stacked Line",
+                    },
+                    tooltip: {
+                        trigger: "axis",
+                    },
+                    legend: {
+                        data: [1, 2],
+                    },
+                    grid: {
+                        left: "3%",
+                        right: "4%",
+                        bottom: "3%",
+                        containLabel: true,
+                    },
+                    toolbox: {
+                        feature: {
+                            saveAsImage: {},
+                        },
+                    },
+                    xAxis: {
+                        type: "category",
+                        boundaryGap: false,
+                        data: [],
+                    },
+                    yAxis: {
+                        type: "value",
+                    },
+                    series: [],
+                };
+                if (months) {
+                    initUi(months);
+                }
+            }
+            function initUi(months) {
+                let year = months / 12;
+                if (year >= 10) {
+                    renderUi(months, "year");
+                } else {
+                    renderUi(months, "month");
+                }
+            }
+            function chunkArraySum(array, chunkSize) {
+                const chunkedArray = [];
+                for (let i = 0; i < array.length; i += chunkSize) {
+                    let sum = array.slice(i, i + chunkSize).reduce((a, b) => a + b);
+                    chunkedArray.push(sum);
+                }
+                return chunkedArray;
+            }
+            function renderUi(count, unit) {
+                option.legend.data = [];
+                option.series = [];
+                option.xAxis.data = [];
+                switch (unit) {
+                    case "month":
+                        data.series.forEach((item) => {
+                            let dataArr = item.data.slice(-1 * count);
+                            option.legend.data.push(item.name);
+                            option.series.push({ name: item.name, type: "line", stack: "Total", data: dataArr });
+                        });
+                        for (let i = 0; i < count; i++) {
+                            option.xAxis.data.push(i + 1 + "");
+                        }
+                        break;
+                    case "year":
+                        data.series.forEach((item) => {
+                            let dataArr = item.data.slice(-1 * count);
+                            option.legend.data.push(item.name);
+                            //陣列每年12個的總和;
+                            let yearSum = chunkArraySum(dataArr, 12);
+                            option.series.push({ name: item.name, type: "line", stack: "Total", data: yearSum });
+                        });
+                        for (let i = 0; i < count / 12; i++) {
+                            option.xAxis.data.push(i + 112 + "");
+                        }
+                        break;
+                }
+
+                option && myChart.setOption(option);
+            }
+        </script>
+    </body>
+</html>

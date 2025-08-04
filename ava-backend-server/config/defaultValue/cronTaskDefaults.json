@@ -1,0 +1,56 @@
+[
+    {
+        "id": "6eaffa1a-b3c9-48a5-ae80-17c2e71d71be",
+        "task_name": "檢查過期文件",
+        "function_name": "checkExpiredDocuments",
+        "interval": 15000,
+        "is_active": true,
+        "create_time": "2024-10-08T08:26:06.772Z",
+        "update_time": "2024-12-12T05:02:16.976Z"
+    },
+    {
+        "id": "3108e53f-1f65-46b3-80ae-b96c4fc5725f",
+        "task_name": "清除快取資料",
+        "function_name": "clearCache",
+        "interval": 600,
+        "is_active": true,
+        "create_time": "2024-12-12T03:12:57.349Z",
+        "update_time": "2024-12-16T01:44:04.970Z"
+    },
+    {
+        "id": "1c5d5c77-cae2-4e04-b0dc-1b73d38ca203",
+        "task_name": "同步爬蟲",
+        "function_name": "syncCrawlers",
+        "interval": 10,
+        "is_active": true,
+        "create_time": "2024-10-09T07:12:00.725Z",
+        "update_time": "2024-12-18T01:11:07.797Z"
+    },
+    {
+        "id": "6543de24-4b94-4b76-984f-092ee8e8adf2",
+        "task_name": "刪除爬蟲檔案",
+        "function_name": "deleteCrawlerDocuments",
+        "interval": 7200,
+        "is_active": true,
+        "create_time": "2024-12-25T08:20:37.772Z",
+        "update_time": "2025-01-08T01:31:33.836Z"
+    },
+    {
+        "id": "5edb02d6-0190-4734-8a4d-7f83e5ad1c12",
+        "task_name": "刪除爬蟲附件檔案",
+        "function_name": "deleteCrawlerAttachmentFiles",
+        "interval": 7000,
+        "is_active": true,
+        "create_time": "2025-03-07T02:03:03.596Z",
+        "update_time": "2025-03-07T02:03:03.596Z"
+    },
+    {
+        "id": "9ccb114b-33be-4f92-9c1b-b7015fee8280",
+        "task_name": "同步爬蟲附件",
+        "function_name": "syncCrawlersAttachment",
+        "interval": 20,
+        "is_active": true,
+        "create_time": "2025-03-03T01:28:58.830Z",
+        "update_time": "2025-03-03T01:28:58.830Z"
+    }
+]

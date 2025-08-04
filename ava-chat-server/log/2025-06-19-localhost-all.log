@@ -1,0 +1,448 @@
+2025-06-19 10:41:37 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 10:41:38 - printf.js - INFO - SSO_TYPE: 
+2025-06-19 10:41:43 - printf.js - INFO - server is connection at http://localhost:8081
+2025-06-19 10:41:43 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 10:41:43 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 10:41:43 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 10:41:43 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 10:41:43 - printf.js - INFO - 所有 Redis 客戶端已連接
+2025-06-19 10:42:52 - printf.js - INFO - initial reids: function v4(options, buf, offset) {
+  if (_native.default.randomUUID && !buf && !options) {
+    return _native.default.randomUUID();
+  }
+
+  options = options || {};
+
+  const rnds = options.random || (options.rng || _rng.default)(); // Per 4.4, set bits for version and `clock_seq_hi_and_reserved`
+
+
+  rnds[6] = rnds[6] & 0x0f | 0x40;
+  rnds[8] = rnds[8] & 0x3f | 0x80; // Copy bytes to buffer, if provided
+
+  if (buf) {
+    offset = offset || 0;
+
+    for (let i = 0; i < 16; ++i) {
+      buf[offset + i] = rnds[i];
+    }
+
+    return buf;
+  }
+
+  return (0, _stringify.unsafeStringify)(rnds);
+}
+2025-06-19 10:42:52 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:42:52 - printf.js - INFO - here, extra={
+  "uid": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-19 10:42:57 - printf.js - INFO - userInfo, extra={
+  "uid": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-19 10:43:06 - printf.js - INFO - 專家excel專家尚無聊天室，開始建立聊天室...
+2025-06-19 10:43:06 - printf.js - INFO - 專家中鋼專家尚無聊天室，開始建立聊天室...
+2025-06-19 10:43:06 - printf.js - INFO - 專家t1尚無聊天室，開始建立聊天室...
+2025-06-19 10:43:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:07 - printf.js - INFO - 專家excel專家聊天室建立完成 !
+2025-06-19 10:43:07 - printf.js - INFO - 專家t1聊天室建立完成 !
+2025-06-19 10:43:07 - printf.js - INFO - 專家中鋼專家聊天室建立完成 !
+2025-06-19 10:43:07 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-19 10:43:07 - printf.js - INFO - expertSkillRows []
+2025-06-19 10:43:08 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:08 - printf.js - INFO - userInfo, extra={
+  "uid": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-19 10:43:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:31 - printf.js - INFO - expertSkillRows []
+2025-06-19 10:43:31 - printf.js - INFO - userInfo, extra={
+  "uid": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-19 10:43:31 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "17"
+}
+2025-06-19 10:43:47 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:47 - printf.js - INFO - 去年2月28發生甚麼事情 17
+2025-06-19 10:43:47 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:47 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 10:43:47 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 10:43:47 - printf.js - INFO - expert_id 17
+2025-06-19 10:43:47 - printf.js - INFO - message {"data":"去年2月28發生甚麼事情","type":"text"}
+2025-06-19 10:43:47 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 10:43:47 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 10:43:47 - printf.js - ERROR - (node:31472) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-06-19 10:43:59 - printf.js - INFO - Finished sending data
+2025-06-19 10:43:59 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:44:52 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:44:52 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 10:44:52 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 10:44:52 - printf.js - INFO - expert_id 17
+2025-06-19 10:44:52 - printf.js - INFO - message {"data":"去年2月28發生甚麼事情","type":"text"}
+2025-06-19 10:44:52 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 10:44:52 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 10:45:03 - printf.js - INFO - Finished sending data
+2025-06-19 10:45:03 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:46:12 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:46:12 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:46:13 - printf.js - INFO - userInfo, extra={
+  "uid": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-19 10:46:15 - printf.js - INFO - expertSkillRows []
+2025-06-19 10:46:15 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-19 10:46:16 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "17"
+}
+2025-06-19 10:46:16 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:46:16 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:46:16 - printf.js - INFO - expertSkillRows []
+2025-06-19 10:46:20 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 10:46:20 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 10:46:20 - printf.js - INFO - expert_id 17
+2025-06-19 10:46:20 - printf.js - INFO - message {"data":"去年2月28發生甚麼事情","type":"text"}
+2025-06-19 10:46:20 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 10:46:20 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 10:46:32 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:47:42 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 10:47:46 - printf.js - INFO - SSO_TYPE: 
+2025-06-19 10:47:50 - printf.js - INFO - server is connection at http://localhost:8081
+2025-06-19 10:47:50 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 10:47:50 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 10:47:50 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 10:47:50 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 10:47:50 - printf.js - INFO - 所有 Redis 客戶端已連接
+2025-06-19 10:47:52 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:48:33 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:48:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:48:34 - printf.js - INFO - userInfo, extra={
+  "uid": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-19 10:48:37 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-19 10:48:37 - printf.js - INFO - expertSkillRows []
+2025-06-19 10:48:38 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:48:38 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:48:38 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:48:38 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "17"
+}
+2025-06-19 10:48:38 - printf.js - INFO - expertSkillRows []
+2025-06-19 10:48:42 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 10:48:42 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 10:48:42 - printf.js - INFO - expert_id 17
+2025-06-19 10:48:42 - printf.js - INFO - message {"data":"去年2月28發生甚麼事情","type":"text"}
+2025-06-19 10:48:42 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 10:48:42 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 10:48:42 - printf.js - ERROR - (node:27864) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-06-19 10:49:06 - printf.js - INFO - Finished sending data
+2025-06-19 10:49:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:49:09 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 10:49:09 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 10:49:09 - printf.js - INFO - expert_id 17
+2025-06-19 10:49:09 - printf.js - INFO - message {"data":"去年2月28發生甚麼事情","type":"text"}
+2025-06-19 10:49:09 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 10:49:09 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 10:50:04 - printf.js - INFO - Finished sending data
+2025-06-19 10:50:05 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:50:58 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:50:58 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 10:50:58 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 10:50:58 - printf.js - INFO - expert_id 17
+2025-06-19 10:50:58 - printf.js - INFO - message {"data":"去年2月28發生甚麼事情","type":"text"}
+2025-06-19 10:50:58 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 10:50:58 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 10:51:22 - printf.js - INFO - Finished sending data
+2025-06-19 10:51:22 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:52:02 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:52:02 - printf.js - INFO - 
+1130228 鋼捲數 17
+2025-06-19 10:52:02 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 10:52:02 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 10:52:02 - printf.js - INFO - expert_id 17
+2025-06-19 10:52:02 - printf.js - INFO - message {"data":"\n1130228 鋼捲數","type":"text"}
+2025-06-19 10:52:02 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 10:52:02 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 10:53:02 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:58:50 - printf.js - INFO - Finished sending data
+2025-06-19 11:05:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:05:31 - printf.js - INFO - 1130228 鋼捲數 17
+2025-06-19 11:05:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:05:31 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 11:05:31 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 11:05:31 - printf.js - INFO - expert_id 17
+2025-06-19 11:05:31 - printf.js - INFO - message {"data":"1130228 鋼捲數","type":"text"}
+2025-06-19 11:05:31 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 11:05:31 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 11:06:32 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:06:41 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 11:06:41 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 11:06:41 - printf.js - INFO - expert_id 17
+2025-06-19 11:06:41 - printf.js - INFO - message {"data":"1130228 鋼捲數","type":"text"}
+2025-06-19 11:06:41 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 11:06:41 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 11:06:41 - printf.js - INFO - Finished sending data
+2025-06-19 11:07:29 - printf.js - INFO - Finished sending data
+2025-06-19 11:07:29 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:12:08 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:12:08 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 11:12:08 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 11:12:08 - printf.js - INFO - expert_id 17
+2025-06-19 11:12:08 - printf.js - INFO - message {"data":"1130228 鋼捲數","type":"text"}
+2025-06-19 11:12:08 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 11:12:08 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 11:13:08 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:33:01 - printf.js - INFO - Finished sending data
+2025-06-19 11:36:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:36:48 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 11:36:49 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 11:36:49 - printf.js - INFO - expert_id 17
+2025-06-19 11:36:49 - printf.js - INFO - message {"data":"1130228 鋼捲數","type":"text"}
+2025-06-19 11:36:49 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 11:36:49 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 11:37:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:49:44 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:49:44 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 11:49:44 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 11:49:44 - printf.js - INFO - expert_id 17
+2025-06-19 11:49:44 - printf.js - INFO - message {"data":"1130228 鋼捲數","type":"text"}
+2025-06-19 11:49:44 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 11:49:44 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 11:50:44 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 12:59:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 12:59:48 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 12:59:49 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 12:59:49 - printf.js - INFO - expert_id 17
+2025-06-19 12:59:49 - printf.js - INFO - message {"data":"1130228 鋼捲數","type":"text"}
+2025-06-19 12:59:49 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 12:59:49 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 13:00:49 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:01:58 - printf.js - INFO - Finished sending data
+2025-06-19 13:01:59 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:01:59 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 13:01:59 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 13:01:59 - printf.js - INFO - expert_id 17
+2025-06-19 13:01:59 - printf.js - INFO - message {"data":"1130228 鋼捲數","type":"text"}
+2025-06-19 13:01:59 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 13:01:59 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 13:02:13 - printf.js - INFO - Finished sending data
+2025-06-19 13:02:13 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:15:21 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:15:21 - printf.js - INFO - userInfo, extra={
+  "uid": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-19 13:15:25 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-19 13:15:25 - printf.js - INFO - expertSkillRows []
+2025-06-19 13:15:25 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:15:25 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:15:25 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:15:25 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:15:25 - printf.js - INFO - expertSkillRows []
+2025-06-19 13:15:25 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "17"
+}
+2025-06-19 13:18:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:18:50 - printf.js - INFO - userInfo, extra={
+  "uid": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-19 13:18:54 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:18:54 - printf.js - INFO - expertSkillRows []
+2025-06-19 13:18:54 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-19 13:18:54 - printf.js - INFO - expertSkillRows []
+2025-06-19 13:18:55 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:18:55 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:18:55 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:18:55 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "17"
+}
+2025-06-19 13:21:42 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 13:21:44 - printf.js - INFO - SSO_TYPE: 
+2025-06-19 13:21:48 - printf.js - INFO - server is connection at http://localhost:8081
+2025-06-19 13:21:48 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 13:21:48 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 13:21:48 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 13:21:48 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 13:21:48 - printf.js - INFO - 所有 Redis 客戶端已連接
+2025-06-19 13:26:56 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:27:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:27:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:27:08 - printf.js - INFO - userInfo, extra={
+  "uid": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-19 13:27:22 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:27:23 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:27:24 - printf.js - INFO - expertSkillRows []
+2025-06-19 13:27:24 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:27:24 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-19 13:27:24 - printf.js - INFO - expertSkillRows []
+2025-06-19 13:27:24 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "17"
+}
+2025-06-19 13:27:24 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:37:10 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 15:37:13 - printf.js - INFO - SSO_TYPE: 
+2025-06-19 15:37:21 - printf.js - INFO - server is connection at http://localhost:8081
+2025-06-19 15:37:21 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 15:37:21 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 15:37:21 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 15:37:21 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 15:37:21 - printf.js - INFO - 所有 Redis 客戶端已連接
+2025-06-19 15:51:22 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 15:51:27 - printf.js - INFO - SSO_TYPE: 
+2025-06-19 15:51:47 - printf.js - INFO - server is connection at http://localhost:8081
+2025-06-19 15:51:47 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 15:51:47 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 15:51:47 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 15:51:47 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 15:51:47 - printf.js - INFO - 所有 Redis 客戶端已連接
+2025-06-19 15:56:42 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 15:56:48 - printf.js - INFO - SSO_TYPE: 
+2025-06-19 15:56:59 - printf.js - INFO - server is connection at http://localhost:8081
+2025-06-19 15:56:59 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 15:56:59 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 15:56:59 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 15:56:59 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 15:56:59 - printf.js - INFO - 所有 Redis 客戶端已連接
+2025-06-19 16:24:53 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 16:24:56 - printf.js - INFO - SSO_TYPE: 
+2025-06-19 16:25:04 - printf.js - INFO - server is connection at http://localhost:8081
+2025-06-19 16:25:04 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 16:25:04 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 16:25:04 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 16:25:04 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 16:25:04 - printf.js - INFO - 所有 Redis 客戶端已連接
+2025-06-19 16:36:36 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 16:36:40 - printf.js - INFO - SSO_TYPE: 
+2025-06-19 16:36:52 - printf.js - INFO - server is connection at http://localhost:8081
+2025-06-19 16:36:52 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 16:36:52 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 16:36:52 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 16:36:52 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 16:36:52 - printf.js - INFO - 所有 Redis 客戶端已連接
+2025-06-19 16:45:25 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 16:45:28 - printf.js - INFO - SSO_TYPE: 
+2025-06-19 16:45:34 - printf.js - INFO - server is connection at http://localhost:8081
+2025-06-19 16:45:34 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 16:45:34 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 16:45:34 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 16:45:34 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 16:45:34 - printf.js - INFO - 所有 Redis 客戶端已連接
+2025-06-19 16:47:51 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:47:59 - printf.js - INFO - userInfo, extra={
+  "uid": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-19 16:48:12 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:48:12 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:48:12 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:48:12 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:48:12 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:48:12 - printf.js - INFO - expertSkillRows []
+2025-06-19 16:48:13 - printf.js - INFO - userInfo, extra={
+  "uid": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-19 16:48:13 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-19 16:49:35 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:49:35 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:49:36 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:49:36 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:49:36 - printf.js - INFO - expertSkillRows []
+2025-06-19 16:49:36 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:49:36 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:49:36 - printf.js - INFO - userInfo, extra={
+  "uid": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-19 16:49:36 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "17"
+}
+2025-06-19 16:49:41 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-19 16:49:41 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-19 16:49:41 - printf.js - INFO - expert_id 17
+2025-06-19 16:49:41 - printf.js - INFO - message {"data":"1130228 鋼捲數","type":"text"}
+2025-06-19 16:49:41 - printf.js - INFO - req.headers.cookie ava-guest=%7B%22uid%22%3A%22ebf008cf-8dd4-4223-acaf-b36c427c8b54%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D; s_id=s%3A37de84a9-3793-4f2c-a06d-bb71b4287316.YbrKz0OdDLDIEthkN6Ys%2BenXQRWrwIKb63UA9fCJIGU
+2025-06-19 16:49:41 - printf.js - INFO - req.sessionID 37de84a9-3793-4f2c-a06d-bb71b4287316
+2025-06-19 16:49:41 - printf.js - ERROR - (node:168856) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-06-19 16:50:41 - printf.js - INFO - Finished sending data
+2025-06-19 16:50:42 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:50:42 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 17:01:12 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 17:01:12 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-19 17:01:12 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-19 17:01:12 - printf.js - INFO - Redis 客戶端連接成功

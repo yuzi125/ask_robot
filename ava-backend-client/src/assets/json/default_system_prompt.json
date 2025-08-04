@@ -1,0 +1,19 @@
+[
+    {
+        "model_type": "search",
+        "default_prompt": [
+            {
+                "id": 0,
+                "title": "不使用預設值",
+                "describe": "不採用系統內建的預設值。",
+                "content": ""
+            },
+            {
+                "id": 1,
+                "title": "預設 - 有禮貌員工",
+                "describe": "有禮貌的回答方式。",
+                "content": "請在每一次的回答前面加上【報告老闆】以及結尾加上【謝謝老闆】"
+            }
+        ]
+    }
+]

@@ -1,0 +1,198 @@
+{
+    "form_action": "{ERP_HOST}/eas/dt/rest/dt10/create",
+    "action_type": "form",
+    "input_field": "remark",
+    "description": "如有設備相關故障問題，則填寫此表單",
+    "custom_return_message": "f'這是來自config設定的訊息，請填{current_field}'",
+    "entrance_message": {
+      "text": "entrance_message",
+      "component": [
+        {
+          "tag": "button",
+          "text": "這是 entrance_message",
+          "action": "tunnelStart",
+          "args": [
+            "arg1"
+          ]
+        }
+      ]
+    },
+    "start_message": {
+      "text": "這是 start_message ！",
+      "component": [
+        {
+          "tag": "button",
+          "text": "start_message",
+          "action": "tunnelStart",
+          "args": [
+            "arg1"
+          ]
+        }
+      ]
+    },
+    "end_message": {
+      "text": "這是 end_message",
+      "component": [
+        {
+          "tag": "button",
+          "text": "end_message",
+          "action": "tunnelStart",
+          "args": [
+            "arg1"
+          ]
+        }
+      ]
+    },
+    "success_message": {
+      "text": "這是 success_message！",
+      "component": [
+        {
+          "tag": "p",
+          "text": "設備故障報修成功"
+        }
+      ]
+    },
+    "error_message": {
+      "text": "這是 error_message！",
+      "component": [
+        {
+          "tag": "button",
+          "text": "error_message",
+          "action": "tunnelStart",
+          "args": [
+            "arg1"
+          ]
+        }
+      ]
+    },
+    "fields": [
+      {
+        "field_name": "remark",
+        "field_label": "故障說明",
+        "field_format": "描述故障原因的文字",
+        "is_show": true,
+        "editable": true
+      },
+      {
+        "field_name": "empCall",
+        "field_label": "職工編號",
+        "field_format": "6碼數字",
+        "default": "user.login_info['csc_sso']['uid']",
+        "is_show": true,
+        "editable": false
+      },
+      {
+        "field_name": "fixAssetNo",
+        "field_label": "資產編號",
+        "field_format": "至少8碼的數字",
+        "validate": "\\d{7,}",
+        "is_show": true,
+        "editable": true,
+        "exit_on": {
+          "condition": "{ERP_HOST}/eas/dt/rest/dt10/queryAsset?assetNo={fixAssetNo}&_format=json",
+          "request_fail_reply": "ERP系統錯誤，若有問題請聯絡管理員",
+          "_extra": [],
+          "status_check_list": [
+            {
+              "path": "root['status']",
+              "condition": "int(value)==200"
+            },
+            {
+              "path": "root['data'][0]['isF3Asset']",
+              "condition": "value=='Y'",
+              "false_message": "非F3控管資產"
+            },
+            {
+              "path": "root['data'][0]['isValid']",
+              "condition": "value=='Y'",
+              "false_message": "非有效資產"
+            }
+          ],
+          "response_condition_action": [
+            {
+              "condition": "int(root['status'])!=200",
+              "behavior": "output",
+              "output": "root['error'] if root['error'] else 'ERP系統錯誤，請聯絡管理員'"
+            },
+            {
+              "condition": "root['data'][0]['isF3Asset']=='N' and root['data'][0]['isValid']=='Y'",
+              "behavior": "output",
+              "output": "Y6控管之設備請洽Y6服務窗口，分機： 2250"
+            },
+            {
+              "condition": "root['data'][0]['isF3Asset']=='N' and root['data'][0]['isValid']=='N'",
+              "behavior": "output",
+              "output": "查詢不到對應設備，請重新輸入，若有問題請撥2048洽客服人員為您服務"
+            }
+          ],
+          "result_message": "root['error']",
+          "error_message": "API錯誤，請稍後再試，若有問題請聯絡管理員"
+        }
+      },
+      {
+        "field_name": "telNo",
+        "field_label": "分機號碼",
+        "field_format": "4碼數字或5碼數字",
+        "is_show": true,
+        "editable": true,
+        "children": [
+          {
+            "triggered_by": "len('{telNo}')==5",
+            "field_name": "position",
+            "field_label": "所在樓層",
+            "field_format": "阿拉伯數字",
+            "validate": "\\b\\d{1,2}\\b",
+            "field_parent": "telNo"
+          }
+        ]
+      }
+    ],
+    "extra_append_fields": {
+      "dateCall": "today_date",
+      "dateNotify": "today_date",
+      "timeNotify": "now_hour_min_sec",
+      "emergenceTag": "",
+      "repairType": "'B'",
+      "firNotifyDt": "",
+      "secNotifyDt": "",
+      "thdNotifyDt": "",
+      "dp1aCode": "form_data['problemNo'] if form_data['problemNo'] != 'XXXX' else '9O99'",
+      "createFrom": "'A'",
+      "position": "form_data['position'] if 'position' in form_data else ''",
+      "problemType": "'DEVICE'"
+    },
+    "field_inference": [
+      {
+        "input": "remark",
+        "hint": "problem_code",
+        "output": "problemNo"
+      }
+    ],
+    "status_check_field": "",
+    "hints": {
+      "problem_code": [
+        "9A02 無法開機/異常",
+        "9A08 鍵盤異常/故障",
+        "9A21 MOUSE故障/不靈敏",
+        "9P01 夾紙/皺褶/歪斜",
+        "9P63 協助換碳粉匣或碳墨匣",
+        "9N01 無法顯示網頁",
+        "9A19 帳號無法登入",
+        "9A93 資源共享",
+        "9B06 設定印表機",
+        "9V51 權限設定",
+        "9D11 軟體安裝/異常",
+        "9N26 IP問題",
+        "9N40 VPN & 網路問題",
+        "9V51 權限設定",
+        "9NWI WIFI無線網路問題",
+        "9D07 OUTLOOK/EXPRESS 異常",
+        "9A61 IE/edge瀏覽器異常",
+        "9P05 印表異常/時印時停",
+        "9P19 紙匣異常/故障",
+        "9S01 掃描器異常/故障",
+        "9O99 設備不明原因異常",
+        "XXXX 以上皆非"
+      ]
+    }
+  }

@@ -1,0 +1,92 @@
+{
+    "id":"testSkillMethods",
+    "tip":[
+       "測試用技能 get hello",
+       "測試用技能 post goodbye",
+       "測試用技能 put how are you",
+       "測試用技能 delete today weather"
+    ],
+    "host":"127.0.0.1",
+    "name":"test_skill_methods",
+    "format":"json",
+    "schema":{
+       "id":"testSkillMethods",
+       "examples":[
+          {
+             "input":"測試用技能 post abc",
+             "fields":{
+                "method":"post",
+                "message":"abc"
+             }
+          },
+          {
+             "input":"測試用技能 def",
+             "fields":{
+                "method":"post",
+                "message":"def"
+             }
+          },
+          {
+             "input":"測試用技能 put ghi",
+             "fields":{
+                "method":"put",
+                "message":"ghi"
+             }
+          },
+          {
+             "input":"測試用技能 <other method> jkl",
+             "fields":{
+                "method":"post",
+                "message":"jkl"
+             }
+          }
+       ],
+       "parameters":[
+          {
+             "id":"message",
+             "label":"訊息",
+             "format":"string",
+             "required":true,
+             "description":"",
+             "default_value":""
+          },
+          {
+             "id":"method",
+             "label":"方法",
+             "format":"string",
+             "required":true,
+             "description":"只能允許 get, post, put, delete",
+             "default_value":"post"
+          }
+       ],
+       "description":"testSkillMethods",
+       "code_mapping":{
+          
+       }
+    },
+    "actions":[
+       {
+          "type":"card"
+       },
+       {
+          "url":"{_host}/ava/api/justTest",
+          "type":"api_call",
+          "method":"{method}",
+          "message":"查詢成功",
+          "post_data":{
+             "method":"{method}",
+             "message":"{message}"
+          },
+          "content_type":"application/json",
+          "response_next_skill":[
+             
+          ]
+       }
+    ],
+    "show_msg":false,
+    "intention":"testSkillMethods only",
+    "show_post":false,
+    "description":"測試用技能",
+    "system_prompt":"",
+    "show_fill_record":true
+ }

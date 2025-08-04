@@ -1,0 +1,38 @@
+[
+    {
+        "type_name": "中冠sso",
+        "type_value": "icsc_sso",
+        "is_enable": 1,
+        "use_two_factor_authentication": 0
+    },
+    {
+        "type_name": "中鋼登入",
+        "type_value": "csc_sso",
+        "is_enable": 1,
+        "use_two_factor_authentication": 0
+    },
+    {
+        "type_name": "中龍登入",
+        "type_value": "dragon_steel_sso",
+        "is_enable": 1,
+        "use_two_factor_authentication": 0
+    },
+    {
+        "type_name": "系統登入",
+        "type_value": "system",
+        "is_enable": 1,
+        "use_two_factor_authentication": 0
+    },
+    {
+        "type_name": "line登入",
+        "type_value": "line",
+        "is_enable": 1,
+        "use_two_factor_authentication": 0
+    },
+    {
+        "type_name": "高雄sso",
+        "type_value": "kcg_sso",
+        "is_enable": 1,
+        "use_two_factor_authentication": 0
+    }
+]

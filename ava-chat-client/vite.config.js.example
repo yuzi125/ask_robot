@@ -1,0 +1,32 @@
+import { defineConfig } from "vite";
+import vue from "@vitejs/plugin-vue";
+const api_proxy = {
+    // target: "http://127.0.0.1:8081",
+    target: "http://127.0.0.1:5001",
+    changeOrigin: false,
+    secure: false,
+}
+
+let chat_proxy = {
+    target: "http://127.0.0.1:8081",
+    changeOrigin: false,
+    secure: false,
+};
+export default defineConfig({
+    // plugins: [vue(), mkcert()],
+    plugins: [vue()],
+    base: "/ava/",
+    server: {
+        host: "0.0.0.0",
+        port: 5000,
+        proxy: {
+            "/api": api_proxy,
+            "/voice": api_proxy,
+            "/files": api_proxy,
+            "/app": api_proxy,
+            "/mgt": api_proxy,
+            "/chat": chat_proxy,
+            "/s": chat_proxy,
+        },
+    },
+});

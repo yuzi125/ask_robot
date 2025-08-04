@@ -1,0 +1,33 @@
+{
+    "id": "cscCheckRepairProgress",
+    "host": "CSC_ERP",
+    "format": "json",
+    "actions": [
+        {
+            "type": "html_json",
+            "content": "您可以透過此 [連結]({f'{_csc_host}/eas/dt/maintain/dt20?_action=query&empCall={_user.login_info['csc_sso']['uid']}'}) 看到您的維修狀況"
+        }
+    ],
+    "examples": [
+        {
+            "input": "查詢報修進度"
+        },
+        {
+            "input": "維修進度查詢"
+        },
+        {
+            "input": "設備修好了嗎"
+        },
+        {
+            "input": "設備報修進度"
+        },
+        {
+            "input": "查詢設備報修狀況"
+        }
+    ],
+    "show_msg": false,
+    "show_post": false,
+    "intention": "報修進度查詢",
+    "description": "報修進度查詢",
+    "system_prompt": ""
+}

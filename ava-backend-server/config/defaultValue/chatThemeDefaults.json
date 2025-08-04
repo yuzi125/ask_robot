@@ -1,0 +1,66 @@
+[
+    {
+        "name": "dark",
+        "is_system": true,
+        "colors": "{\"base\": {\"primary\": \"#202123\", \"tertiary\": \"rgba(0, 0, 0, 0.3)\", \"secondary\": \"#343541\"}, \"topBar\": {\"bg\": \"#1E1E1E\", \"text\": \"#FFFFFF\"}, \"chatArea\": {\"bg\": \"#202123\", \"text\": \"#FFFFFF\", \"userBg\": \"#EEEEEE\", \"robotBg\": \"#343541\", \"userText\": \"#000000\", \"robotText\": \"#FFFFFF\"}, \"inputArea\": {\"bg\": \"#1E1E1E\", \"text\": \"#FFFFFF\"}, \"navigation\": {\"bg\": \"#1E1E1E\", \"text\": \"#FFFFFF\"}}",
+        "create_time": "2024-11-07T02:53:19.394Z",
+        "update_time": "2024-11-11T08:26:30.176Z",
+        "remark": "深色主題"
+    },
+    {
+        "name": "light",
+        "is_system": true,
+        "colors": "{\"base\": {\"primary\": \"#FCFCF9\", \"tertiary\": \"#0000001A\", \"secondary\": \"#EEEEEE\"}, \"topBar\": {\"bg\": \"#FCFCF9\", \"text\": \"#000000\"}, \"chatArea\": {\"bg\": \"#FCFCF9\", \"text\": \"#FFFFFF\", \"userBg\": \"#B3E5FC\", \"robotBg\": \"#EFEFEF\", \"userText\": \"#000000\", \"robotText\": \"#000000\"}, \"inputArea\": {\"bg\": \"#FCFCF9\", \"text\": \"#000000\"}, \"navigation\": {\"bg\": \"#FCFCF9\", \"text\": \"#000000\"}}",
+        "create_time": "2024-11-12T03:25:04.990Z",
+        "update_time": "2024-11-12T03:28:01.617Z",
+        "remark": "亮系主題"
+    },
+    {
+        "name": "warm-brown",
+        "is_system": false,
+        "colors": "{\"base\": {\"primary\": \"#8B4513\", \"tertiary\": \"rgba(139, 69, 19, 0.3)\", \"secondary\": \"#DEB887\"}, \"topBar\": {\"bg\": \"#A0522D\", \"text\": \"#FFFFFF\"}, \"chatArea\": {\"bg\": \"#FFF8DC\", \"text\": \"#000000\", \"userBg\": \"#D2691E\", \"robotBg\": \"#FFE4C4\", \"userText\": \"#FFFFFF\", \"robotText\": \"#000000\"}, \"inputArea\": {\"bg\": \"#FAEBD7\", \"text\": \"#000000\"}, \"navigation\": {\"bg\": \"#DEB887\", \"text\": \"#000000\"}}",
+        "create_time": "2024-11-12T03:38:35.371Z",
+        "update_time": "2024-11-12T03:38:35.371Z",
+        "remark": "溫暖棕色調主題"
+    },
+    {
+        "name": "sunset-orange",
+        "is_system": false,
+        "colors": "{\"base\": {\"primary\": \"#FF7F50\", \"tertiary\": \"rgba(255, 127, 80, 0.3)\", \"secondary\": \"#FFA07A\"}, \"topBar\": {\"bg\": \"#FF6347\", \"text\": \"#FFFFFF\"}, \"chatArea\": {\"bg\": \"#FFF5EE\", \"text\": \"#000000\", \"userBg\": \"#FF8C00\", \"robotBg\": \"#FFDAB9\", \"userText\": \"#FFFFFF\", \"robotText\": \"#000000\"}, \"inputArea\": {\"bg\": \"#FFEFD5\", \"text\": \"#000000\"}, \"navigation\": {\"bg\": \"#FFE4B5\", \"text\": \"#000000\"}}",
+        "create_time": "2024-11-12T03:38:48.899Z",
+        "update_time": "2024-11-12T03:38:48.899Z",
+        "remark": "日落橘色調主題"
+    },
+    {
+        "name": "rose-gold",
+        "is_system": false,
+        "colors": "{\"base\": {\"primary\": \"#B76E79\", \"tertiary\": \"rgba(183, 110, 121, 0.3)\", \"secondary\": \"#E3BAC6\"}, \"topBar\": {\"bg\": \"#C08081\", \"text\": \"#FFFFFF\"}, \"chatArea\": {\"bg\": \"#FFF0F5\", \"text\": \"#000000\", \"userBg\": \"#DA8A9E\", \"robotBg\": \"#FFE4E1\", \"userText\": \"#FFFFFF\", \"robotText\": \"#000000\"}, \"inputArea\": {\"bg\": \"#FFF0F5\", \"text\": \"#000000\"}, \"navigation\": {\"bg\": \"#E8C6B6\", \"text\": \"#000000\"}}",
+        "create_time": "2024-11-12T03:38:58.499Z",
+        "update_time": "2024-11-12T03:38:58.499Z",
+        "remark": "玫瑰金主題"
+    },
+    {
+        "name": "warm-yellow",
+        "is_system": false,
+        "colors": "{\"base\": {\"primary\": \"#DAA520\", \"tertiary\": \"rgba(218, 165, 32, 0.3)\", \"secondary\": \"#F0E68C\"}, \"topBar\": {\"bg\": \"#CD853F\", \"text\": \"#FFFFFF\"}, \"chatArea\": {\"bg\": \"#FFFACD\", \"text\": \"#000000\", \"userBg\": \"#FFD700\", \"robotBg\": \"#FFF8DC\", \"userText\": \"#000000\", \"robotText\": \"#000000\"}, \"inputArea\": {\"bg\": \"#FAFAD2\", \"text\": \"#000000\"}, \"navigation\": {\"bg\": \"#EEE8AA\", \"text\": \"#000000\"}}",
+        "create_time": "2024-11-12T03:39:07.280Z",
+        "update_time": "2024-11-12T03:39:07.280Z",
+        "remark": "暖陽黃色調主題"
+    },
+    {
+        "name": "spring-forest",
+        "is_system": false,
+        "colors": "{\"base\": {\"primary\": \"#4B7355\", \"tertiary\": \"rgba(75, 115, 85, 0.3)\", \"secondary\": \"#98BF64\"}, \"topBar\": {\"bg\": \"#557A46\", \"text\": \"#FFFFFF\"}, \"chatArea\": {\"bg\": \"#F8FBF3\", \"text\": \"#000000\", \"userBg\": \"#7C9070\", \"robotBg\": \"#E8F3D6\", \"userText\": \"#FFFFFF\", \"robotText\": \"#000000\"}, \"inputArea\": {\"bg\": \"#F3F8EC\", \"text\": \"#000000\"}, \"navigation\": {\"bg\": \"#A4BE7B\", \"text\": \"#000000\"}}",
+        "create_time": "2024-11-12T03:42:15.717Z",
+        "update_time": "2024-11-12T03:42:15.717Z",
+        "remark": "春季森林主題"
+    },
+    {
+        "name": "rain-forest",
+        "is_system": false,
+        "colors": "{\"base\": {\"primary\": \"#225D43\", \"tertiary\": \"rgba(34, 93, 67, 0.3)\", \"secondary\": \"#7AA07A\"}, \"topBar\": {\"bg\": \"#1B4D3E\", \"text\": \"#FFFFFF\"}, \"chatArea\": {\"bg\": \"#F4F9F4\", \"text\": \"#000000\", \"userBg\": \"#3A6B35\", \"robotBg\": \"#E3F1E3\", \"userText\": \"#FFFFFF\", \"robotText\": \"#000000\"}, \"inputArea\": {\"bg\": \"#EEF6EE\", \"text\": \"#000000\"}, \"navigation\": {\"bg\": \"#719671\", \"text\": \"#000000\"}}",
+        "create_time": "2024-11-12T03:42:15.724Z",
+        "update_time": "2024-11-12T03:42:15.724Z",
+        "remark": "熱帶雨林主題"
+    }
+]

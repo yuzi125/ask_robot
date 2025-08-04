@@ -1,0 +1,78 @@
+{
+  "id": "bs01",
+  "description": "等比例買台積電,中華電,中鋼,10年來存股的績效如何",
+  "intention": "Search the contact information of the employees only with the user name or employee no. started with 'I' or 'i' without company name.",
+  "system_prompt": "As a secretary, your task is to find the contact information of the employees in 中冠資訊.",
+  "host": "ICSC_ERP",
+  "format": "json",
+  "show_post": false,
+  "show_msg": false,
+  "schema": {
+    "id": "save_stock_strategy",
+    "description": "Search InfoChamp Users Contact Information",
+	"data_process": "FilterBS01",
+    "parameters": [
+      {
+        "id": "buying_strategy",
+        "label": "購買策略",
+        "description": "buying_strategy, strategy to take one of `等比例`,`全額` "
+      },
+      {
+        "id": "stock_names",
+        "label": "股票名稱",
+        "description": "stock_names, ex:台積電,中華電,聯發科",
+		"many":true
+      },
+      {
+        "id": "buying_period",
+        "label": "購買期間",
+        "description": "buying_period"
+      },
+      {
+        "id": "invest_amount",
+        "label": "投資金額",
+        "description": "amount of investment"
+      }
+    ],
+    "examples": [
+      {
+        "input": "花10萬元等比例買台積電,中華電與中鋼,10年來存股的績效如何",
+        "fields": {
+          "buying_strategy": "等比例",
+          "stock_names": ["台積電", "中華電", "中鋼"],
+          "buying_period": "10年",
+          "invest_amount": "10萬",
+        }
+      }, 
+      {
+        "input": "等比例投入50萬元買台塑,華碩,聯發科5年來存股的績效如何",
+        "fields": {
+          "buying_strategy": "等比例",
+          "stock_names": ["台塑", "華碩", "聯發科"],
+          "buying_period": "5年",
+          "invest_amount": "50萬",
+        }
+      } 	  
+    ],
+    "code_mapping": {},
+    "message_element_selector": "td#msg"
+  },
+  "actions": [
+    {
+      "url": "http://10.201.81.170:57362/invest_estimate/strategy1/",
+	  "content_type":"application/json",
+      "post_data": {
+        "start_date": "{employee_no}",
+        "end_date": "{chinese_name}",
+        "stockid_list": "{}",
+        "total_amount": "{invest_amount}" 
+      },
+      "message": "td#msg",
+      "output": [
+        "| 股票代號 | 股數 | 收益 | 盈利 |",
+        "| -------- | ---- | ---- | ---- |",
+        "| {stockid} | {shares} | {revenue} | {profit} |",
+      ]
+    }
+  ]
+}

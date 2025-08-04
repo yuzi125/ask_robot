@@ -1,0 +1,44 @@
+{
+  "problem_types": [
+    {
+      "id":"1",
+      "type": "查詢目前的問題處理進度",
+      "config":"./config/2048-process-state.json"
+    },
+    {
+      "id":"2",
+      "type": "電腦及週邊設備異常報修",
+      "config": "./config/2048-device-extno-4.json",
+      "input_field": "remark",
+      "form_data": {
+        "problemType": "DEVICE"
+      }
+    }
+  ],
+  "hints": {
+    "problem_code": [
+      "9A02 無法開機/異常",
+      "9A08 鍵盤異常/故障",
+      "9A21 MOUSE故障/不靈敏",
+      "9P01 夾紙/皺褶/歪斜",
+      "9P63 協助換碳粉匣或碳墨匣",
+      "9N01 無法顯示網頁",
+      "9A19 帳號無法登入",
+      "9A93 資源共享",
+      "9B06 設定印表機",
+      "9V51 權限設定",
+      "9D11 軟體安裝/異常",
+      "9N26 IP問題",
+      "9N40 VPN & 網路問題",
+      "9V51 權限設定",
+      "9NWI WIFI無線網路問題",
+      "9D07 OUTLOOK/EXPRESS 異常",
+      "9A61 IE/edge瀏覽器異常",
+      "9P05 印表異常/時印時停",
+      "9P19 紙匣異常/故障",
+      "9S01 掃描器異常/故障",
+      "9O99 設備不明原因異常",
+      "XXXX 以上皆非"
+    ]
+  }
+}

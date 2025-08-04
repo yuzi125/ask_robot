@@ -1,0 +1,57 @@
+group_type
+ - group_type_id
+ - group_type_name
+ - create_time
+group
+ - group_id
+ - expert_id
+ - group_type_id
+ - create_time
+group_user
+ - group_user_id
+ - group_id
+ - user_id
+ - join_time
+group_history
+ - group_history_id
+ - group_id
+ - from
+ - send_time
+message_type
+ - message_Type_id
+ - message_Type_name
+message
+ - message_id
+ - group_history_id
+ - message_type_id
+ - message_content
+
+a chart + b text
+2 message => from message_list
+
+group_type => (gtid,gtname) # 群組的類型
+group => (gid,exid,gtid) # 有哪些群組
+group_user => (guid,gid,uid) # 一個群組有哪些人
+group_history => (ghid,gid,mlid,uid)  # 一個群組裡面的所有紀錄 單位:包 ex: 一包可能有多個 message 
+message_type => (mtid,mtname) # "單一"個訊息的種類 ex: chart、text、.......etc
+message => (mid,mlid,mtid,content,time) # 一包裡面的所有訊息
+token =>(mlid,........)
+
+前端要送訊息 -> 前端產uuid -> 送給後端 -> 後端拿來做其他事情(檢查uuid)
+v5 namespace + title
+groupid + userid + timestamp
+v4 urandom os 8byte + time millsecond
+
+
+修改
+
+table : crawler
+column : 增加 type 、 cron_schedule
+
+新增
+
+table : crawler_execute_record
+column: crawler_execute_record_id , crawler_id , execute_time , finish_time
+
+table : crawler_type
+column: crawler_type_id 、 crawler_type_name、create_time

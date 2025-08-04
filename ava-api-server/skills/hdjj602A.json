@@ -1,0 +1,200 @@
+{
+  "id": "hdjj602A",
+  "description": "國內出差簽派作業",
+  "intention": "Domestic Business Trip Sign-Off Assignment",
+  "system_prompt": "Your task is to help the user fill out the application information for domestic business trip sign-off approval",
+  "host": "ICSC_ERP",
+  "format": "html",
+  "schema": {
+    "id": "Domestic_Business_Trip_Assignment",
+    "description": "Domestic Business Trip Sign-Off Assignment",
+    "parameters": [
+      {
+        "id": "fromDate",
+        "label": "起始日期",
+        "description": "Business Trip Start Date",
+        "required": true,
+        "format": "date",
+        "default_value": "明天"
+      },
+      {
+        "id": "fromTime",
+        "label": "起始時間",
+        "description": "Business Trip Start Time",
+        "required": true,
+        "format": "time",
+        "default_value": "8點"
+      },
+      {
+        "id": "toDate",
+        "label": "結束日期",
+        "description": "Business Trip End Date",
+        "required": true,
+        "format": "date",
+        "default_value": "明天"
+      },
+      {
+        "id": "toTime",
+        "label": "結束時間",
+        "description": "Business Trip End Time",
+        "required": true,
+        "default_value": "6點",
+        "format": "time"
+      },
+      {
+        "id": "projectNo",
+        "label": "專案代號",
+        "default_value": "",
+        "description": "Project No."
+      },
+      {
+        "id": "reasonDesc",
+        "label": "出差事由",
+        "required": true,
+        "description": "Business Trip Description"
+      },
+      {
+        "id": "projectStage",
+        "label": "專案階段",
+        "description": "Project milestone stages",
+        "default_value": "M0",
+        "format": "code"
+      },
+      {
+        "id": "place",
+        "label": "出差地點",
+        "description": "Destination of Business Trip",
+        "format": "code"
+      }
+    ],
+    "examples": [
+      {
+        "input": "明天11點出差到台北，參加中冠與資策會資安所的「資安即服務生態研發 合作」第四季度工作報告會議",
+        "fields": {
+          "fromDate": "明天",
+          "toDate": "明天",
+          "fromTime": "11點",
+          "toTime": "",
+          "place": "台北",
+          "reasonDesc": "參加中冠與資策會資安所的「資安即服務生態研發 合作」第四季度工作報告會議",
+          "projectStage": "",
+          "projectNo": ""
+        }
+      },
+      {
+        "input": "週五出差台中，為中龍進行年度機房切換演練，上線運行 SE211370",
+        "fields": {
+          "fromDate": "週五",
+          "toDate": "週五",
+          "fromTime": "",
+          "toTime": "",
+          "place": "台中",
+          "projectNo": "SE211370",
+          "reasonDesc": "為中龍進行年度機房切換演練",
+          "projectStage": "上線運行"
+        }
+      },
+      {
+        "input": "12/28 出差新北，進行淡海輕軌驗收測試 FS2220104",
+        "fields": {
+          "fromDate": "12/28",
+          "toDate": "12/28",
+          "fromTime": "",
+          "toTime": "",
+          "place": "新北",
+          "projectNo": "FS2220104",
+          "reasonDesc": "進行淡海輕軌驗收",
+          "projectStage": "驗收測試"
+        }
+      },
+      {
+        "input": "下週三到五出差新北，進行華新麗華楊梅廠MES需求訪談 SS230710",
+        "fields": {
+          "fromDate": "下週三",
+          "toDate": "五",
+          "fromTime": "",
+          "toTime": "",
+          "place": "新北",
+          "projectNo": "SS230710",
+          "reasonDesc": "進行華新麗華楊梅廠MES需求訪談",
+          "projectStage": "需求訪談"
+        }
+      }
+    ],
+    "code_mapping": {
+      "projectStage": [
+        "M0 非專案工作",
+        "M1 專案規劃階段",
+        "M2 需求發展階段",
+        "M3 系統設計階段",
+        "M4 程式開發階段",
+        "M5 系統整合測試階段",
+        "M6 用戶驗收測試階段",
+        "M7 上線運行階段",
+        "M8 系統保固階段"
+      ],
+      "place": [
+        "01 基隆市",
+        "02 台北市",
+        "03 新北市",
+        "04 桃園市",
+        "05 新竹市",
+        "06 新竹縣",
+        "07 苗栗縣",
+        "08 台中市",
+        "09 彰化縣",
+        "10 南投縣",
+        "11 雲林縣",
+        "12 嘉義市",
+        "13 嘉義縣",
+        "14 台南市",
+        "15 高雄市",
+        "16 屏東縣",
+        "17 台東縣",
+        "18 花蓮縣",
+        "19 宜蘭縣",
+        "20 澎湖縣",
+        "21 金門縣",
+        "22 連江縣"
+      ]
+    }
+  },
+  "actions": [
+    {
+      "url": "{_host}/erp/hd/do?_pageId=hdjj602AaEdit",
+      "message": "span#msg",
+      "post_data": {
+        "empNo_qry": "{_user.userNo}",
+        "_action": "I"
+      },
+      "saved_data": [
+        "agent=input#agent_v1"
+      ]
+    },
+    {
+      "post_data": {
+        "_action": "N",
+        "compId_v1": "{_user.compNo}",
+        "empNo_v1": "{_user.userNo}",
+        "projectNo_v3": "{projectNo}",
+        "fromDate_v1": "{fromDate}",
+        "fromTime_v1": "{fromTime}",
+        "toDate_v1": "{toDate}",
+        "toTime_v1": "{toTime}",
+        "placeA": "{place}",
+        "projectStage_v1": "{projectStage}",
+        "agent_v1": "{agent}",
+        "reasonDesc_v1": "{reasonDesc}"
+      },
+      "saved_data": [
+        "formId=#formId_v1"
+      ]
+    },
+    {
+      "post_data": {
+        "_action": "S",
+        "formId_v1": "{formId}"
+      }
+    }
+  ]
+}

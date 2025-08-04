@@ -1,0 +1,494 @@
+/* 标题样式 */
+.dark .mkd h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.dark .mkd h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.dark .mkd h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.dark .mkd h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.dark .mkd h5 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.dark .mkd h6 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* 列表样式 */
+.dark .mkd ul,
+.dark .mkd ol {
+    padding-left: 20px;
+    list-style: disc;
+    color: #ffffff;
+}
+
+/* 引用样式 */
+.dark .mkd blockquote {
+    border-left: 2px solid #555;
+    padding-left: 10px;
+    color: #ffffff;
+}
+
+/* 图片样式 */
+/* img {
+  max-width: 100%;
+} */
+
+/* 链接样式 */
+.dark .mkd a {
+    color: #888888;
+    cursor: pointer;
+}
+
+.dark .mkd a:hover {
+    text-decoration: underline;
+}
+
+/* 粗体样式 */
+.dark .mkd strong {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* 斜体样式 */
+.dark .mkd em {
+    font-style: italic;
+    color: #ffffff;
+}
+
+/* 代码块样式 */
+.dark .mkd pre {
+    background-color: #333;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    overflow: auto;
+    color: #ffffff;
+}
+
+.dark .mkd code {
+    font-family: "Courier New", Courier, monospace;
+    color: #ffffff;
+}
+
+/* 行内代码样式 */
+.dark .mkd p code,
+.dark .mkd li code {
+    background-color: #555;
+    padding: 2px 4px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+/* 表格样式 */
+.dark .mkd table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #444;
+}
+
+.dark .mkd table th,
+.dark .mkd table td {
+    border: 1px solid #444;
+    padding: 8px;
+}
+
+.dark .mkd table th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* 奇数行背景色 */
+.dark .mkd table tr:nth-child(odd) {
+    background-color: #222;
+}
+
+/* 鼠标悬停效果 */
+.dark .mkd table tr:hover {
+    background-color: #111;
+}
+
+/* 圖片樣式 */
+.mkd img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.mkd * {
+    margin-bottom: 1.25rem;
+}
+.mkd *:last-child {
+    margin-bottom: auto;
+}
+
+.dark .mkd .error {
+    color: rgb(255, 100, 100);
+}
+.dark .mkd .success {
+    color: rgb(120, 190, 120);
+}
+.dark .mkd .info {
+    color: #51fff4;
+}
+.dark .mkd .warning {
+    color: rgb(255, 200, 100);
+}
+
+/* .light 色系 */
+/* 标题样式 */
+.light .mkd h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.light .mkd h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.light .mkd h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.light .mkd h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.light .mkd h5 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.light .mkd h6 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* 列表样式 */
+.light .mkd ul,
+.light .mkd ol {
+    padding-left: 20px;
+    list-style: disc;
+    color: #333;
+}
+
+/* 引用样式 */
+.light .mkd blockquote {
+    border-left: 2px solid #ffffff;
+    padding-left: 10px;
+    color: #333;
+}
+
+/* 图片样式 */
+/* img {
+  max-width: 100%;
+} */
+
+/* 链接样式 */
+.light .mkd a {
+    color: #555555;
+    cursor: pointer;
+}
+
+.light .mkd a:hover {
+    text-decoration: underline;
+}
+
+/* 粗体样式 */
+.light .mkd strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* 斜体样式 */
+.light .mkd em {
+    font-style: italic;
+    color: #333;
+}
+
+/* 代码块样式 */
+.light .mkd pre {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    overflow: auto;
+    color: #333;
+}
+
+.light .mkd code {
+    font-family: "Courier New", Courier, monospace;
+    color: #333;
+}
+
+/* 行内代码样式 */
+.light .mkd p code,
+.light .mkd li code {
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #333;
+}
+
+/* 表格样式 */
+.light .mkd table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.light .mkd table th,
+.light .mkd table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.light .mkd table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* 奇数行背景色 */
+.light .mkd table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* 鼠标悬停效果 */
+.light .mkd table tr:hover {
+    background-color: #f0f0f0;
+}
+
+.light .mkd .error {
+    color: red;
+}
+.light .mkd .success {
+    color: green;
+}
+.light .mkd .info {
+    color: blue;
+}
+.light .mkd .warning {
+    color: orange;
+}
+
+.mkd img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.mkd * {
+    margin-bottom: 1.25rem;
+}
+.mkd *:last-child {
+    margin-bottom: auto;
+}
+
+.mkd h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.mkd h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.mkd h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.mkd h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.mkd h5 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.mkd h6 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+
+.mkd ul,
+.mkd ol {
+    padding-left: 20px;
+    list-style: disc;
+    color: #333;
+}
+
+.mkd blockquote {
+    border-left: 2px solid #ffffff;
+    padding-left: 10px;
+    color: #333;
+}
+
+.mkd a {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.mkd a:hover {
+    text-decoration: underline;
+}
+
+.mkd strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.mkd em {
+    font-style: italic;
+    color: #333;
+}
+
+.mkd pre {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    overflow: auto;
+    color: #333;
+}
+
+.mkd code {
+    font-family: "Courier New", Courier, monospace;
+    color: #333;
+}
+
+.mkd p code,
+.mkd li code {
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #333;
+}
+
+.mkd table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.mkd table th,
+.mkd table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.mkd table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+}
+
+.mkd table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.mkd table tr:hover {
+    background-color: #f0f0f0;
+}
+
+.mkd .error * {
+    color: red !important;
+}
+.mkd .success {
+    color: green;
+}
+.mkd .info {
+    color: blue;
+}
+.mkd .warning {
+    color: orange;
+}
+
+.mkd ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.mkd ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+.mkd ul ul,
+.mkd ol ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 15px;
+}
+.mkd ol ol,
+.mkd ul ol {
+    list-style-type: lower-latin;
+    list-style-position: inside;
+    margin-left: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+ul ul,
+ol ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-left: 15px;
+}
+ol ol,
+ul ol {
+    list-style-type: lower-latin;
+    list-style-position: inside;
+    margin-left: 15px;
+}

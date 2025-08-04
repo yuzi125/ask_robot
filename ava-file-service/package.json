@@ -1,0 +1,20 @@
+{
+    "name": "file-service",
+    "version": "1.0.0",
+    "description": "A high-performance Node.js file service with Fastify",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "@fastify/multipart": "^8.3.0",
+        "fastify": "^4.28.1",
+        "rotating-file-stream": "^3.2.3",
+        "uuid": "^11.1.0"
+    },
+    "engines": {
+        "node": ">=18"
+    },
+    "author": "",
+    "license": "ISC"
+}

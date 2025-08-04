@@ -1,0 +1,124 @@
+version: 1
+disable_existing_loggers: no  # 是否覆蓋以前的配置logger
+formatters:
+  timezone_aware:
+    '()': ava.utils.logger_config.TimezoneAwareFormatter
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    datefmt: '%Y-%m-%d %H:%M:%S,%f'
+  simple:
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+root: #默認情況下配置
+  level: DEBUG
+  handlers: [console,ava_app_file_handler,debug_file_handler,info_file_handler,error_file_handler]
+
+loggers: #如果有設定loggers的話會採用，否則採用root設定
+  ava_app:
+    level: DEBUG
+    handlers: [console,ava_app_file_handler]
+    propagate: no
+  token_counter:
+    level: INFO
+    handlers: [console,info_file_handler,token_counter_handler]
+    propagate: no
+  doc:
+    level: INFO
+    handlers: [console,info_file_handler,doc_handler]
+    propagate: no
+  whisper:
+    level: INFO
+    handlers: [console,whisper_handler,info_file_handler]
+    propagate: no
+  wish:
+    level: INFO
+    handlers: [console,wish_handler]
+    propagate: no
+  db_connector:
+    level: DEBUG
+    handlers: [console]
+    propagate: no
+  ava_vector_database:
+    level: DEBUG
+    handlers: [console,ava_vector_database_file_handler,ava_app_file_handler]
+    propagate: no
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: timezone_aware
+    stream: ext://sys.stdout
+  ava_vector_database_file_handler:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: timezone_aware
+    filename: log/ava_vector_database.log
+    maxBytes: 104857600
+    backupCount: 100
+    encoding: utf8
+  ava_app_file_handler:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: timezone_aware
+    filename: log/ava_app.log
+    maxBytes: 104857600
+    backupCount: 100
+    encoding: utf8
+  info_file_handler:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: timezone_aware  # 使用新的 'timezone_aware' 格式化器
+    filename: log/ava_info.log
+    maxBytes: 104857600
+    backupCount: 100
+    encoding: utf8
+  debug_file_handler:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: timezone_aware
+    filename: log/ava_debug.log
+    maxBytes: 104857600
+    backupCount: 100
+    encoding: utf8
+  error_file_handler:
+    class: logging.handlers.RotatingFileHandler
+    level: ERROR
+    formatter: timezone_aware
+    filename: log/ava_error.log
+    maxBytes: 104857600
+    backupCount: 100
+    encoding: utf8
+  token_counter_handler:
+    class: logging.handlers.RotatingFileHandler
+    formatter: timezone_aware
+    filename: log/ava_token.log
+    maxBytes: 104857600
+    backupCount: 100
+    encoding: utf8
+  whisper_handler:
+    class: logging.handlers.RotatingFileHandler
+    formatter: timezone_aware
+    filename: log/ava_whisper.log
+    maxBytes: 104857600
+    backupCount: 100
+    encoding: utf8
+  doc_handler:
+    class: logging.handlers.RotatingFileHandler
+    formatter: timezone_aware
+    filename: log/ava_doc_searcher.log
+    maxBytes: 104857600
+    backupCount: 100
+    encoding: utf8
+  wish_handler:
+    class: logging.handlers.RotatingFileHandler
+    formatter: timezone_aware
+    filename: log/ava_wish_collector.log
+    maxBytes: 104857600
+    backupCount: 100
+    encoding: utf8
+  db_connector_handler:
+    class: logging.handlers.RotatingFileHandler
+    formatter: timezone_aware
+    filename: log/ava_db_connector.log
+    maxBytes: 104857600
+    backupCount: 100
+    encoding: utf8

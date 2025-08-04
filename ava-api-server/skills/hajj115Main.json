@@ -1,0 +1,62 @@
+{
+  "id": "hajj115Main",
+  "description": "中冠員工通訊資料查詢",
+  "intention": "Search the contact information of the employees only with the user name or employee no. started with 'I' or 'i' without company name.",
+  "system_prompt": "As a secretary, your task is to find the contact information of the employees in 中冠資訊.",
+  "host": "ICSC_ERP",
+  "format": "html",
+  "show_post": false,
+  "show_msg": false,
+  "schema": {
+    "id": "search_icsc_users_contact",
+    "description": "Search InfoChamp Users Contact Information",
+    "parameters": [
+      {
+        "id": "employee_no",
+        "label": "職工編號",
+        "description": "employee no."
+      },
+      {
+        "id": "chinese_name",
+        "label": "中文姓名",
+        "description": "chinese name"
+      }
+    ],
+    "examples": [
+      {
+        "input": "林家旭",
+        "fields": {
+          "employee_no": "",
+          "chinese_name": "林家旭"
+        }
+      },
+      {
+        "input": "I21338",
+        "fields": {
+          "employee_no": "I21338",
+          "chinese_name": ""
+        }
+      }
+    ],
+    "code_mapping": {},
+    "message_element_selector": "td#msg"
+  },
+  "actions": [
+    {
+      "url": "{_host}/erp/ha/do?_pageId=hajj115",
+      "post_data": {
+        "empNo_qry": "{employee_no}",
+        "chiName_m1": "{chinese_name}",
+        "_action": "I"
+      },
+      "message": "td#msg",
+      "output": [
+        " - 工號:  {#empNo_m1}",
+        " - 姓名:  {#chiName_m1}",
+        " - 職稱:  {#deptNo_m0} {#tab1 tr:nth-of-type(2) td:nth-of-type(4)}",
+        " - 電話:  {#telNo1_mh}",
+        " - Email: [{#eMail_m1}](mailto:{#eMail_m1})"
+      ]
+    }
+  ]
+}

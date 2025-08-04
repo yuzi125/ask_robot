@@ -1,0 +1,284 @@
+[
+    {
+        "id": 0,
+        "name": "未處理",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 1,
+        "name": "需要重新撰寫",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 2,
+        "name": "正在改進",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 3,
+        "name": "已修正",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 4,
+        "name": "需進一步調查",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 5,
+        "name": "資料不足",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 6,
+        "name": "正在審核",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 7,
+        "name": "未能重現問題",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 8,
+        "name": "建議忽略",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 9,
+        "name": "需要更多回饋",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 10,
+        "name": "提交開發團隊",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 11,
+        "name": "待處理",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 12,
+        "name": "結案",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 13,
+        "name": "無法處理",
+        "status": "admin",
+        "is_enable": 1
+    },
+    {
+        "id": 14,
+        "name": "回應精確",
+        "status": "user_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 15,
+        "name": "訊息有幫助",
+        "status": "user_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 16,
+        "name": "解釋清楚",
+        "status": "user_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 17,
+        "name": "內容有價值",
+        "status": "user_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 18,
+        "name": "符合預期",
+        "status": "user_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 19,
+        "name": "快速回應",
+        "status": "user_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 20,
+        "name": "親切有禮",
+        "status": "user_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 21,
+        "name": "結構良好",
+        "status": "user_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 22,
+        "name": "資訊全面",
+        "status": "user_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 23,
+        "name": "互動流暢",
+        "status": "user_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 24,
+        "name": "回應模糊",
+        "status": "user_negative",
+        "is_enable": 0
+    },
+    {
+        "id": 25,
+        "name": "訊息無用",
+        "status": "user_negative",
+        "is_enable": 0
+    },
+    {
+        "id": 26,
+        "name": "解釋不足",
+        "status": "user_negative",
+        "is_enable": 0
+    },
+    {
+        "id": 27,
+        "name": "內容錯誤",
+        "status": "user_negative",
+        "is_enable": 0
+    },
+    {
+        "id": 28,
+        "name": "不符合預期",
+        "status": "user_negative",
+        "is_enable": 0
+    },
+    {
+        "id": 29,
+        "name": "回應延遲",
+        "status": "user_negative",
+        "is_enable": 0
+    },
+    {
+        "id": 30,
+        "name": "互動生硬",
+        "status": "user_negative",
+        "is_enable": 0
+    },
+    {
+        "id": 31,
+        "name": "資訊片面",
+        "status": "user_negative",
+        "is_enable": 0
+    },
+    {
+        "id": 32,
+        "name": "結構混亂",
+        "status": "user_negative",
+        "is_enable": 0
+    },
+    {
+        "id": 33,
+        "name": "互動卡頓",
+        "status": "user_negative",
+        "is_enable": 1
+    },
+    {
+        "id": 34,
+        "name": "對系統改善有幫助",
+        "status": "feedback_tag_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 35,
+        "name": "用戶滿意",
+        "status": "feedback_tag_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 36,
+        "name": "有建議改善內容",
+        "status": "feedback_tag_positive",
+        "is_enable": 1
+    },
+    {
+        "id": 37,
+        "name": "無用評論",
+        "status": "feedback_tag_negative",
+        "is_enable": 1
+    },
+    {
+        "id": 38,
+        "name": "無法辨識",
+        "status": "feedback_tag_negative",
+        "is_enable": 1
+    },
+    {
+        "id": 39,
+        "name": "無法處理的錯誤",
+        "status": "feedback_tag_negative",
+        "is_enable": 1
+    },
+    {
+        "id": 40,
+        "name": "系統漏洞",
+        "status": "feedback_tag_negative",
+        "is_enable": 1
+    },
+    {
+        "id": 41,
+        "name": "系統系統",
+        "status": "feedback_tag_negative",
+        "is_enable": 1
+    },
+    {
+        "id": 42,
+        "name": "答非所問",
+        "status": "user_negative",
+        "is_enable": 1
+    },
+    {
+        "id": 43,
+        "name": "訊息過時",
+        "status": "user_negative",
+        "is_enable": 1
+    },
+    {
+        "id": 44,
+        "name": "資訊錯誤",
+        "status": "user_negative",
+        "is_enable": 1
+    },
+    {
+        "id": 45,
+        "name": "內容不足",
+        "status": "user_negative",
+        "is_enable": 1
+    },
+    {
+        "id": 46,
+        "name": "系統找不到資訊",
+        "status": "user_negative",
+        "is_enable": 1
+    }
+]

@@ -1,0 +1,185 @@
+{
+  "id": "hdjjc01",
+  "description": "線上超時工作申報",
+  "intention": "Apply for past Overtime Work Allowance or Compensatory Time Off",
+  "system_prompt": "As a secretary, your task is to apply the past overtime work allowance for the user.",
+  "host": "ICSC_ERP",
+  "format": "html",
+  "schema": {
+    "id": "apply_overtime_work_allowance",
+    "description": "Apply for Overtime Work Allowance",
+    "parameters": [
+      {
+        "id": "fromDate",
+        "label": "起始日期",
+        "description": "the overtime date",
+        "required": true,
+        "format": "date",
+        "default_value": "今天"
+      },
+      {
+        "id": "fromTime",
+        "label": "起始時間",
+        "description": "the overtime begins from.",
+        "required": true,
+        "format": "time",
+        "default_value": "5點"
+      },
+      {
+        "id": "toTime",
+        "label": "結束時間",
+        "description": "the overtime ends at.",
+        "required": true,
+        "format": "time"
+      },
+      {
+        "id": "ovHrs",
+        "label": "加班費時數",
+        "description": "Overtime allowance hours"
+      },
+      {
+        "id": "ovLvHrs",
+        "label": "抵休時數",
+        "description": "Overtime compensation hours"
+      },
+      {
+        "id": "reasonDesc",
+        "label": "加班說明",
+        "required": true,
+        "description": "Overtime work description"
+      },
+      {
+        "id": "reasonCode",
+        "label": "加班事由",
+        "description": "Project milestone stages",
+        "required": true,
+        "format": "code"
+      },
+      {
+        "id": "costCenter",
+        "label": "列帳專案",
+        "description": "Cost center of the overtime allowance",
+        "required": true
+      }
+    ],
+    "examples": [
+      {
+        "input": "昨天10點到11點加班1小時，排除客戶系統環境問題，緊急搶修",
+        "fields": {
+          "fromDate": "昨天",
+          "fromTime": "10點",
+          "toTime": "11點",
+          "ovHrs": "1",
+          "ovLvHrs": "0",
+          "reasonDesc": "排除客戶系統環境問題",
+          "reasonCode": "緊急搶修",
+          "costCenter": ""
+        }
+      },
+      {
+        "input": "前天晚上7點到9點加班2小時，申請加班費，處理緊急客戶需求。需求規劃 台塔",
+        "fields": {
+          "fromDate": "前天",
+          "fromTime": "晚上7點",
+          "toTime": "9點",
+          "ovHrs": "2",
+          "ovLvHrs": "0",
+          "reasonDesc": "處理緊急客戶需求",
+          "reasonCode": "需求規劃",
+          "costCenter": "台塔"
+        }
+      },
+      {
+        "input": "上週五下午3點到5點加班2小時，申請抵休，進行系統更新，保駕 RS2230821",
+        "fields": {
+          "fromDate": "上週五",
+          "fromTime": "下午3點",
+          "toTime": "5點",
+          "ovHrs": "0",
+          "ovLvHrs": "2",
+          "reasonDesc": "進行系統更新",
+          "reasonCode": "保駕",
+          "costCenter": "RS2230821"
+        }
+      },
+      {
+        "input": "11/23早上9點到11點加班2小時，申請抵休，進行網站性能優化 開發 EZoForm",
+        "fields": {
+          "fromDate": "11/23",
+          "fromTime": "早上9點",
+          "toTime": "11點",
+          "ovHrs": "0",
+          "ovLvHrs": "2",
+          "reasonDesc": "進行網站性能優化",
+          "reasonCode": "開發",
+          "costCenter": "EZoForm"
+        }
+      },
+      {
+        "input": "昨天5點到6點加班1小時，準備系統整體測試工作，整體測試階段",
+        "fields": {
+          "fromDate": "昨天",
+          "fromTime": "5點",
+          "toTime": "6點",
+          "ovHrs": "1",
+          "ovLvHrs": "0",
+          "reasonDesc": "準備系統整體測試工作",
+          "reasonCode": "整體測試階段",
+          "costCenter": ""
+        }
+      }
+    ],
+    "code_mapping": {
+      "reasonCode": [
+        "A 拜訪客戶及備標階段",
+        "B 專案規劃及管理",
+        "C 需求規劃及分析階段",
+        "D 設計及開發階段",
+        "E 試車及整體測試階段",
+        "F 上線運行保駕階段",
+        "G 保固維護階段-需求處理",
+        "H 保固維護階段-問題處理",
+        "I 設備及線路之安裝、維護及保養等",
+        "J 業務需要排班之固定性加班",
+        "K 處理其他臨時指派之緊急任務",
+        "L 緊急搶修"
+      ]
+    }
+  },
+  "actions": [
+    {
+      "url": "{_host}/erp/hd/do?_pageId=hdjjc01A",
+      "post_data": {
+        "empNo_v1": "{_user.userNo}",
+        "_action": "IP"
+      },
+      "saved_data": [
+        "costCenter=input#costCenter_v1",
+        "sentSirA=input#sentSirA_qry",
+        "reasonCode=select#reasonCode_v1"
+      ],
+      "message": "td#msg"
+    },
+    {
+      "post_data": {
+        "formId_v1": "+",
+        "empNo_v1": "{_user.userNo}",
+        "fromDate_v1": "{fromDate}",
+        "toDate_v1": "{fromDate}",
+        "fromTime_v1": "{fromTime}",
+        "toTime_v1": "{toTime}",
+        "reasonDesc_v1": "{reasonDesc}",
+        "ovHrs_v1": "{ovHrs}",
+        "ovLvHrs_v1": "{ovLvHrs}",
+        "reasonCode_v1": "{reasonCode}",
+        "status_v1": "00",
+        "sentSirA_qry": "{sentSirA}",
+        "costCenter_v1": "{costCenter}",
+        "compId_v1": "{_user.compNo}",
+        "nowUser": "{_user.userNo}",
+        "shiftId_v1": "00A",
+        "_action": "A"
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+docs/
+uploads/*
+uploads_backend/*
+resource/*
+node_modules/

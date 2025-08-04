@@ -1,0 +1,429 @@
+[
+    {
+        "id": "de8d636a-55de-4e46-b0af-81b5c03dcb74",
+        "name": "查中鋼部門人員資訊",
+        "create_time": "2023-12-01T13:06:35.861Z",
+        "describe": "start using your api 查中鋼部門人員資訊",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-16T06:41:07.617Z",
+        "class": "CSCFindBossInfoByDept",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-account-box-outline"
+    },
+    {
+        "id": "e41b26f2-498f-4276-a495-e62be7889e0c",
+        "name": "問分機資訊",
+        "create_time": "2023-12-01T13:04:23.796Z",
+        "describe": "start using your api 問分機資訊",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-16T06:41:15.895Z",
+        "class": "CSCInquirerTelNoByName",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-card-account-phone-outline"
+    },
+    {
+        "id": "a8d4f28f-2fa5-489c-aecd-510471da7bf2",
+        "name": "會議室預約",
+        "create_time": "2023-12-01T13:02:41.302Z",
+        "describe": "start using your api 會議室預約",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-16T06:41:23.317Z",
+        "class": "ResourceBooker",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-laptop-account"
+    },
+    {
+        "id": "515f81b4-14c1-4ac7-be66-cbebe5570d41",
+        "name": "查詢會議室可預約資料",
+        "create_time": "2023-12-01T13:05:13.198Z",
+        "describe": "start using your api 查詢會議室可預約資料",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-16T06:43:29.691Z",
+        "class": "ResourceInquirer",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-list-box-outline"
+    },
+    {
+        "id": "1486b74a-fea3-49c5-a8f3-911354c5b0e4",
+        "name": "請假",
+        "create_time": "2023-12-01T13:03:52.678Z",
+        "describe": "start using your api 請假",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-16T06:44:16.086Z",
+        "class": "ICSC_hdjjb01A",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-archive-edit-outline"
+    },
+    {
+        "id": "7da6b95e-aebd-4e02-89b5-4d761f5c2e56",
+        "name": "設定公告",
+        "create_time": "2023-12-16T01:38:02.224Z",
+        "describe": "start using your api 設定公告",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-16T06:45:25.747Z",
+        "class": "systemBulletin",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-bullhorn-outline"
+    },
+    {
+        "id": "209e26f5-1a1c-412b-93c7-04a9edd370c0",
+        "name": "超時工作申報",
+        "create_time": "2023-12-09T05:26:47.517Z",
+        "describe": "start using your api 超時工作申請",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-21T12:02:07.229Z",
+        "class": "_ERPWebApiRunner_hdjjc01",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-archive-clock-outline"
+    },
+    {
+        "id": "a6272e16-df36-4319-81ce-a2ec0fe67b42",
+        "name": "GPT4",
+        "create_time": "2023-12-12T10:21:19.125Z",
+        "describe": "start using your api GPT4",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-16T06:46:39.730Z",
+        "class": "GPT4",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-robot-outline"
+    },
+    {
+        "id": "5dcb8181-ee95-4a80-8686-6332ca3266cc",
+        "name": "預申請加班",
+        "create_time": "2023-12-01T13:06:17.996Z",
+        "describe": "start using your api 加班申請",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-17T03:59:51.224Z",
+        "class": "ICSC_hdjjc05A",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-application-edit-outline"
+    },
+    {
+        "id": "9bffbe92-9356-4fde-836d-2027344b25c9",
+        "name": "設定版本",
+        "create_time": "2023-12-18T09:11:16.744Z",
+        "describe": "start using your api 設定版本",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-18T09:11:16.744Z",
+        "class": "systemVersion",
+        "is_enable": 1,
+        "state": 0,
+        "icon": null
+    },
+    {
+        "id": "020de8af-e340-49a3-8faf-a2a8ae4bf08e",
+        "name": "高鐵班次",
+        "create_time": "2023-12-01T13:04:41.790Z",
+        "describe": "start using your api 高鐵班次",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-16T06:47:56.192Z",
+        "class": "ThsrTimetableInquirer",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-train"
+    },
+    {
+        "id": "fb523fad-0075-4ba5-b607-f5139421a9f7",
+        "name": "用分機找人",
+        "create_time": "2023-12-01T13:05:40.772Z",
+        "describe": "start using your api 用分機查人",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-17T03:58:43.035Z",
+        "class": "CSCInquirerExtensionNum",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-file-phone-outline"
+    },
+    {
+        "id": "5a6ea7d3-eeb5-45e4-a357-0573af7aa24b",
+        "name": "個人通訊資料查詢",
+        "create_time": "2023-12-16T11:11:26.702Z",
+        "describe": "start using your api 個人通訊資料查詢",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-21T12:05:15.011Z",
+        "class": "_ERPWebApiRunner_hajj115Main",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-card-account-phone"
+    },
+    {
+        "id": "78c1bd0f-843b-4e58-af7c-afdd41f68d61",
+        "name": "出差申請",
+        "create_time": "2023-12-17T04:35:25.110Z",
+        "describe": "start using your api 出差申請",
+        "config_jsonb": {
+            "webapi": {
+                "body": {},
+                "query": {},
+                "apiurl": "",
+                "method": "",
+                "params": {},
+                "headers": {},
+                "required": [],
+                "response_detail": {}
+            },
+            "examples": [],
+            "intention": "",
+            "search_kwargs": { "k": 5 },
+            "system_prompt": ""
+        },
+        "update_time": "2023-12-21T12:03:59.641Z",
+        "class": "_ERPWebApiRunner_hdjj602A",
+        "is_enable": 1,
+        "state": 0,
+        "icon": "mdi mdi-briefcase-arrow-left-right-outline"
+    },
+    {
+        "id": "9bb60008-5fa9-4c86-bd76-e1ab7eb660ee",
+        "name": "單位人員分佈分析",
+        "create_time": "2023-12-22T08:22:20.661Z",
+        "describe": "start using your api 單位人員分佈分析",
+        "config_jsonb": {
+            "id": "duUsers",
+            "host": "ICSC_ERP",
+            "examples": ["S部門各單位分別有多少人", "S部門女生最多是哪個單位", "S部門有幾位經理"],
+            "intention": "Ask about the distribution of the number of people in each department.",
+            "description": "使用者統計",
+            "table_schema": {
+                "tables": [
+                    {
+                        "header": "# DB2 SQL tables, with their String properties:",
+                        "columns": [
+                            "compNo 公司別",
+                            "userNo 使用者代號",
+                            "sex 性別  [1-男,0-女,X-其他]",
+                            "postNo  職稱代碼 [30-專案經理,31-工程師,32-管理師,21-經理,11-協理]",
+                            "depNo 單位代碼 (部門是指 S,E,K,M 編碼規則 {{部門}} 加 2 位數字，ex: S00, S10, S21, S41; 一級單位是指前2碼相同的單位代碼，如 'S21, S22, S23' 同屬 'S2' 這個一級單位)",
+                            "cname 中文姓名",
+                            "email 電子郵件",
+                            "validDate 使用期限 ( < '{今日}'-已離職, > '{今日}'-在職 )"
+                        ],
+                        "attentions": [
+                            "所有查詢條件都要加上 validDate 大於 {今日}",
+                            "S部門是指 depNo like 'S%', E部門是指 depNo like 'E%', K部門是指 depNo like 'K%'",
+                            "一級單位是指 group by SUBSTR(depNo,1,2), 沒有提到 `一級`時，不要做此加工",
+                            "S2 是指 depNo like 'S2%', S4 是指 depNo like 'S4%'"
+                        ],
+                        "table_name": "db.tbdu01(使用者基本資料檔)"
+                    }
+                ],
+                "sql_replacer": { "LIMIT 1": "fetch first row only" },
+                "table_relations": []
+            },
+            "system_prompts": [
+                "You are a DBA helping user to show the sql about user input using the table schema context.",
+                "你只可查詢 S% 部門資料，查詢其他部門資料時，直接回覆「不好意思，你的查詢權限不足」",
+                "任何條件下，都不可以查出所有欄位(即: select * from ..)"
+            ]
+        },
+        "update_time": "2023-12-22T09:07:38.899Z",
+        "class": "_ERPSqlApiRunner_duUsers",
+        "is_enable": 1,
+        "state": 0,
+        "icon": null
+    }
+]

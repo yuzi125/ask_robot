@@ -1,0 +1,393 @@
+2025-06-17 13:00:11 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-17 13:00:14 - printf.js - INFO - SSO_TYPE: 
+2025-06-17 13:00:21 - printf.js - INFO - server is connection at http://localhost:8081
+2025-06-17 13:00:21 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-17 13:00:21 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-06-17 13:00:21 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-17 13:00:21 - printf.js - INFO - Redis 客戶端連接成功
+2025-06-17 13:00:21 - printf.js - INFO - 所有 Redis 客戶端已連接
+2025-06-17 13:08:26 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:08:34 - printf.js - INFO - userInfo, extra={
+  "uid": "ba7f5191-8c8f-445e-8dbf-1ff99c82d368",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-17 13:08:42 - printf.js - INFO - expertSkillRows []
+2025-06-17 13:08:42 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:08:42 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:08:42 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:08:42 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:08:42 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-17 13:08:42 - printf.js - INFO - userInfo, extra={
+  "uid": "ba7f5191-8c8f-445e-8dbf-1ff99c82d368",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-17 13:51:58 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:51:58 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:51:58 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-17 13:52:03 - printf.js - INFO - 小美幾歲住哪 23
+2025-06-17 13:52:04 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-17 13:52:04 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-17 13:52:04 - printf.js - INFO - expert_id 23
+2025-06-17 13:52:04 - printf.js - INFO - message {"data":"小美幾歲住哪","type":"text"}
+2025-06-17 13:52:04 - printf.js - INFO - req.headers.cookie s_id=s%3APyjfwFgJ2hykKgLL0pgx26CiqozvgIUA.jq7bj7ePz0GGWTmL9GGI3BrZNIVi6YXHnavNsCsvCYQ
+2025-06-17 13:52:04 - printf.js - INFO - req.sessionID PyjfwFgJ2hykKgLL0pgx26CiqozvgIUA
+2025-06-17 13:52:04 - printf.js - ERROR - (node:21324) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-06-17 13:52:19 - printf.js - INFO - Finished sending data
+2025-06-17 13:52:20 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:52:41 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:52:41 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-17 13:52:42 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-17 13:52:42 - printf.js - INFO - expert_id 23
+2025-06-17 13:52:42 - printf.js - INFO - message {"data":"小美幾歲住哪","type":"text"}
+2025-06-17 13:52:42 - printf.js - INFO - req.headers.cookie s_id=s%3APyjfwFgJ2hykKgLL0pgx26CiqozvgIUA.jq7bj7ePz0GGWTmL9GGI3BrZNIVi6YXHnavNsCsvCYQ
+2025-06-17 13:52:42 - printf.js - INFO - req.sessionID PyjfwFgJ2hykKgLL0pgx26CiqozvgIUA
+2025-06-17 13:53:03 - printf.js - INFO - Finished sending data
+2025-06-17 13:53:04 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:53:33 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:53:33 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-17 13:53:34 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-17 13:53:34 - printf.js - INFO - expert_id 23
+2025-06-17 13:53:34 - printf.js - INFO - message {"data":"小美幾歲住哪","type":"text"}
+2025-06-17 13:53:34 - printf.js - INFO - req.headers.cookie s_id=s%3APyjfwFgJ2hykKgLL0pgx26CiqozvgIUA.jq7bj7ePz0GGWTmL9GGI3BrZNIVi6YXHnavNsCsvCYQ
+2025-06-17 13:53:34 - printf.js - INFO - req.sessionID PyjfwFgJ2hykKgLL0pgx26CiqozvgIUA
+2025-06-17 13:54:19 - printf.js - INFO - Finished sending data
+2025-06-17 13:54:20 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:54:30 - printf.js - INFO - 小美居住在哪個城市 23
+2025-06-17 13:54:30 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-17 13:54:31 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-17 13:54:31 - printf.js - INFO - expert_id 23
+2025-06-17 13:54:31 - printf.js - INFO - message {"data":"小美居住在哪個城市","type":"text"}
+2025-06-17 13:54:31 - printf.js - INFO - req.headers.cookie s_id=s%3APyjfwFgJ2hykKgLL0pgx26CiqozvgIUA.jq7bj7ePz0GGWTmL9GGI3BrZNIVi6YXHnavNsCsvCYQ
+2025-06-17 13:54:31 - printf.js - INFO - req.sessionID PyjfwFgJ2hykKgLL0pgx26CiqozvgIUA
+2025-06-17 13:54:55 - printf.js - INFO - Finished sending data
+2025-06-17 13:54:55 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:55:01 - printf.js - INFO - 小美幾歲 23
+2025-06-17 13:55:01 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-17 13:55:02 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-17 13:55:02 - printf.js - INFO - expert_id 23
+2025-06-17 13:55:02 - printf.js - INFO - message {"data":"小美幾歲","type":"text"}
+2025-06-17 13:55:02 - printf.js - INFO - req.headers.cookie s_id=s%3APyjfwFgJ2hykKgLL0pgx26CiqozvgIUA.jq7bj7ePz0GGWTmL9GGI3BrZNIVi6YXHnavNsCsvCYQ
+2025-06-17 13:55:02 - printf.js - INFO - req.sessionID PyjfwFgJ2hykKgLL0pgx26CiqozvgIUA
+2025-06-17 13:55:31 - printf.js - INFO - Finished sending data
+2025-06-17 13:55:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:56:01 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:56:01 - printf.js - INFO - 滑鼠數量 23
+2025-06-17 13:56:02 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:56:02 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-17 13:56:02 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-17 13:56:02 - printf.js - INFO - expert_id 23
+2025-06-17 13:56:02 - printf.js - INFO - message {"data":"滑鼠數量","type":"text"}
+2025-06-17 13:56:02 - printf.js - INFO - req.headers.cookie s_id=s%3APyjfwFgJ2hykKgLL0pgx26CiqozvgIUA.jq7bj7ePz0GGWTmL9GGI3BrZNIVi6YXHnavNsCsvCYQ
+2025-06-17 13:56:02 - printf.js - INFO - req.sessionID PyjfwFgJ2hykKgLL0pgx26CiqozvgIUA
+2025-06-17 13:56:25 - printf.js - INFO - Finished sending data
+2025-06-17 13:56:25 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:57:29 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:57:29 - printf.js - INFO - 小美年齡 23
+2025-06-17 13:57:30 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:57:30 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-17 13:57:30 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-17 13:57:30 - printf.js - INFO - expert_id 23
+2025-06-17 13:57:30 - printf.js - INFO - message {"data":"小美年齡","type":"text"}
+2025-06-17 13:57:30 - printf.js - INFO - req.headers.cookie s_id=s%3APyjfwFgJ2hykKgLL0pgx26CiqozvgIUA.jq7bj7ePz0GGWTmL9GGI3BrZNIVi6YXHnavNsCsvCYQ
+2025-06-17 13:57:30 - printf.js - INFO - req.sessionID PyjfwFgJ2hykKgLL0pgx26CiqozvgIUA
+2025-06-17 13:57:52 - printf.js - INFO - Finished sending data
+2025-06-17 13:57:52 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:58:05 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:58:05 - printf.js - INFO - 小明年齡 23
+2025-06-17 13:58:05 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:58:05 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-17 13:58:05 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-17 13:58:05 - printf.js - INFO - expert_id 23
+2025-06-17 13:58:05 - printf.js - INFO - message {"data":"小明年齡","type":"text"}
+2025-06-17 13:58:05 - printf.js - INFO - req.headers.cookie s_id=s%3APyjfwFgJ2hykKgLL0pgx26CiqozvgIUA.jq7bj7ePz0GGWTmL9GGI3BrZNIVi6YXHnavNsCsvCYQ
+2025-06-17 13:58:05 - printf.js - INFO - req.sessionID PyjfwFgJ2hykKgLL0pgx26CiqozvgIUA
+2025-06-17 13:58:21 - printf.js - INFO - Finished sending data
+2025-06-17 13:58:21 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:59:33 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 13:59:33 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-17 13:59:33 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-17 13:59:33 - printf.js - INFO - expert_id 23
+2025-06-17 13:59:33 - printf.js - INFO - message {"data":"小明年齡","type":"text"}
+2025-06-17 13:59:33 - printf.js - INFO - req.headers.cookie s_id=s%3APyjfwFgJ2hykKgLL0pgx26CiqozvgIUA.jq7bj7ePz0GGWTmL9GGI3BrZNIVi6YXHnavNsCsvCYQ
+2025-06-17 13:59:33 - printf.js - INFO - req.sessionID PyjfwFgJ2hykKgLL0pgx26CiqozvgIUA
+2025-06-17 13:59:46 - printf.js - INFO - Finished sending data
+2025-06-17 13:59:46 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:03:20 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:03:21 - printf.js - INFO - userInfo, extra={
+  "uid": "ba7f5191-8c8f-445e-8dbf-1ff99c82d368",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-17 14:03:26 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:03:26 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:03:26 - printf.js - INFO - expertSkillRows []
+2025-06-17 14:03:26 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-17 14:03:26 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-17 14:11:02 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:11:02 - printf.js - INFO - here, extra={
+  "uid": "268d710e-13a6-4369-9ffd-f0bc6ec8c9d1",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-17 14:11:03 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:11:03 - printf.js - INFO - userInfo, extra={
+  "uid": "268d710e-13a6-4369-9ffd-f0bc6ec8c9d1",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-17 14:11:06 - printf.js - INFO - 專家excel專家尚無聊天室，開始建立聊天室...
+2025-06-17 14:11:06 - printf.js - INFO - 專家中鋼專家尚無聊天室，開始建立聊天室...
+2025-06-17 14:11:06 - printf.js - INFO - 專家t1尚無聊天室，開始建立聊天室...
+2025-06-17 14:11:06 - printf.js - INFO - 專家excel專家聊天室建立完成 !
+2025-06-17 14:11:06 - printf.js - INFO - 專家中鋼專家聊天室建立完成 !
+2025-06-17 14:11:06 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:11:07 - printf.js - INFO - 專家t1聊天室建立完成 !
+2025-06-17 14:11:07 - printf.js - INFO - expertSkillRows []
+2025-06-17 14:11:07 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-17 14:11:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:11:07 - printf.js - INFO - userInfo, extra={
+  "uid": "268d710e-13a6-4369-9ffd-f0bc6ec8c9d1",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-17 14:11:13 - printf.js - INFO - userInfo, extra={
+  "uid": "268d710e-13a6-4369-9ffd-f0bc6ec8c9d1",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-17 14:11:16 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-17 14:11:16 - printf.js - INFO - expertSkillRows []
+2025-06-17 14:11:17 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-17 14:11:21 - printf.js - INFO - userInfo, extra={
+  "uid": "268d710e-13a6-4369-9ffd-f0bc6ec8c9d1",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-17 14:11:24 - printf.js - INFO - expertSkillRows []
+2025-06-17 14:11:24 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-06-17 14:11:24 - printf.js - INFO - userInfo, extra={
+  "uid": "268d710e-13a6-4369-9ffd-f0bc6ec8c9d1",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-06-17 14:36:20 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:36:20 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:36:20 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:36:20 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:36:20 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:36:20 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:36:20 - printf.js - INFO - userInfo, extra={
+  "id": "00466921-9363-409b-8276-b402686d9c3f",
+  "name": "管理員專用帳號",
+  "avatar": null,
+  "sex": "",
+  "user_type": "member",
+  "login_type": "system",
+  "is_enable": "1",
+  "login_info": {
+    "system": {
+      "name": "管理員專用帳號",
+      "uid": "icsc-admin"
+    }
+  },
+  "auth_id": {
+    "system": "icsc-admin"
+  },
+  "uid": "00466921-9363-409b-8276-b402686d9c3f",
+  "nickname": "管理員專用帳號",
+  "user_no": "icsc-admin"
+}
+2025-06-17 14:36:20 - printf.js - INFO - expertSkillRows []
+2025-06-17 14:36:20 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "17"
+}
+2025-06-17 14:36:21 - printf.js - INFO - userInfo, extra={
+  "id": "00466921-9363-409b-8276-b402686d9c3f",
+  "name": "管理員專用帳號",
+  "avatar": null,
+  "sex": "",
+  "user_type": "member",
+  "login_type": "system",
+  "is_enable": "1",
+  "login_info": {
+    "system": {
+      "name": "管理員專用帳號",
+      "uid": "icsc-admin"
+    }
+  },
+  "auth_id": {
+    "system": "icsc-admin"
+  },
+  "uid": "00466921-9363-409b-8276-b402686d9c3f",
+  "nickname": "管理員專用帳號",
+  "user_no": "icsc-admin"
+}
+2025-06-17 14:36:21 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "17"
+}
+2025-06-17 14:36:21 - printf.js - INFO - expertSkillRows []
+2025-06-17 14:36:33 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 14:36:33 - printf.js - INFO - data, extra={
+  "answer": "被觀察人為柯凱齊。 \n\n",
+  "feedbackOptionsIds": [
+    14
+  ],
+  "sourceChunkIds": [
+    [
+      [
+        {
+          "id": "3520",
+          "is_cache": false,
+          "is_target": true
+        },
+        {
+          "id": "3521",
+          "is_cache": false,
+          "is_target": true
+        },
+        {
+          "id": "3522",
+          "is_cache": false,
+          "is_target": true
+        }
+      ],
+      [
+        {
+          "id": "3528",
+          "is_cache": false,
+          "is_target": true
+        }
+      ]
+    ]
+  ],
+  "datasetsIds": [
+    "22"
+  ],
+  "uploadDocumentsIds": [
+    "502ed59c-056c-4432-883c-7ed7345a1b00"
+  ],
+  "comment": "",
+  "feedbackType": "user_positive",
+  "datasourceInfo": [
+    {
+      "datasets_id": "22",
+      "datasource_type": "A"
+    }
+  ],
+  "historyMessagesId": "456",
+  "expert_id": "17",
+  "user_id": "00466921-9363-409b-8276-b402686d9c3f",
+  "user_type": "user"
+}
+2025-06-17 14:36:34 - printf.js - INFO - keys [
+  "messages:e4fa28eb-eda3-403f-ad74-8b8a6a6425b0:page:0:20"
+]
+2025-06-17 15:01:19 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 15:01:19 - printf.js - INFO - 去年2月27發生什麼 17
+2025-06-17 15:01:20 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 15:01:20 - printf.js - ERROR - Redis 中未找到限流規則
+2025-06-17 15:01:20 - printf.js - INFO - ip ::ffff:127.0.0.1
+2025-06-17 15:01:20 - printf.js - INFO - expert_id 17
+2025-06-17 15:01:20 - printf.js - INFO - message {"data":"去年2月27發生什麼","type":"text"}
+2025-06-17 15:01:20 - printf.js - INFO - req.headers.cookie s_id=s%3AZkdE7FHjXMEc8tIBRqtiOughOM0XOsNb.Re6bptScj0O6g6nzeXWXZ1zYif28Qj%2BSDg3wWruzrjY; ava-guest=%7B%22uid%22%3A%22268d710e-13a6-4369-9ffd-f0bc6ec8c9d1%22%2C%22nickname%22%3A%22%E9%81%8A%E5%AE%A2%22%2C%22user_no%22%3A%22guest%22%2C%22sex%22%3A%221%22%2C%22avatar%22%3Anull%2C%22user_type%22%3A%22guest%22%7D
+2025-06-17 15:01:20 - printf.js - INFO - req.sessionID ZkdE7FHjXMEc8tIBRqtiOughOM0XOsNb
+2025-06-17 15:01:38 - printf.js - INFO - Finished sending data
+2025-06-17 15:01:38 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 15:01:42 - printf.js - INFO - data, extra={
+  "answer": "不好意思，查無相關資料，你可以嘗試換個方式詢問",
+  "feedbackOptionsIds": [
+    46
+  ],
+  "sourceChunkIds": [],
+  "datasetsIds": [],
+  "uploadDocumentsIds": [],
+  "comment": "",
+  "feedbackType": "user_negative",
+  "datasourceInfo": [],
+  "historyMessagesId": "827",
+  "expert_id": "17",
+  "user_id": "00466921-9363-409b-8276-b402686d9c3f",
+  "user_type": "user"
+}
+2025-06-17 15:01:42 - printf.js - INFO - keys []
+2025-06-17 15:55:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 15:55:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 15:55:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 15:55:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 15:55:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 15:55:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-17 15:55:48 - printf.js - INFO - userInfo, extra={
+  "id": "00466921-9363-409b-8276-b402686d9c3f",
+  "name": "管理員專用帳號",
+  "avatar": null,
+  "sex": "",
+  "user_type": "member",
+  "login_type": "system",
+  "is_enable": "1",
+  "login_info": {
+    "system": {
+      "name": "管理員專用帳號",
+      "uid": "icsc-admin"
+    }
+  },
+  "auth_id": {
+    "system": "icsc-admin"
+  },
+  "uid": "00466921-9363-409b-8276-b402686d9c3f",
+  "nickname": "管理員專用帳號",
+  "user_no": "icsc-admin"
+}
+2025-06-17 15:55:48 - printf.js - INFO - expertSkillRows []
+2025-06-17 15:55:48 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "17"
+}
+2025-06-17 15:55:49 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "17"
+}
+2025-06-17 15:55:49 - printf.js - INFO - expertSkillRows []

@@ -1,0 +1,175 @@
+{
+    "id": "cscQueryReservedClinic",
+    "tip": [
+        "查詢預約診療所",
+        "查詢已預約診療所",
+        "查詢我的診療所預約"
+    ],
+    "host": "CSC_ERP",
+    "name": "中鋼查詢診療所預約",
+    "format": "json",
+    "schema": {
+        "id": "cscQueryReservedClinic",
+        "examples": [
+            {
+                "input": "查詢已預約診療所",
+                "fields": {
+                    "frDate": "今天",
+                    "toDate": "三個月後"
+                }
+            },
+            {
+                "input": "查詢我的診療所預約",
+                "fields": {
+                    "frDate": "",
+                    "toDate": ""
+                }
+            }
+        ],
+        "parameters": [
+            {
+                "id": "frDate",
+                "label": "起始日",
+                "format": "date",
+                "required": false,
+                "description": "起始日，格式為YYYYMMDD",
+                "default_value": "今天"
+            },
+            {
+                "id": "toDate",
+                "label": "截止日",
+                "format": "date",
+                "required": false,
+                "description": "截止日，格式為YYYYMMDD",
+                "default_value": "三個月後"
+            }
+        ],
+        "description": "查詢診療所預約",
+        "code_mapping": {}
+    },
+    "actions": [
+        {
+            "type": "message",
+            "content": "您目前已預約的診療所:"
+        },
+        {
+            "url": "https://ezoagt.csc.com.tw/PH/PHAVA/getQuery",
+            "type": "api_call",
+            "message": "查詢成功",
+            "post_data": {
+                "frDate": "{frDate}",
+                "toDate": "{toDate}",
+                "doCompUser": "{{_user.login_info.csc_sso.gcid}}{{_user.login_info.csc_sso.guid}}"
+            },
+            "content_type": "application/json",
+            "response_output_format": {
+                "type": "json",
+                "response_success": "{root['success']==True}",
+                "response_extract_nomatch": "無找到config對應的解析模式",
+                "response_extract_pattern_fail": [],
+                "response_extract_pattern_success": [
+                    {
+                        "return_body": [
+                            {
+                                "data": {
+                                    "tag": "br",
+                                    "text": "",
+                                    "after_new_line": true
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "html",
+                                    "text": "f'醫生姓名: {info_msg(data['drname'],False)}'",
+                                    "after_new_line": false
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "html",
+                                    "text": "f'預約日期: {info_msg(data['resvdate'],False)}'",
+                                    "after_new_line": false
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "html",
+                                    "text": "f'預約時段: {info_msg(data['resvtime'],False)}'",
+                                    "after_new_line": false
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "html",
+                                    "text": "f'時段順位: {info_msg(data['resverno'],False)}'",
+                                    "after_new_line": false
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "html",
+                                    "text": "f'員工號碼: {info_msg(data['empno'],False)}'",
+                                    "after_new_line": false
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "html",
+                                    "text": "f'關係: {info_msg(data['kinship'],False)}'",
+                                    "after_new_line": false
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "html",
+                                    "text": "f'姓名: {info_msg(data['patname'],False)}'",
+                                    "after_new_line": false
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "html",
+                                    "text": "f'科別: {info_msg(data['hospName'],False)}'",
+                                    "after_new_line": false
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "button",
+                                    "args": {
+                                        "url": "/bot/avaApiSkillPost",
+                                        "header": {},
+                                        "post_data": {
+                                            "data": {
+                                                "reservation_id": "data['reservation_id']"
+                                            },
+                                            "next_skill": "CSCCancelReserveClinic"
+                                        },
+                                        "actionMessage": "請幫我取消預約診療所…"
+                                    },
+                                    "text": "取消預約",
+                                    "action": "apiPost",
+                                    "after_new_line": true
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "hr",
+                                    "text": "",
+                                    "after_new_line": true
+                                }
+                            }
+                        ],
+                        "response_data_path": "root['datas']"
+                    }
+                ]
+            }
+        }
+    ],
+    "show_msg": false,
+    "intention": "查詢診療所預約",
+    "show_post": false,
+    "description": "線上查詢診療所預約",
+    "system_prompt": "請查詢指定時間內的診療所預約",
+    "show_fill_record": true
+}

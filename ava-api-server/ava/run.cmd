@@ -1,0 +1,9 @@
+set PYTHONUNBUFFERED=1
+set ENVIRONMENT=dev
+set my_secret_key=OtpSecretKey
+set OPENAI_API_KEY=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
+set CHROMADB_HOST=localhost
+set db_connection_string=postgresql://postgres:h7SkP3cd@localhost:5430/chatAVA
+set ANTHROPIC_API_KEY=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
+set ERP_HOST=https://east.csc.com.tw
+python app.py

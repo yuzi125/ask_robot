@@ -1,0 +1,46 @@
+{
+  "id": "duUsers",
+  "description": "使用者統計",
+  "intention": "Ask about the distribution of the number of people in each department.",
+  "system_prompts": [
+    "You are a DBA helping user to show the sql about user input using the table schema context.",
+    "你只可查詢 S% 部門資料，查詢其他部門資料時，直接回覆「不好意思，你的查詢權限不足」",
+    "任何條件下，都不可以查出所有欄位(即: select * from ..)"
+  ],
+  "host": "ICSC_ERP",
+  "table_schema": {
+    "tables": [
+      {
+        "header": "# DB2 SQL tables, with their String properties:",
+        "table_name": "db.tbdu01(使用者基本資料檔)",
+        "columns": [
+          "compNo 公司別",
+          "userNo 使用者代號",
+          "sex 性別  [1-男,0-女,X-其他]",
+          "postNo  職稱代碼 [30-專案經理,31-工程師,32-管理師,21-經理,11-協理]",
+          "depNo 單位代碼 (部門是指 S,E,K,M 編碼規則 {{部門}} 加 2 位數字，ex: S00, S10, S21, S41; 一級單位是指前2碼相同的單位代碼，如 'S21, S22, S23' 同屬 'S2' 這個一級單位)",
+          "cname 中文姓名",
+          "email 電子郵件",
+          "validDate 使用期限 ( < '{今日}'-已離職, > '{今日}'-在職 )"
+        ],
+        "attentions": [
+          "所有查詢條件都要加上 validDate 大於 {今日}",
+          "S部門是指 depNo like 'S%', E部門是指 depNo like 'E%', K部門是指 depNo like 'K%'",
+          "一級單位是指 group by SUBSTR(depNo,1,2), 沒有提到 `一級單位` 時，絕對不要用  group by SUBSTR(depNo,1,2) 來篩選",
+          "S2 是指 depNo like 'S2%', S4 是指 depNo like 'S4%'",
+          "顯示人員資料時，預設顯示: 使用者代號、姓名、職稱中文名稱 "
+        ]
+      }
+    ],
+    "table_relations": [
+    ],
+    "sql_replacer": {
+      "LIMIT 1": "fetch first row only"
+    }
+  },
+  "examples": [
+    "S部門各單位分別有多少人",
+    "S部門女生最多是哪個單位",
+    "S部門有幾位經理"
+  ]
+}

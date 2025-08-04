@@ -1,0 +1,136 @@
+{
+    "id": "cscFormalDocument",
+    "tip": ["公文例稿: 弱掃", "弱掃的公文例稿", "給我弱掃的公文例稿"],
+    "host": "CSC_ERP",
+    "name": "中鋼公文例稿查詢",
+    "format": "json",
+    "schema": {
+        "id": "cscFormalDocument",
+        "examples": [
+            {
+                "input": "公文例稿: 弱掃",
+                "fields": {
+                    "queryText": "弱掃"
+                }
+            },
+            {
+                "input": "弱掃的公文例稿",
+                "fields": {
+                    "queryText": "弱掃"
+                }
+            },
+            {
+                "input": "給我弱掃的公文例稿",
+                "fields": {
+                    "queryText": "弱掃"
+                }
+            },
+            {
+                "input": "關於弱掃的公文例稿",
+                "fields": {
+                    "queryText": "弱掃"
+                }
+            },
+            {
+                "input": "產生一篇弱掃的公文例稿",
+                "fields": {
+                    "queryText": "弱掃"
+                }
+            }
+        ],
+        "parameters": [
+            {
+                "id": "queryText",
+                "label": "關鍵字",
+                "required": true,
+                "description": "公文例稿時要查詢的關鍵字",
+                "default_value": ""
+            }
+        ],
+        "description": "中鋼公文例稿的關鍵字查詢"
+    },
+    "actions": [
+        {
+            "type": "message",
+            "content": "為您查詢的結果:"
+        },
+        {
+            "url": "https://ezoag.csc.com.tw/kd/recommend/query",
+            "type": "api_call",
+            "message": "查詢成功",
+            "post_data": {
+                "userId": "{{_user.login_info.csc_sso.guid}",
+                "queryText": "{queryText}",
+                "queryOption": "1",
+                "userCompany": "{{_user.login_info.csc_sso.gcid}}",
+                "queryLimitCount": "5"
+            },
+            "content_type": "application/json",
+            "error_responses": {
+                "400": "Bad Request: 請確認您的請求參數是否正確。",
+                "401": "Unauthorized: 請確認您的身份驗證是否正確。",
+                "404": "Not Found: 未找到相應的資源。",
+                "500": "Internal Server Error: 伺服器發生錯誤，請稍後再試。"
+            },
+            "response_output_format": {
+                "type": "json",
+                "response_success": "{root['returnCode']==''}",
+                "response_data_path": "root['returnDocuments']",
+                "response_extract_nomatch": "無找到config對應的解析模式",
+                "response_extract_pattern_fail": [],
+                "response_extract_pattern_success": [
+                    {
+                        "return_body": [
+                            {
+                                "data": {
+                                    "tag": "br",
+                                    "text": "",
+                                    "after_new_line": true
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "html",
+                                    "text": "'<a href=\"' + data['docUrl'] + '\" 主旨: ' + info_msg(data['subject'], False) + '</a>'",
+                                    "after_new_line": true
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "html",
+                                    "text": "'說明(節錄): ' + data['description']",
+                                    "after_new_line": true
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "button",
+                                    "args": {
+                                        "value": "json.dumps({'docKey': data.get('docKey', '')})",
+                                        "post_function": "setAvaRecommendDocKey"
+                                    },
+                                    "text": "'選擇此文'",
+                                    "action": "postMessage",
+                                    "after_new_line": true
+                                }
+                            },
+                            {
+                                "data": {
+                                    "tag": "hr",
+                                    "text": "",
+                                    "after_new_line": true
+                                }
+                            }
+                        ],
+                        "response_data_path": "root['returnDocuments']"
+                    }
+                ]
+            }
+        }
+    ],
+    "show_msg": false,
+    "intention": "公文例稿查詢",
+    "show_post": false,
+    "description": "中鋼公文例稿查詢",
+    "system_prompt": ""
+}

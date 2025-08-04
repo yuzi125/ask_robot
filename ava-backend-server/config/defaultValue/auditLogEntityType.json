@@ -1,0 +1,317 @@
+[
+    {
+        "code": "CREATE_CRAWLER",
+        "name": "加入爬蟲站點",
+        "table_name": "crawler_synchronize",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "加入爬蟲站點"
+    },
+    {
+        "code": "CREATE_DATASET",
+        "name": "建立知識庫",
+        "table_name": "datasets",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "建立知識庫"
+    },
+    {
+        "code": "CREATE_EXPERT",
+        "name": "建立專家",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "建立專家"
+    },
+    {
+        "code": "CREATE_FORM",
+        "name": "建立表單",
+        "table_name": "form_configuration",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "CREATE_FORM"
+    },
+    {
+        "code": "CREATE_SKILL",
+        "name": "建立技能",
+        "table_name": "skill",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "建立技能"
+    },
+    {
+        "code": "CREATE_SEARCH_MODEL",
+        "name": "建立潤飾模組",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "建立潤飾模組"
+    },
+    {
+        "code": "CREATE_INTENTION_MODEL",
+        "name": "建立意圖模組",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "建立意圖模組"
+    },
+    {
+        "code": "CREATE_KOR_MODEL",
+        "name": "建立自然語言模組",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "建立自然語言模組"
+    },
+    {
+        "code": "CREATE_VOICE_MODEL",
+        "name": "建立語音模組",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "建立語音模組"
+    },
+    {
+        "code": "DELETE_CRAWLER",
+        "name": "刪除爬蟲(取消站點)",
+        "table_name": "crawler_synchronize",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "DELETE_CRAWLER"
+    },
+    {
+        "code": "DELETE_DATASET",
+        "name": "刪除知識庫",
+        "table_name": "datasets",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "刪除知識庫"
+    },
+    {
+        "code": "DELETE_DOCUMENT",
+        "name": "刪除文件",
+        "table_name": "upload_documents",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "刪除文件"
+    },
+    {
+        "code": "DELETE_EXPERT",
+        "name": "刪除專家",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "刪除專家"
+    },
+    {
+        "code": "DELETE_FORM",
+        "name": "刪除表單",
+        "table_name": "form_configuration",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "DELETE_FORM"
+    },
+    {
+        "code": "DELETE_SKILL",
+        "name": "刪除技能",
+        "table_name": "skill",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "DELETE_SKILL"
+    },
+    {
+        "code": "DELETE_SEARCH_MODEL",
+        "name": "刪除潤飾模組",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "刪除潤飾模組"
+    },
+    {
+        "code": "DELETE_INTENTION_MODEL",
+        "name": "刪除意圖模組",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "刪除意圖模組"
+    },
+    {
+        "code": "DELETE_KOR_MODEL",
+        "name": "刪除自然語言模組",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "刪除自然語言模組"
+    },
+    {
+        "code": "DELETE_VOICE_MODEL",
+        "name": "刪除語音模組",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "刪除語音模組"
+    },
+    {
+        "code": "UPDATE_CRAWLER",
+        "name": "更新爬蟲站點(立即同步)",
+        "table_name": "crawler_synchronize",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "更新爬蟲站點(立即同步)"
+    },
+    {
+        "code": "UPDATE_DATASET_CONFIG",
+        "name": "更新知識庫提示詞編排",
+        "table_name": "datasets",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "更新知識庫提示詞編排"
+    },
+    {
+        "code": "UPDATE_EXPERT_CONFIG",
+        "name": "更新專家共用參數與設定",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "更新專家共用參數與設定"
+    },
+    {
+        "code": "UPDATE_INTENTION_MODEL",
+        "name": "更新專家意圖模組",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "更新專家意圖模組"
+    },
+    {
+        "code": "UPDATE_KOR_MODEL",
+        "name": "更新專家自然語言模組",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "更新專家自然語言模組"
+    },
+    {
+        "code": "UPDATE_SEARCH_MODEL",
+        "name": "更新專家潤飾模組",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "更新專家潤飾模組"
+    },
+    {
+        "code": "UPDATE_VOICE_MODEL",
+        "name": "更新專家語音模組",
+        "table_name": "expert",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "更新專家語音模組"
+    },
+    {
+        "code": "UPDATE_FORM",
+        "name": "更新表單",
+        "table_name": "form_configuration",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "UPDATE_FORM"
+    },
+    {
+        "code": "UPDATE_SKILL",
+        "name": "更新技能",
+        "table_name": "skill",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "UPDATE_SKILL"
+    },
+    {
+        "code": "DISABLE_CRAWLER",
+        "name": "禁用爬蟲站點",
+        "table_name": "crawler_synchronize",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "禁用爬蟲站點"
+    },
+    {
+        "code": "DISABLE_CRAWLER_CONTENT",
+        "name": "禁用爬蟲內容",
+        "table_name": "crawler_synchronize",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "禁用爬蟲內容"
+    },
+    {
+        "code": "DISABLE_DOCUMENT",
+        "name": "禁用文件",
+        "table_name": "upload_documents",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "禁用文件"
+    },
+    {
+        "code": "ENABLE_CRAWLER",
+        "name": "啟用爬蟲站點",
+        "table_name": "crawler_synchronize",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "啟用爬蟲站點"
+    },
+    {
+        "code": "ENABLE_CRAWLER_CONTENT",
+        "name": "啟用爬蟲內容",
+        "table_name": "crawler_synchronize",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "啟用爬蟲內容"
+    },
+    {
+        "code": "ENABLE_DOCUMENT",
+        "name": "啟用文件",
+        "table_name": "upload_documents",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "啟用文件"
+    },
+    {
+        "code": "UPLOAD_DOCUMENT",
+        "name": "上傳文件",
+        "table_name": "upload_documents",
+        "is_active": true,
+        "create_time": "2025-03-20T08:57:12.051Z",
+        "update_time": "2025-03-20T08:57:12.051Z",
+        "remark": "上傳文件"
+    }
+]

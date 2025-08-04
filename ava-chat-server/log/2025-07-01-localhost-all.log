@@ -1,0 +1,33 @@
+2025-07-01 08:37:19 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-07-01 08:37:20 - printf.js - INFO - SSO_TYPE: 
+2025-07-01 08:37:24 - printf.js - INFO - server is connection at http://localhost:8081
+2025-07-01 08:37:24 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-07-01 08:37:24 - printf.js - ERROR - Redis 客戶端錯誤:
+2025-07-01 08:37:24 - printf.js - INFO - Redis 客戶端連接成功
+2025-07-01 08:37:24 - printf.js - INFO - Redis 客戶端連接成功
+2025-07-01 08:37:24 - printf.js - INFO - 所有 Redis 客戶端已連接
+2025-07-01 08:45:49 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-07-01 08:45:51 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-07-01 08:45:51 - printf.js - INFO - userInfo, extra={
+  "uid": "ad77c363-25ea-4537-b3b8-c4f3681299d8",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}
+2025-07-01 08:45:57 - printf.js - INFO - expertSkillRows []
+2025-07-01 08:45:58 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-07-01 08:45:58 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-07-01 08:45:58 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-07-01 08:45:58 - printf.js - INFO - bot.getIconList:, extra={
+  "expertId": "23"
+}
+2025-07-01 08:45:58 - printf.js - INFO - userInfo, extra={
+  "uid": "ad77c363-25ea-4537-b3b8-c4f3681299d8",
+  "nickname": "遊客",
+  "user_no": "guest",
+  "sex": "1",
+  "avatar": null,
+  "user_type": "guest"
+}

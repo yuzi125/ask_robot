@@ -1,0 +1,188 @@
+{
+    "id": "cscQueryReservedMeetingRoom",
+    "tip": [
+      "查詢已預約會議室",
+      "查詢我預約的會議室",
+      "取消預約會議室"
+    ],
+    "host": "CSC_ERP",
+    "name": "中鋼查詢已預約會議室",
+    "format": "json",
+    "schema": {
+      "id": "cscQueryReservedMeetingRoom",
+      "examples": [
+        {
+          "input": "查詢已預約會議室",
+          "fields": {
+            "end_date": "",
+            "start_date": ""
+          }
+        },
+        {
+          "input": "取消已預約會議室",
+          "fields": {
+            "end_date": "",
+            "start_date": ""
+          }
+        },
+        {
+          "input": "取消預約的會議室",
+          "fields": {
+            "end_date": "",
+            "start_date": ""
+          }
+        },
+        {
+          "input": "取消會議室",
+          "fields": {
+            "end_date": "",
+            "start_date": ""
+          }
+        },
+        {
+          "input": "查詢 5/1~5/20 預約過的會議室",
+          "fields": {
+            "end_date": "5/20",
+            "start_date": "5/1"
+          }
+        },
+        {
+          "input": "查詢 2024/05/1~5/20 預約過的會議室",
+          "fields": {
+            "end_date": "2024/5/20",
+            "start_date": "2024/5/1"
+          }
+        },
+        {
+          "input": "查詢 2024/05/1~2024/5/20 預約過的會議室",
+          "fields": {
+            "end_date": "2024/5/20",
+            "start_date": "2024/5/1"
+          }
+        }
+      ],
+      "parameters": [
+        {
+          "id": "start_date",
+          "label": "開始日期",
+          "format": "date",
+          "required": false,
+          "description": "開始日期 Below, one or more relative date terms such as 'tomorrow,' 'the day after tomorrow,' 'next Monday,' etc., will be provided. Based on today's date ({now}), you need to calculate the specific dates corresponding to these relative date terms. If a term cannot be parsed, please return today's date instead, and do not include any additional explanation, only return the dates in the 'YYYYMMDD' format.",
+          "default_value": "今天"
+        },
+        {
+          "id": "end_date",
+          "label": "結束日期",
+          "format": "date",
+          "required": false,
+          "description": "結束日期 Below, one or more relative date terms such as 'tomorrow,' 'the day after tomorrow,' 'next Monday,' etc., will be provided. Based on today's date ({now}), you need to calculate the specific dates corresponding to these relative date terms. If a term cannot be parsed, please return today's date instead, and do not include any additional explanation, only return the dates in the 'YYYYMMDD' format.",
+          "default_value": "三個月後"
+        }
+      ],
+      "description": "查詢會議室",
+      "code_mapping": {}
+    },
+    "actions": [
+      {
+        "type": "message",
+        "content": "您預約的會議室:"
+      },
+      {
+        "url": "{_host}/UA/UAAVA/reserveHistory",
+        "type": "api_call",
+        "message": "查詢成功",
+        "post_data": {
+          "userId": "{{_user.login_info.csc_sso.gcid}}{{_user.login_info.csc_sso.guid}}",
+          "end_date": "{end_date}",
+          "start_date": "{start_date}"
+        },
+        "content_type": "application/json",
+        "response_output_format": {
+          "type": "json",
+          "response_success": "{root['success']==True}",
+          "response_extract_nomatch": "無找到config對應的解析模式",
+          "response_extract_pattern_fail": [],
+          "response_extract_pattern_success": [
+            {
+              "return_body": [
+                {
+                  "data": {
+                    "tag": "br",
+                    "text": "",
+                    "after_new_line": true
+                  }
+                },
+                {
+                  "data": {
+                    "tag": "html",
+                    "text": "f'日期: {info_msg(data['date'],False)}'",
+                    "after_new_line": false
+                  }
+                },
+                {
+                  "data": {
+                    "tag": "html",
+                    "text": "f'時間: {info_msg(f'{data['start_time']}~{data['end_time']}',False)}'",
+                    "after_new_line": false
+                  }
+                },
+                {
+                  "data": {
+                    "tag": "br",
+                    "text": "",
+                    "after_new_line": true
+                  }
+                },
+                {
+                  "data": {
+                    "tag": "html",
+                    "text": "f'地點: {info_msg(data['title'],False)}'",
+                    "after_new_line": false
+                  }
+                },
+                {
+                  "data": {
+                    "tag": "html",
+                    "text": "f'主題: {info_msg(data['topic'],False)}'",
+                    "after_new_line": false
+                  }
+                },
+                {
+                  "data": {
+                    "tag": "button",
+                    "args": {
+                      "url": "/bot/avaApiSkillPost",
+                      "header": {},
+                      "post_data": {
+                        "data": {
+                          "reservation_id": "data['reservation_id']"
+                        },
+                        "next_skill": "CSCCancelReserveMeeting"
+                      },
+                      "actionMessage": "請幫我取消預約…"
+                    },
+                    "text": "f'取消預約'",
+                    "action": "apiPost",
+                    "after_new_line": true
+                  }
+                },
+                {
+                  "data": {
+                    "tag": "hr",
+                    "text": "",
+                    "after_new_line": true
+                  }
+                }
+              ],
+              "response_data_path": "root['datas']"
+            }
+          ]
+        }
+      }
+    ],
+    "show_msg": false,
+    "intention": "查詢已預約會議室",
+    "show_post": false,
+    "description": "查詢使用者預約的會議室 ",
+    "system_prompt": "請查詢指定時間內的會議室"
+  }

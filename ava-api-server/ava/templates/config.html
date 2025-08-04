@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Property Editor</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h1>設定環境參數</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <h3 style="color: red">{{message}}</h3>
+        </div>
+    </div>
+    <form name="form1" method="post" action="/mgt">
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="form-group row">
+                    <label for="MAS_COOKIES" class="col-sm-2 col-form-label">MAS</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="MAS_COOKIES" name="MAS_COOKIES">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="TEST_COOKIES" class="col-sm-2 col-form-label">TEST</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="TEST_COOKIES" name="TEST_COOKIES" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="PROD" class="col-sm-2 col-form-label">PROD</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" id="PROD" name="PROD_COOKIES" />
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <input type="hidden" name="_action" value="save">
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<!-- Include Bootstrap JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>

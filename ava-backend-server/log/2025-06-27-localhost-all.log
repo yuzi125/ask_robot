@@ -1,0 +1,1347 @@
+2025-06-27 09:23:41 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-27 09:23:41 - printf.js - INFO - redis host: localhost
+2025-06-27 09:25:45 - printf.js - INFO - server is connection at http://localhost:8082
+2025-06-27 09:25:45 - printf.js - ERROR - Could not establish a connection with redis. Error: Connection timeout
+2025-06-27 09:25:45 - printf.js - INFO - Connected to redis successfully
+2025-06-27 09:25:45 - printf.js - INFO - {
+  "key": "is_db_ready",
+  "value": "1"
+}
+2025-06-27 09:25:45 - printf.js - INFO - 資料庫已準備
+2025-06-27 09:25:45 - printf.js - INFO - sync Settings table completed.
+2025-06-27 09:25:46 - printf.js - INFO - Database settings initialization completed.
+2025-06-27 09:25:46 - printf.js - INFO - All models were synchronized successfully.
+2025-06-27 09:25:46 - printf.js - INFO - FeedbackOptions 已有資料，不需要插入預設值。
+2025-06-27 09:25:46 - printf.js - INFO - ModelList 已有資料，不需要插入預設值。
+2025-06-27 09:25:46 - printf.js - INFO - CrawlerType 已有資料，不需要插入預設值。
+2025-06-27 09:25:46 - printf.js - INFO - Crawler 已有資料，不需要插入預設值。
+2025-06-27 09:25:46 - printf.js - INFO - LoginType 已有資料，不需要插入預設值。
+2025-06-27 09:25:46 - printf.js - INFO - DefaultPrompt 已有資料，不需要插入預設值。
+2025-06-27 09:25:47 - printf.js - INFO - UserPasswordHistory 預設值插入成功。
+2025-06-27 09:25:47 - printf.js - INFO - CronTask 已有資料，不需要插入預設值。
+2025-06-27 09:25:47 - printf.js - INFO - ChatTheme 已有資料，不需要插入預設值。
+2025-06-27 09:25:47 - printf.js - INFO - AuditLogEntityType 已有資料，不需要插入預設值。
+2025-06-27 09:25:47 - printf.js - INFO - AuditLogActionType 已有資料，不需要插入預設值。
+2025-06-27 09:25:47 - printf.js - INFO - taskScheduler 子進程啟動，PID: 65048
+2025-06-27 09:25:47 - printf.js - INFO - 已啟動 taskScheduler
+2025-06-27 09:25:47 - printf.js - INFO - taskExecutor 子進程啟動，PID: 9252
+2025-06-27 09:25:47 - printf.js - INFO - 已啟動 taskExecutor
+2025-06-27 09:25:47 - printf.js - WARN - COMMIT_SHA 或 BRANCH_NAME 環境變數未設置，跳過版本插入操作
+2025-06-27 09:25:51 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-27 09:25:51 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-27 09:25:53 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:25:53 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:25:53 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:25:53 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-27 09:25:55 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-27 09:26:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:26:07 - printf.js - INFO - Scheduling task: 檢查過期文件 (6eaffa1a-b3c9-48a5-ae80-17c2e71d71be) to run every 15000 seconds.
+2025-06-27 09:26:07 - printf.js - INFO - Scheduling task: 清除快取資料 (3108e53f-1f65-46b3-80ae-b96c4fc5725f) to run every 600 seconds.
+2025-06-27 09:26:07 - printf.js - INFO - Scheduling task: 同步爬蟲 (1c5d5c77-cae2-4e04-b0dc-1b73d38ca203) to run every 10 seconds.
+2025-06-27 09:26:07 - printf.js - INFO - Scheduling task: 刪除爬蟲檔案 (6543de24-4b94-4b76-984f-092ee8e8adf2) to run every 7200 seconds.
+2025-06-27 09:26:07 - printf.js - INFO - Scheduling task: 刪除爬蟲附件檔案 (5edb02d6-0190-4734-8a4d-7f83e5ad1c12) to run every 7000 seconds.
+2025-06-27 09:26:07 - printf.js - INFO - Scheduling task: 同步爬蟲附件 (9ccb114b-33be-4f92-9c1b-b7015fee8280) to run every 20 seconds.
+2025-06-27 09:26:07 - printf.js - INFO - Task scheduler setup completed.
+2025-06-27 09:26:07 - printf.js - INFO - taskScheduler 已成功啟動
+2025-06-27 09:26:10 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-27 09:26:10 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-27 09:26:11 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:26:11 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:26:11 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:26:11 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-27 09:26:12 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-27 09:26:14 - printf.js - INFO - Task executor started.
+2025-06-27 09:26:14 - printf.js - INFO - 排程每 5 秒執行一次任務
+2025-06-27 09:26:19 - printf.js - INFO - taskExecutor 已成功啟動
+2025-06-27 09:26:20 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:26:27 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:26:28 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:26:28 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-27 09:26:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "384MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-27 09:26:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "384MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-27 09:26:47 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:27:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:27:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:27:14.664Z
+2025-06-27 09:27:27 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:27:43 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:27:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "383MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-27 09:27:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "383MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-27 09:27:47 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:28:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:28:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:28:14.667Z
+2025-06-27 09:28:21 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:28:22 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:28:22 - printf.js - INFO - crawlerFastAPIController.getCrawlerList icsc-admin 管理員用帳號
+2025-06-27 09:28:23 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:28:23 - printf.js - INFO - crawlerFastAPIController.getCrawlerSiteConfig icsc-admin 管理員用帳號
+2025-06-27 09:28:27 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:28:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "304MB",
+  "heapTotal": "98MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:28:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "304MB",
+  "heapTotal": "98MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:28:47 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:29:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:29:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:29:14.681Z
+2025-06-27 09:29:27 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:29:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "129MB",
+  "heapTotal": "98MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:29:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "129MB",
+  "heapTotal": "98MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:29:47 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:30:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:30:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:30:14.683Z
+2025-06-27 09:30:27 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:30:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "129MB",
+  "heapTotal": "98MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:30:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "129MB",
+  "heapTotal": "98MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:30:47 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:31:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:31:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:31:14.685Z
+2025-06-27 09:31:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "129MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:31:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "129MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:32:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:32:14.695Z
+2025-06-27 09:32:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "122MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:32:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "122MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:33:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:33:14.702Z
+2025-06-27 09:33:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "122MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:33:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "122MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:34:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:34:14.717Z
+2025-06-27 09:34:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "77MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:34:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "77MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:35:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:35:14.727Z
+2025-06-27 09:35:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "77MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:35:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "77MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:36:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:36:14.741Z
+2025-06-27 09:36:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "77MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:36:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "77MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:37:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:37:14.751Z
+2025-06-27 09:37:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "77MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:37:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "77MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:38:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:38:14.759Z
+2025-06-27 09:38:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "77MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:38:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "77MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:39:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:39:14.771Z
+2025-06-27 09:39:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:39:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:40:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:40:14.781Z
+2025-06-27 09:40:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "97MB",
+  "heapUsed": "92MB"
+}
+2025-06-27 09:40:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:41:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:41:14.784Z
+2025-06-27 09:41:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:41:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:42:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:42:14.800Z
+2025-06-27 09:42:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:42:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:43:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:43:14.811Z
+2025-06-27 09:43:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:43:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:44:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:44:14.815Z
+2025-06-27 09:44:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:44:34 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:44:34 - printf.js - INFO - crawlerFastAPIController.getCrawlerSiteConfig icsc-admin 管理員用帳號
+2025-06-27 09:44:40 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:44:40 - printf.js - INFO - crawlerFastAPIController.getCrawlerTemplateConfig icsc-admin 管理員用帳號
+2025-06-27 09:44:42 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:44:42 - printf.js - INFO - crawlerFastAPIController.getCrawlerSite icsc-admin 管理員用帳號
+2025-06-27 09:44:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "47MB",
+  "heapTotal": "99MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:44:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "47MB",
+  "heapTotal": "99MB",
+  "heapUsed": "91MB"
+}
+2025-06-27 09:45:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:45:14.818Z
+2025-06-27 09:45:36 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:45:36 - printf.js - INFO - expertController.getExpert icsc-admin 管理員用帳號
+2025-06-27 09:45:46 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:45:46 - printf.js - INFO - crawlerFastAPIController.getCrawlerSiteConfig icsc-admin 管理員用帳號
+2025-06-27 09:45:46 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:45:46 - printf.js - INFO - crawlerFastAPIController.getCrawlerList icsc-admin 管理員用帳號
+2025-06-27 09:45:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-27 09:45:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-27 09:45:48 - printf.js - INFO - expertController.getExpert icsc-admin 管理員用帳號
+2025-06-27 09:45:54 - printf.js - INFO - systemController.getSettings icsc-admin 管理員用帳號
+2025-06-27 09:45:54 - printf.js - INFO - userController.getInfo icsc-admin 管理員用帳號
+2025-06-27 09:45:54 - printf.js - INFO - (getUserPermissions)userNo icsc-admin
+2025-06-27 09:45:55 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:45:56 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:45:56 - printf.js - INFO - crawlerFastAPIController.getCrawlerSiteConfig icsc-admin 管理員專用帳號
+2025-06-27 09:45:56 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:45:56 - printf.js - INFO - crawlerFastAPIController.getCrawlerList icsc-admin 管理員專用帳號
+2025-06-27 09:46:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:46:14.820Z
+2025-06-27 09:46:22 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:46:22 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:46:22 - printf.js - INFO - crawlerFastAPIController.getCrawlerSiteConfig icsc-admin 管理員專用帳號
+2025-06-27 09:46:22 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:46:22 - printf.js - INFO - crawlerFastAPIController.getCrawlerSite icsc-admin 管理員專用帳號
+2025-06-27 09:46:24 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:46:24 - printf.js - INFO - crawlerFastAPIController.getCrawlerTemplateConfig icsc-admin 管理員專用帳號
+2025-06-27 09:46:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:46:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:47:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:47:14.834Z
+2025-06-27 09:47:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-27 09:47:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-27 09:48:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:48:14.846Z
+2025-06-27 09:48:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-27 09:48:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "50MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-27 09:49:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:49:14.855Z
+2025-06-27 09:49:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "98MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:49:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "98MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:50:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:50:14.867Z
+2025-06-27 09:50:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "98MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:50:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "98MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:50:49 - printf.js - INFO - systemController.getSettings icsc-admin 管理員專用帳號
+2025-06-27 09:50:49 - printf.js - INFO - (getUserPermissions)userNo icsc-admin
+2025-06-27 09:50:50 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:50:50 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:50:50 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-27 09:50:50 - printf.js - INFO - userController.getInfo icsc-admin 管理員專用帳號
+2025-06-27 09:50:50 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:50:50 - printf.js - INFO - crawlerFastAPIController.getCrawlerSiteConfig icsc-admin 管理員專用帳號
+2025-06-27 09:50:50 - printf.js - INFO - user_no, user_type, login_type icsc-admin member system
+2025-06-27 09:50:50 - printf.js - INFO - crawlerFastAPIController.getCrawlerList icsc-admin 管理員專用帳號
+2025-06-27 09:51:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:51:14.873Z
+2025-06-27 09:51:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:51:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:52:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:52:14.878Z
+2025-06-27 09:52:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:52:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:53:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:53:14.887Z
+2025-06-27 09:53:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:53:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:54:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:54:14.896Z
+2025-06-27 09:54:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:54:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:55:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:55:14.900Z
+2025-06-27 09:55:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:55:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:56:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:56:14.915Z
+2025-06-27 09:56:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:56:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:57:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:57:14.918Z
+2025-06-27 09:57:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:57:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:58:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:58:14.933Z
+2025-06-27 09:58:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:58:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:59:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T01:59:14.939Z
+2025-06-27 09:59:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 09:59:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:00:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:00:14.950Z
+2025-06-27 10:00:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:00:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:01:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:01:14.965Z
+2025-06-27 10:01:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:01:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:02:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:02:14.975Z
+2025-06-27 10:02:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:02:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:03:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:03:14.979Z
+2025-06-27 10:03:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:03:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:04:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:04:14.982Z
+2025-06-27 10:04:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:04:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:05:14 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:05:14.990Z
+2025-06-27 10:05:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:05:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:06:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:06:15.001Z
+2025-06-27 10:06:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:06:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:07:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:07:15.017Z
+2025-06-27 10:07:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:07:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:08:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:08:15.023Z
+2025-06-27 10:08:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:08:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:09:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:09:15.035Z
+2025-06-27 10:09:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:09:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:10:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:10:15.038Z
+2025-06-27 10:10:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:10:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:11:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:11:15.054Z
+2025-06-27 10:11:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:11:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:12:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:12:15.065Z
+2025-06-27 10:12:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:12:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:13:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:13:15.071Z
+2025-06-27 10:13:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:13:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:14:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:14:15.085Z
+2025-06-27 10:14:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "45MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:14:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "45MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:15:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:15:15.097Z
+2025-06-27 10:15:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "45MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:15:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "45MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:16:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:16:15.112Z
+2025-06-27 10:16:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "45MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:16:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "45MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:17:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:17:15.125Z
+2025-06-27 10:17:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "45MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:17:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "45MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:18:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:18:15.140Z
+2025-06-27 10:18:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "45MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:18:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "45MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:19:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:19:15.156Z
+2025-06-27 10:19:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:19:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:20:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:20:15.157Z
+2025-06-27 10:20:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:20:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:21:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:21:15.167Z
+2025-06-27 10:21:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:21:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:22:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:22:15.181Z
+2025-06-27 10:22:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:22:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:23:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:23:15.191Z
+2025-06-27 10:23:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:23:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:24:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:24:15.198Z
+2025-06-27 10:24:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:24:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:25:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:25:15.211Z
+2025-06-27 10:25:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:25:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:26:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:26:15.226Z
+2025-06-27 10:26:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:26:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:27:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:27:15.232Z
+2025-06-27 10:27:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:27:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:28:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:28:15.241Z
+2025-06-27 10:28:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:28:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:29:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:29:15.257Z
+2025-06-27 10:29:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:29:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:30:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:30:15.267Z
+2025-06-27 10:30:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:30:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:31:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:31:15.273Z
+2025-06-27 10:31:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:31:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:32:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:32:15.279Z
+2025-06-27 10:32:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:32:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:33:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:33:15.285Z
+2025-06-27 10:33:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:33:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:34:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:34:15.295Z
+2025-06-27 10:34:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:34:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:35:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:35:15.296Z
+2025-06-27 10:35:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:35:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:36:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:36:15.298Z
+2025-06-27 10:36:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:36:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:37:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:37:15.311Z
+2025-06-27 10:37:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:37:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:38:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:38:15.317Z
+2025-06-27 10:38:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:38:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:39:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:39:15.321Z
+2025-06-27 10:39:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:39:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:40:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:40:15.329Z
+2025-06-27 10:40:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:40:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:41:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:41:15.341Z
+2025-06-27 10:41:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:41:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:42:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:42:15.349Z
+2025-06-27 10:42:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:42:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:43:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:43:15.359Z
+2025-06-27 10:43:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:43:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:44:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:44:15.361Z
+2025-06-27 10:44:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:44:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:45:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:45:15.370Z
+2025-06-27 10:45:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:45:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:46:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:46:15.381Z
+2025-06-27 10:46:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:46:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:47:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:47:15.389Z
+2025-06-27 10:47:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:47:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:48:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:48:15.404Z
+2025-06-27 10:48:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:48:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:49:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:49:15.415Z
+2025-06-27 10:49:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:49:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:50:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:50:15.424Z
+2025-06-27 10:50:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:50:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:51:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:51:15.438Z
+2025-06-27 10:51:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:51:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:52:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:52:15.453Z
+2025-06-27 10:52:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:52:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:53:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:53:15.459Z
+2025-06-27 10:53:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:53:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:54:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:54:15.468Z
+2025-06-27 10:54:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:54:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "33MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:55:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:55:15.473Z
+2025-06-27 10:55:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:55:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:56:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:56:15.473Z
+2025-06-27 10:56:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:56:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:57:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:57:15.492Z
+2025-06-27 10:57:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:57:47 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:58:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:58:15.502Z
+2025-06-27 10:58:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:58:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:59:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T02:59:15.503Z
+2025-06-27 10:59:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 10:59:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:00:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:00:15.518Z
+2025-06-27 11:00:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:00:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:01:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:01:15.521Z
+2025-06-27 11:01:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:01:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:02:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:02:15.525Z
+2025-06-27 11:02:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:02:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:03:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:03:15.527Z
+2025-06-27 11:03:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:03:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "32MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:04:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:04:15.537Z
+2025-06-27 11:04:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:04:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:05:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:05:15.540Z
+2025-06-27 11:05:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:05:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:06:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:06:15.555Z
+2025-06-27 11:06:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:06:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:07:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:07:15.571Z
+2025-06-27 11:07:47 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:07:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:08:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:08:15.589Z
+2025-06-27 11:08:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:08:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:09:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:09:15.603Z
+2025-06-27 11:09:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:09:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:10:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:10:15.608Z
+2025-06-27 11:10:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:10:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:11:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:11:15.608Z
+2025-06-27 11:11:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:11:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:12:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:12:15.622Z
+2025-06-27 11:12:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:12:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:13:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:13:15.625Z
+2025-06-27 11:13:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:13:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:14:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:14:15.634Z
+2025-06-27 11:14:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:14:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:15:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:15:15.644Z
+2025-06-27 11:15:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:15:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:16:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:16:15.656Z
+2025-06-27 11:16:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:16:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "34MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-27 11:17:15 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-27T03:17:15.666Z
+2025-06-27 11:17:36 - printf.js - INFO - Task executor is exiting, heartbeat stopped.
+2025-06-27 11:17:36 - printf.js - ERROR - taskExecutor 子進程已關閉，退出碼: 129
+2025-06-27 11:17:36 - printf.js - INFO - taskExecutor 運行超過 60000 毫秒，重置重試計數器
+2025-06-27 11:17:36 - printf.js - INFO - 嘗試第 1 次重啟 taskExecutor...
+2025-06-27 11:17:36 - printf.js - ERROR - taskScheduler 子進程已關閉，退出碼: 129
+2025-06-27 11:17:36 - printf.js - INFO - taskScheduler 運行超過 60000 毫秒，重置重試計數器
+2025-06-27 11:17:36 - printf.js - INFO - 嘗試第 1 次重啟 taskScheduler...
+2025-06-27 11:17:36 - printf.js - INFO - Main process exiting...

@@ -1,0 +1,9 @@
+[babeldoc]
+translate-table-text = true
+qps = 16
+watermark-output-mode = "no_watermark"
+
+openai = true
+openai-model = "gpt-4o"
+openai-api-key = "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"
+openai-base-url = "https://api.openai.com/v1"

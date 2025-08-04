@@ -1,0 +1,5 @@
+node_modules
+uploads/crawler/*
+uploads/doc/*
+logs/*
+node_logs/*

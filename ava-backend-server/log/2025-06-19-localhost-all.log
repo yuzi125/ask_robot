@@ -1,0 +1,4272 @@
+2025-06-19 10:41:34 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 10:41:34 - printf.js - INFO - redis host: localhost
+2025-06-19 10:42:54 - printf.js - INFO - server is connection at http://localhost:8082
+2025-06-19 10:42:54 - printf.js - ERROR - Could not establish a connection with redis. Error: Connection timeout
+2025-06-19 10:42:54 - printf.js - ERROR - ❌ MongoDB 連線失敗： Socket 'connect' timed out after 63501ms (connectTimeoutMS: 60000)
+2025-06-19 10:42:54 - printf.js - INFO - Connected to redis successfully
+2025-06-19 10:42:55 - printf.js - INFO - {
+  "key": "is_db_ready",
+  "value": "1"
+}
+2025-06-19 10:42:55 - printf.js - INFO - 資料庫已準備
+2025-06-19 10:42:55 - printf.js - INFO - sync Settings table completed.
+2025-06-19 10:42:55 - printf.js - INFO - Database settings initialization completed.
+2025-06-19 10:42:56 - printf.js - INFO - All models were synchronized successfully.
+2025-06-19 10:42:56 - printf.js - INFO - FeedbackOptions 已有資料，不需要插入預設值。
+2025-06-19 10:42:56 - printf.js - INFO - ModelList 已有資料，不需要插入預設值。
+2025-06-19 10:42:56 - printf.js - INFO - CrawlerType 已有資料，不需要插入預設值。
+2025-06-19 10:42:56 - printf.js - INFO - Crawler 已有資料，不需要插入預設值。
+2025-06-19 10:42:56 - printf.js - INFO - LoginType 已有資料，不需要插入預設值。
+2025-06-19 10:42:56 - printf.js - INFO - DefaultPrompt 已有資料，不需要插入預設值。
+2025-06-19 10:42:56 - printf.js - INFO - UserPasswordHistory 預設值插入成功。
+2025-06-19 10:42:56 - printf.js - INFO - CronTask 已有資料，不需要插入預設值。
+2025-06-19 10:42:56 - printf.js - INFO - ChatTheme 已有資料，不需要插入預設值。
+2025-06-19 10:42:56 - printf.js - INFO - AuditLogEntityType 已有資料，不需要插入預設值。
+2025-06-19 10:42:56 - printf.js - INFO - AuditLogActionType 已有資料，不需要插入預設值。
+2025-06-19 10:42:56 - printf.js - INFO - taskScheduler 子進程啟動，PID: 29956
+2025-06-19 10:42:56 - printf.js - INFO - 已啟動 taskScheduler
+2025-06-19 10:42:57 - printf.js - INFO - taskExecutor 子進程啟動，PID: 15748
+2025-06-19 10:42:57 - printf.js - INFO - 已啟動 taskExecutor
+2025-06-19 10:42:57 - printf.js - WARN - COMMIT_SHA 或 BRANCH_NAME 環境變數未設置，跳過版本插入操作
+2025-06-19 10:43:13 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:13 - printf.js - INFO - Scheduling task: 檢查過期文件 (6eaffa1a-b3c9-48a5-ae80-17c2e71d71be) to run every 15000 seconds.
+2025-06-19 10:43:13 - printf.js - INFO - Scheduling task: 清除快取資料 (3108e53f-1f65-46b3-80ae-b96c4fc5725f) to run every 600 seconds.
+2025-06-19 10:43:13 - printf.js - INFO - Scheduling task: 同步爬蟲 (1c5d5c77-cae2-4e04-b0dc-1b73d38ca203) to run every 10 seconds.
+2025-06-19 10:43:13 - printf.js - INFO - Scheduling task: 刪除爬蟲檔案 (6543de24-4b94-4b76-984f-092ee8e8adf2) to run every 7200 seconds.
+2025-06-19 10:43:13 - printf.js - INFO - Scheduling task: 刪除爬蟲附件檔案 (5edb02d6-0190-4734-8a4d-7f83e5ad1c12) to run every 7000 seconds.
+2025-06-19 10:43:13 - printf.js - INFO - Scheduling task: 同步爬蟲附件 (9ccb114b-33be-4f92-9c1b-b7015fee8280) to run every 20 seconds.
+2025-06-19 10:43:13 - printf.js - INFO - Task scheduler setup completed.
+2025-06-19 10:43:13 - printf.js - INFO - taskScheduler 已成功啟動
+2025-06-19 10:43:17 - printf.js - INFO - Task executor started.
+2025-06-19 10:43:17 - printf.js - INFO - 排程每 5 秒執行一次任務
+2025-06-19 10:43:22 - printf.js - INFO - taskExecutor 已成功啟動
+2025-06-19 10:43:22 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-19 10:43:22 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 10:43:23 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:23 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:23 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:23 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:23 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-19 10:43:24 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 10:43:28 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:43:28 - printf.js - INFO - modelController.getModelListByModeType guest 遊客
+2025-06-19 10:43:28 - printf.js - INFO - modelController.getModelListByModeType: , extra={
+  "modeType": "embedding"
+}
+2025-06-19 10:43:33 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:53 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:43:56 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "384MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 10:43:57 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "384MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 10:44:13 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:44:17 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:44:17.451Z
+2025-06-19 10:44:33 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:44:53 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:44:56 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "385MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 10:44:57 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "385MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 10:45:13 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:45:17 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:45:17.465Z
+2025-06-19 10:45:33 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:45:53 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:45:56 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "385MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 10:45:57 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "385MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 10:46:14 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:46:17 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:46:17.466Z
+2025-06-19 10:46:33 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:46:38 - printf.js - INFO - Task executor is exiting, heartbeat stopped.
+2025-06-19 10:46:38 - printf.js - INFO - Main process exiting...
+2025-06-19 10:47:38 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 10:47:38 - printf.js - INFO - redis host: localhost
+2025-06-19 10:49:13 - printf.js - INFO - server is connection at http://localhost:8082
+2025-06-19 10:49:13 - printf.js - ERROR - Could not establish a connection with redis. Error: Connection timeout
+2025-06-19 10:49:13 - printf.js - ERROR - ❌ MongoDB 連線失敗： Socket 'connect' timed out after 74175ms (connectTimeoutMS: 60000)
+2025-06-19 10:49:13 - printf.js - INFO - Connected to redis successfully
+2025-06-19 10:49:13 - printf.js - INFO - {
+  "key": "is_db_ready",
+  "value": "1"
+}
+2025-06-19 10:49:13 - printf.js - INFO - 資料庫已準備
+2025-06-19 10:49:14 - printf.js - INFO - sync Settings table completed.
+2025-06-19 10:49:14 - printf.js - INFO - Database settings initialization completed.
+2025-06-19 10:49:14 - printf.js - INFO - All models were synchronized successfully.
+2025-06-19 10:49:14 - printf.js - INFO - FeedbackOptions 已有資料，不需要插入預設值。
+2025-06-19 10:49:14 - printf.js - INFO - ModelList 已有資料，不需要插入預設值。
+2025-06-19 10:49:14 - printf.js - INFO - CrawlerType 已有資料，不需要插入預設值。
+2025-06-19 10:49:14 - printf.js - INFO - Crawler 已有資料，不需要插入預設值。
+2025-06-19 10:49:14 - printf.js - INFO - LoginType 已有資料，不需要插入預設值。
+2025-06-19 10:49:14 - printf.js - INFO - DefaultPrompt 已有資料，不需要插入預設值。
+2025-06-19 10:49:15 - printf.js - INFO - UserPasswordHistory 預設值插入成功。
+2025-06-19 10:49:15 - printf.js - INFO - CronTask 已有資料，不需要插入預設值。
+2025-06-19 10:49:15 - printf.js - INFO - ChatTheme 已有資料，不需要插入預設值。
+2025-06-19 10:49:15 - printf.js - INFO - AuditLogEntityType 已有資料，不需要插入預設值。
+2025-06-19 10:49:15 - printf.js - INFO - AuditLogActionType 已有資料，不需要插入預設值。
+2025-06-19 10:49:15 - printf.js - INFO - taskScheduler 子進程啟動，PID: 29956
+2025-06-19 10:49:15 - printf.js - INFO - 已啟動 taskScheduler
+2025-06-19 10:49:15 - printf.js - INFO - taskExecutor 子進程啟動，PID: 5384
+2025-06-19 10:49:15 - printf.js - INFO - 已啟動 taskExecutor
+2025-06-19 10:49:15 - printf.js - WARN - COMMIT_SHA 或 BRANCH_NAME 環境變數未設置，跳過版本插入操作
+2025-06-19 10:49:27 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:49:27 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:49:32 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-19 10:49:32 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 10:49:32 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-19 10:49:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:49:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:49:34 - printf.js - INFO - Scheduling task: 檢查過期文件 (6eaffa1a-b3c9-48a5-ae80-17c2e71d71be) to run every 15000 seconds.
+2025-06-19 10:49:34 - printf.js - INFO - Scheduling task: 清除快取資料 (3108e53f-1f65-46b3-80ae-b96c4fc5725f) to run every 600 seconds.
+2025-06-19 10:49:34 - printf.js - INFO - Scheduling task: 同步爬蟲 (1c5d5c77-cae2-4e04-b0dc-1b73d38ca203) to run every 10 seconds.
+2025-06-19 10:49:34 - printf.js - INFO - taskScheduler 已成功啟動
+2025-06-19 10:49:34 - printf.js - INFO - Scheduling task: 刪除爬蟲檔案 (6543de24-4b94-4b76-984f-092ee8e8adf2) to run every 7200 seconds.
+2025-06-19 10:49:34 - printf.js - INFO - Scheduling task: 刪除爬蟲附件檔案 (5edb02d6-0190-4734-8a4d-7f83e5ad1c12) to run every 7000 seconds.
+2025-06-19 10:49:34 - printf.js - INFO - Scheduling task: 同步爬蟲附件 (9ccb114b-33be-4f92-9c1b-b7015fee8280) to run every 20 seconds.
+2025-06-19 10:49:34 - printf.js - INFO - Task scheduler setup completed.
+2025-06-19 10:49:35 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:49:35 - printf.js - INFO - modelController.getModelListByModeType guest 遊客
+2025-06-19 10:49:35 - printf.js - INFO - modelController.getModelListByModeType: , extra={
+  "modeType": "embedding"
+}
+2025-06-19 10:49:36 - printf.js - INFO - datasets.getDatasetsOverview guest 遊客
+2025-06-19 10:49:36 - printf.js - INFO - datasets.getDatasetsChunks guest 遊客
+2025-06-19 10:49:36 - printf.js - INFO - datasets.getDatasetsChunks:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 10:49:36 - printf.js - INFO - datasets.getDatasetChartData guest 遊客
+2025-06-19 10:49:36 - printf.js - INFO - datasets.getDatasetChartData:, extra={
+  "datasets_id": "22",
+  "period": "7 days",
+  "subject": "embedding_cost"
+}
+2025-06-19 10:49:36 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 10:49:36 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 10:49:36 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 10:49:36 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 10:49:36 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:49:37 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:49:38 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 10:49:38 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 10:49:38 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 10:49:38 - printf.js - INFO - crawlerController.getSyncCrawlerList guest 遊客
+2025-06-19 10:49:38 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 10:49:38 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 10:49:38 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 10:49:39 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 10:49:39 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 10:49:39 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:49:39 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 10:49:39 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 10:49:39 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 10:49:39 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 10:49:39 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 10:49:40 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:49:40 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 10:49:40 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 10:49:40 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 10:49:40 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:49:40 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 10:49:40 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:49:40 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 10:49:40 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 10:49:40 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 10:49:40 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:49:41 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 10:49:41 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 10:49:41 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 10:49:41 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 10:49:41 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:49:41 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 10:49:41 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 10:49:41 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:49:41 - printf.js - INFO - Task executor started.
+2025-06-19 10:49:41 - printf.js - INFO - 排程每 5 秒執行一次任務
+2025-06-19 10:49:41 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 10:49:41 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 10:49:41 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:49:42 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 10:49:42 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 10:49:42 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:49:45 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:49:46 - printf.js - INFO - taskExecutor 已成功啟動
+2025-06-19 10:49:47 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:49:48 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:49:52 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:49:54 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:49:55 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:49:58 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:02 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:05 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:06 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 10:50:06 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 10:50:06 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 10:50:06 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 10:50:06 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:50:13 - printf.js - INFO - file.originalname Y513_1130228_中班工場日誌.txt
+2025-06-19 10:50:13 - printf.js - INFO - 如果是圖片或 PDF，直接上傳原始文件
+2025-06-19 10:50:13 - printf.js - ERROR - (node:4548) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-06-19 10:50:13 - printf.js - INFO - 批次上傳並刪除成功
+2025-06-19 10:50:13 - printf.js - INFO - datasets.sendFile guest 遊客
+2025-06-19 10:50:13 - printf.js - INFO - sendFile req.body, extra={
+  "separator": "null",
+  "datasets_id": "22",
+  "folder_name": "005615fb-8b23-4a14-bdb8-6c0daa282b17",
+  "datasource_url": "",
+  "datasource_name": "",
+  "expiration_time": "undefined"
+}
+2025-06-19 10:50:13 - printf.js - INFO - sendFile req.files [
+  {
+    "fieldname": "files",
+    "originalname": "Y513_1130228_中班工場日誌.txt",
+    "encoding": "7bit",
+    "mimetype": "text/plain",
+    "destination": "D:\\Desktop\\achamp-ava\\ava-backend-server\\tempResource\\",
+    "filename": "6444d46c-859d-444f-b0a4-e08189dd9f07.txt",
+    "path": "D:\\Desktop\\achamp-ava\\ava-backend-server\\tempResource\\6444d46c-859d-444f-b0a4-e08189dd9f07.txt",
+    "size": 14985
+  }
+]
+2025-06-19 10:50:13 - printf.js - INFO - File deleted: D:\Desktop\achamp-ava\ava-backend-server\tempResource\6444d46c-859d-444f-b0a4-e08189dd9f07.txt
+2025-06-19 10:50:13 - printf.js - INFO - rs.rows[0]: , extra={
+  "id": "95a61c45-7327-4567-8233-d4d1379610eb"
+}
+2025-06-19 10:50:13 - printf.js - INFO - upload_folder_id:  95a61c45-7327-4567-8233-d4d1379610eb
+2025-06-19 10:50:13 - printf.js - INFO - files [
+  {
+    "upload_documents_id": "6444d46c-859d-444f-b0a4-e08189dd9f07",
+    "filename": "6444d46c-859d-444f-b0a4-e08189dd9f07.txt",
+    "originalname": "Y513_1130228_中班工場日誌.txt",
+    "upload_folder_id": "95a61c45-7327-4567-8233-d4d1379610eb",
+    "datasets_id": "22",
+    "datasource_url": null,
+    "datasource_name": null,
+    "document_type": "document",
+    "separator": null,
+    "training_state": 2,
+    "created_by": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+    "expiration_time": null
+  }
+]
+2025-06-19 10:50:14 - printf.js - INFO - Audit log created with ID: 341
+2025-06-19 10:50:14 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:50:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "393MB",
+  "heapTotal": "99MB",
+  "heapUsed": "94MB"
+}
+2025-06-19 10:50:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "393MB",
+  "heapTotal": "99MB",
+  "heapUsed": "94MB"
+}
+2025-06-19 10:50:15 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 10:50:15 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 10:50:15 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:50:15 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:15 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 10:50:15 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 10:50:16 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 10:50:18 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:21 - printf.js - INFO - datasets.updateDocumentStatus guest 遊客
+2025-06-19 10:50:21 - printf.js - INFO - datasets.updateDocumentStatus:, extra={
+  "updateData": [
+    {
+      "id": "033d34d6-5607-44fa-a9ef-ee5ceba070f3",
+      "state": 5
+    }
+  ],
+  "datasets_id": "22"
+}
+2025-06-19 10:50:21 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:23 - printf.js - INFO - Audit log created with ID: 342
+2025-06-19 10:50:23 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:26 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:30 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:33 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:50:36 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:39 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:41 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:50:41.950Z
+2025-06-19 10:50:43 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:50:54 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:50:55 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:50:55 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:51:14 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:51:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "392MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:51:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "392MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:51:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:51:41 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:51:41.950Z
+2025-06-19 10:51:54 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:52:14 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:52:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "392MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:52:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "392MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:52:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:52:41 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:52:41.954Z
+2025-06-19 10:52:54 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:53:14 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:53:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "392MB",
+  "heapTotal": "100MB",
+  "heapUsed": "94MB"
+}
+2025-06-19 10:53:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "392MB",
+  "heapTotal": "100MB",
+  "heapUsed": "94MB"
+}
+2025-06-19 10:53:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:53:41 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:53:41.968Z
+2025-06-19 10:53:54 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:54:14 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:54:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "392MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:54:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "392MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:54:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:54:41 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:54:41.977Z
+2025-06-19 10:54:54 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:55:14 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:55:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "392MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:55:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "392MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:55:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:55:41 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:55:41.984Z
+2025-06-19 10:55:54 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:56:15 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:56:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "392MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:56:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "392MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:56:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:56:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:56:42.001Z
+2025-06-19 10:57:12 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:57:12 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:57:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "183MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:57:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "183MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:57:23 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:57:23 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 10:57:24 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 10:57:24 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 10:57:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:57:42.012Z
+2025-06-19 10:58:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "183MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:58:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "183MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:58:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:58:42.021Z
+2025-06-19 10:59:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "183MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:59:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "183MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 10:59:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T02:59:42.023Z
+2025-06-19 11:00:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "183MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:00:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "183MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:00:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:00:42.034Z
+2025-06-19 11:01:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "183MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:01:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "183MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:01:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:01:42.043Z
+2025-06-19 11:02:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "134MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:02:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "134MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:02:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:02:42.053Z
+2025-06-19 11:03:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "134MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:03:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "134MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:03:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:03:42.053Z
+2025-06-19 11:04:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "134MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:04:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "134MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:04:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:04:42.062Z
+2025-06-19 11:05:08 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:05:08 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 11:05:11 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-19 11:05:11 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 11:05:11 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-19 11:05:12 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:05:14 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 11:05:14 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 11:05:14 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 11:05:14 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 11:05:14 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 11:05:14 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 11:05:15 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 11:05:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "134MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:05:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "134MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:05:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:05:42.064Z
+2025-06-19 11:06:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "134MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:06:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "134MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:06:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:06:42.079Z
+2025-06-19 11:07:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "83MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:07:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "83MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:07:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:07:42.093Z
+2025-06-19 11:08:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "83MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:08:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "83MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:08:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:08:42.107Z
+2025-06-19 11:09:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "83MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:09:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "83MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:09:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:09:42.117Z
+2025-06-19 11:10:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "83MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:10:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "83MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:10:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:10:42.124Z
+2025-06-19 11:11:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "83MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:11:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "83MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:11:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:11:42.135Z
+2025-06-19 11:12:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:12:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:12:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:12:42.154Z
+2025-06-19 11:12:51 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:12:51 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 11:13:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:13:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:13:35 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:13:35 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 11:13:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:13:42.162Z
+2025-06-19 11:14:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:14:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:14:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:14:42.176Z
+2025-06-19 11:15:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:15:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:15:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:15:42.176Z
+2025-06-19 11:16:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:16:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:16:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:16:42.184Z
+2025-06-19 11:17:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "75MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:17:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "75MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:17:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:17:42.195Z
+2025-06-19 11:18:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "75MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:18:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "75MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:18:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:18:42.204Z
+2025-06-19 11:19:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "75MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:19:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "75MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:19:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:19:42.204Z
+2025-06-19 11:20:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "75MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:20:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "75MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:20:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:20:42.205Z
+2025-06-19 11:21:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "75MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:21:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "75MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:21:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:21:42.211Z
+2025-06-19 11:22:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "70MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:22:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "70MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:22:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:22:42.213Z
+2025-06-19 11:23:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "70MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:23:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "70MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:23:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:23:42.215Z
+2025-06-19 11:24:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "70MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:24:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "70MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:24:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:24:42.222Z
+2025-06-19 11:25:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "70MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:25:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "70MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:25:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:25:42.223Z
+2025-06-19 11:26:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "70MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:26:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "70MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:26:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:26:42.235Z
+2025-06-19 11:27:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "65MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:27:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "65MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:27:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:27:42.240Z
+2025-06-19 11:28:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "65MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:28:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "65MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:28:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:28:42.256Z
+2025-06-19 11:29:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "65MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:29:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "65MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:29:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:29:42.265Z
+2025-06-19 11:30:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "65MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:30:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "65MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:30:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:30:42.274Z
+2025-06-19 11:31:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "65MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:31:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "65MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:31:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:31:42.278Z
+2025-06-19 11:32:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:32:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:32:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:32:42.288Z
+2025-06-19 11:33:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:33:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:33:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:33:42.294Z
+2025-06-19 11:34:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:34:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:34:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:34:42.294Z
+2025-06-19 11:35:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:35:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:35:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:35:42.310Z
+2025-06-19 11:36:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:36:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:36:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:36:42.310Z
+2025-06-19 11:37:11 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:37:11 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 11:37:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:37:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:37:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:37:42.316Z
+2025-06-19 11:38:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:38:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:38:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:38:42.329Z
+2025-06-19 11:39:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:39:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:39:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:39:42.344Z
+2025-06-19 11:40:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:40:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:40:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:40:42.358Z
+2025-06-19 11:41:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:41:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:41:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:41:42.361Z
+2025-06-19 11:42:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:42:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:42:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:42:42.362Z
+2025-06-19 11:43:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:43:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:43:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:43:42.365Z
+2025-06-19 11:44:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:44:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:44:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:44:42.370Z
+2025-06-19 11:45:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:45:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:45:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:45:42.374Z
+2025-06-19 11:46:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:46:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:46:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:46:42.395Z
+2025-06-19 11:47:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:47:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:47:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:47:42.407Z
+2025-06-19 11:48:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:48:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:48:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:48:42.418Z
+2025-06-19 11:49:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:49:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:49:40 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:49:40 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 11:49:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:49:42.434Z
+2025-06-19 11:50:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:50:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "100MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:50:16 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 11:50:16 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 11:50:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:50:42.443Z
+2025-06-19 11:51:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:51:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:51:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:51:42.458Z
+2025-06-19 11:52:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:52:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:52:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:52:42.463Z
+2025-06-19 11:53:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:53:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:53:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:53:42.467Z
+2025-06-19 11:54:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "102MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:54:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "102MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:54:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:54:42.469Z
+2025-06-19 11:55:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "102MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:55:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "102MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:55:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:55:42.471Z
+2025-06-19 11:56:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "102MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:56:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "102MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 11:56:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:56:42.489Z
+2025-06-19 11:57:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "102MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:57:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "102MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:57:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:57:42.498Z
+2025-06-19 11:58:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "102MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:58:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "102MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:58:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:58:42.512Z
+2025-06-19 11:59:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "102MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:59:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "102MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 11:59:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T03:59:42.514Z
+2025-06-19 12:00:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:00:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:00:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:00:42.525Z
+2025-06-19 12:01:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:01:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:01:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:01:42.533Z
+2025-06-19 12:02:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:02:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:02:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:02:42.548Z
+2025-06-19 12:03:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:03:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:03:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:03:42.550Z
+2025-06-19 12:04:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:04:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:04:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:04:42.552Z
+2025-06-19 12:05:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:05:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:05:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:05:42.554Z
+2025-06-19 12:06:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:06:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:06:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:06:42.569Z
+2025-06-19 12:07:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:07:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:07:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:07:42.582Z
+2025-06-19 12:08:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:08:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:08:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:08:42.588Z
+2025-06-19 12:09:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:09:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:09:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:09:42.593Z
+2025-06-19 12:10:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:10:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:10:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:10:42.604Z
+2025-06-19 12:11:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:11:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:11:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:11:42.612Z
+2025-06-19 12:12:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:12:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:12:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:12:42.613Z
+2025-06-19 12:13:15 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:13:15 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:13:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:13:42.619Z
+2025-06-19 12:14:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:14:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:14:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:14:42.622Z
+2025-06-19 12:15:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:15:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:15:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:15:42.629Z
+2025-06-19 12:16:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:16:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:16:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:16:42.639Z
+2025-06-19 12:17:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:17:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:17:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:17:42.654Z
+2025-06-19 12:18:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:18:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:18:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:18:42.667Z
+2025-06-19 12:19:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:19:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:19:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:19:42.677Z
+2025-06-19 12:20:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:20:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:20:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:20:42.692Z
+2025-06-19 12:21:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:21:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:21:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:21:42.701Z
+2025-06-19 12:22:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:22:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:22:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:22:42.705Z
+2025-06-19 12:23:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:23:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:23:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:23:42.716Z
+2025-06-19 12:24:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:24:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "57MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:24:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:24:42.733Z
+2025-06-19 12:25:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "58MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:25:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "58MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:25:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:25:42.743Z
+2025-06-19 12:26:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:26:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:26:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:26:42.747Z
+2025-06-19 12:27:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:27:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:27:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:27:42.749Z
+2025-06-19 12:28:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:28:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:28:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:28:42.750Z
+2025-06-19 12:29:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:29:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:29:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:29:42.760Z
+2025-06-19 12:30:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:30:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:30:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:30:42.771Z
+2025-06-19 12:31:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:31:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:31:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:31:42.782Z
+2025-06-19 12:32:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:32:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:32:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:32:42.797Z
+2025-06-19 12:33:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:33:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:33:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:33:42.803Z
+2025-06-19 12:34:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:34:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:34:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:34:42.813Z
+2025-06-19 12:35:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:35:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:35:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:35:42.816Z
+2025-06-19 12:36:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:36:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:36:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:36:42.817Z
+2025-06-19 12:37:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:37:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:37:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:37:42.819Z
+2025-06-19 12:38:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:38:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:38:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:38:42.829Z
+2025-06-19 12:39:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:39:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:39:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:39:42.836Z
+2025-06-19 12:40:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:40:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:40:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:40:42.841Z
+2025-06-19 12:41:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:41:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:41:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:41:42.849Z
+2025-06-19 12:42:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:42:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:42:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:42:42.852Z
+2025-06-19 12:43:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:43:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:43:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:43:42.868Z
+2025-06-19 12:44:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:44:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:44:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:44:42.870Z
+2025-06-19 12:45:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:45:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:45:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:45:42.882Z
+2025-06-19 12:46:14 - printf.js - INFO - 找到 0 筆需要刪除的爬蟲附件
+2025-06-19 12:46:14 - printf.js - INFO - 已創建 0 個刪除爬蟲附件任務
+2025-06-19 12:46:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:46:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:46:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:46:42.895Z
+2025-06-19 12:47:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:47:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:47:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:47:42.895Z
+2025-06-19 12:48:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:48:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:48:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:48:42.908Z
+2025-06-19 12:49:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:49:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:49:34 - printf.js - INFO - 找到 0 筆需要刪除的爬蟲文件
+2025-06-19 12:49:34 - printf.js - INFO - 已創建 0 個刪除爬蟲文件任務
+2025-06-19 12:49:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 12:49:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:49:42.916Z
+2025-06-19 12:50:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:50:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:50:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:50:42.932Z
+2025-06-19 12:51:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:51:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:51:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:51:42.937Z
+2025-06-19 12:52:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:52:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:52:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:52:42.951Z
+2025-06-19 12:53:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:53:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:53:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:53:42.953Z
+2025-06-19 12:54:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:54:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:54:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:54:42.960Z
+2025-06-19 12:55:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:55:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:55:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:55:42.964Z
+2025-06-19 12:56:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:56:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:56:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:56:42.975Z
+2025-06-19 12:57:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:57:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:57:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:57:42.989Z
+2025-06-19 12:58:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:58:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 12:58:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:58:43.001Z
+2025-06-19 12:59:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:59:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 12:59:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T04:59:43.005Z
+2025-06-19 13:00:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 13:00:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 13:00:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:00:43.015Z
+2025-06-19 13:01:04 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:01:04 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:01:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:01:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:01:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:01:43.031Z
+2025-06-19 13:01:54 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:01:54 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:02:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:02:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:02:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:02:43.039Z
+2025-06-19 13:03:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:03:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:03:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:03:43.050Z
+2025-06-19 13:04:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 13:04:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 13:04:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:04:43.055Z
+2025-06-19 13:05:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:05:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:05:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:05:43.056Z
+2025-06-19 13:06:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:06:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:06:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:06:43.058Z
+2025-06-19 13:07:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:07:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:07:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:07:43.058Z
+2025-06-19 13:08:04 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:08:04 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:08:05 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:08:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:08:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:08:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:08:43.064Z
+2025-06-19 13:09:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 13:09:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 13:09:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:09:43.074Z
+2025-06-19 13:10:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 13:10:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:10:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:10:43.077Z
+2025-06-19 13:11:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:11:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:11:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:11:43.089Z
+2025-06-19 13:12:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:12:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:12:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:12:43.102Z
+2025-06-19 13:13:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:13:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:13:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:13:43.113Z
+2025-06-19 13:14:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:14:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "59MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:14:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:14:43.125Z
+2025-06-19 13:15:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 13:15:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "60MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:15:21 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-19 13:15:21 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:15:21 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 13:15:21 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:15:21 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-19 13:15:24 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:15:24 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 13:15:24 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 13:15:24 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:15:25 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 13:15:25 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 13:15:25 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:15:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:15:43.127Z
+2025-06-19 13:16:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:16:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:16:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:16:43.131Z
+2025-06-19 13:17:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:17:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:17:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:17:43.142Z
+2025-06-19 13:18:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:18:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "63MB",
+  "heapTotal": "101MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:18:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:18:43.142Z
+2025-06-19 13:19:05 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-19 13:19:05 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 13:19:06 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:19:06 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:19:06 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:19:06 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-19 13:19:09 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:19:09 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 13:19:09 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 13:19:09 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:19:09 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 13:19:09 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 13:19:10 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:19:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "64MB",
+  "heapTotal": "102MB",
+  "heapUsed": "97MB"
+}
+2025-06-19 13:19:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "64MB",
+  "heapTotal": "102MB",
+  "heapUsed": "97MB"
+}
+2025-06-19 13:19:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:19:43.145Z
+2025-06-19 13:20:16 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "64MB",
+  "heapTotal": "102MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:20:16 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "64MB",
+  "heapTotal": "102MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 13:20:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:20:43.161Z
+2025-06-19 13:20:57 - printf.js - INFO - Task executor is exiting, heartbeat stopped.
+2025-06-19 13:20:57 - printf.js - ERROR - taskExecutor 子進程已關閉，退出碼: 129
+2025-06-19 13:20:57 - printf.js - INFO - taskExecutor 運行超過 60000 毫秒，重置重試計數器
+2025-06-19 13:20:57 - printf.js - INFO - 嘗試第 1 次重啟 taskExecutor...
+2025-06-19 13:20:57 - printf.js - ERROR - taskScheduler 子進程已關閉，退出碼: 129
+2025-06-19 13:20:57 - printf.js - INFO - taskScheduler 運行超過 60000 毫秒，重置重試計數器
+2025-06-19 13:20:57 - printf.js - INFO - 嘗試第 1 次重啟 taskScheduler...
+2025-06-19 13:20:57 - printf.js - INFO - Main process exiting...
+2025-06-19 13:21:39 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 13:21:39 - printf.js - INFO - redis host: localhost
+2025-06-19 13:23:00 - printf.js - INFO - server is connection at http://localhost:8082
+2025-06-19 13:23:00 - printf.js - ERROR - Could not establish a connection with redis. Error: Connection timeout
+2025-06-19 13:23:00 - printf.js - INFO - Connected to redis successfully
+2025-06-19 13:23:29 - printf.js - ERROR - ❌ MongoDB 連線失敗： connect ECONNREFUSED 127.0.0.1:27018
+2025-06-19 13:23:29 - printf.js - INFO - {
+  "key": "is_db_ready",
+  "value": "1"
+}
+2025-06-19 13:23:29 - printf.js - INFO - 資料庫已準備
+2025-06-19 13:23:30 - printf.js - INFO - sync Settings table completed.
+2025-06-19 13:23:30 - printf.js - INFO - Database settings initialization completed.
+2025-06-19 13:23:30 - printf.js - INFO - All models were synchronized successfully.
+2025-06-19 13:23:30 - printf.js - INFO - FeedbackOptions 已有資料，不需要插入預設值。
+2025-06-19 13:23:30 - printf.js - INFO - ModelList 已有資料，不需要插入預設值。
+2025-06-19 13:23:30 - printf.js - INFO - CrawlerType 已有資料，不需要插入預設值。
+2025-06-19 13:23:30 - printf.js - INFO - Crawler 已有資料，不需要插入預設值。
+2025-06-19 13:23:30 - printf.js - INFO - LoginType 已有資料，不需要插入預設值。
+2025-06-19 13:23:30 - printf.js - INFO - DefaultPrompt 已有資料，不需要插入預設值。
+2025-06-19 13:23:30 - printf.js - INFO - UserPasswordHistory 預設值插入成功。
+2025-06-19 13:23:30 - printf.js - INFO - CronTask 已有資料，不需要插入預設值。
+2025-06-19 13:23:30 - printf.js - INFO - ChatTheme 已有資料，不需要插入預設值。
+2025-06-19 13:23:30 - printf.js - INFO - AuditLogEntityType 已有資料，不需要插入預設值。
+2025-06-19 13:23:31 - printf.js - INFO - AuditLogActionType 已有資料，不需要插入預設值。
+2025-06-19 13:23:31 - printf.js - INFO - taskScheduler 子進程啟動，PID: 10540
+2025-06-19 13:23:31 - printf.js - INFO - 已啟動 taskScheduler
+2025-06-19 13:23:31 - printf.js - INFO - taskExecutor 子進程啟動，PID: 29772
+2025-06-19 13:23:31 - printf.js - INFO - 已啟動 taskExecutor
+2025-06-19 13:23:31 - printf.js - WARN - COMMIT_SHA 或 BRANCH_NAME 環境變數未設置，跳過版本插入操作
+2025-06-19 13:23:39 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:23:39 - printf.js - INFO - Scheduling task: 檢查過期文件 (6eaffa1a-b3c9-48a5-ae80-17c2e71d71be) to run every 15000 seconds.
+2025-06-19 13:23:39 - printf.js - INFO - Scheduling task: 清除快取資料 (3108e53f-1f65-46b3-80ae-b96c4fc5725f) to run every 600 seconds.
+2025-06-19 13:23:39 - printf.js - INFO - Scheduling task: 同步爬蟲 (1c5d5c77-cae2-4e04-b0dc-1b73d38ca203) to run every 10 seconds.
+2025-06-19 13:23:39 - printf.js - INFO - Scheduling task: 刪除爬蟲檔案 (6543de24-4b94-4b76-984f-092ee8e8adf2) to run every 7200 seconds.
+2025-06-19 13:23:39 - printf.js - INFO - Scheduling task: 刪除爬蟲附件檔案 (5edb02d6-0190-4734-8a4d-7f83e5ad1c12) to run every 7000 seconds.
+2025-06-19 13:23:39 - printf.js - INFO - Scheduling task: 同步爬蟲附件 (9ccb114b-33be-4f92-9c1b-b7015fee8280) to run every 20 seconds.
+2025-06-19 13:23:39 - printf.js - INFO - Task scheduler setup completed.
+2025-06-19 13:23:39 - printf.js - INFO - taskScheduler 已成功啟動
+2025-06-19 13:23:42 - printf.js - INFO - Task executor started.
+2025-06-19 13:23:42 - printf.js - INFO - 排程每 5 秒執行一次任務
+2025-06-19 13:23:47 - printf.js - INFO - taskExecutor 已成功啟動
+2025-06-19 13:23:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:23:59 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:24:19 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:24:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "388MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 13:24:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "388MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 13:24:39 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:24:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:24:42.927Z
+2025-06-19 13:24:59 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:25:19 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:25:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "388MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 13:25:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "388MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 13:25:39 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:25:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:25:42.927Z
+2025-06-19 13:25:59 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:26:19 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:26:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "388MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 13:26:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "388MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 13:26:39 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:26:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:26:42.928Z
+2025-06-19 13:26:52 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:26:52 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:26:58 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-19 13:26:58 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 13:26:58 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-19 13:27:02 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:27:02 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:27:05 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:05 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 13:27:05 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 13:27:05 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 13:27:05 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 13:27:05 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:27:06 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:27:08 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:12 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:15 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:19 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:19 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:27:22 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:25 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:28 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "327MB",
+  "heapTotal": "98MB",
+  "heapUsed": "91MB"
+}
+2025-06-19 13:27:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "327MB",
+  "heapTotal": "98MB",
+  "heapUsed": "91MB"
+}
+2025-06-19 13:27:32 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:35 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:38 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:39 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:27:41 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:27:42.940Z
+2025-06-19 13:27:45 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:48 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:51 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:55 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:58 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:27:59 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:28:01 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:05 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:08 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:11 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:14 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:18 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:19 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:28:21 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:24 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:27 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "328MB",
+  "heapTotal": "99MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 13:28:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "328MB",
+  "heapTotal": "99MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 13:28:31 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:34 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:38 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:39 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:28:41 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:28:42.944Z
+2025-06-19 13:28:44 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:47 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:51 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:54 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:57 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:28:59 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:29:00 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:04 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:07 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:10 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:14 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:17 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:19 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:29:20 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:24 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:27 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:30 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "328MB",
+  "heapTotal": "98MB",
+  "heapUsed": "93MB"
+}
+2025-06-19 13:29:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "328MB",
+  "heapTotal": "98MB",
+  "heapUsed": "93MB"
+}
+2025-06-19 13:29:33 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:37 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:39 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:29:40 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:29:42.949Z
+2025-06-19 13:29:43 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:46 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:50 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:53 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:56 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:29:59 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:30:00 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:03 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:06 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:10 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:13 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:16 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:19 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:30:19 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:23 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:26 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:29 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "329MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-19 13:30:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "329MB",
+  "heapTotal": "99MB",
+  "heapUsed": "93MB"
+}
+2025-06-19 13:30:32 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:36 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:39 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:39 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:30:42 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:30:42.953Z
+2025-06-19 13:30:46 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:49 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:52 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:56 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:59 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:30:59 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:31:02 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:05 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:09 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:12 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:15 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:18 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:19 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:31:22 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:25 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:28 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "330MB",
+  "heapTotal": "99MB",
+  "heapUsed": "94MB"
+}
+2025-06-19 13:31:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "330MB",
+  "heapTotal": "99MB",
+  "heapUsed": "94MB"
+}
+2025-06-19 13:31:31 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:35 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:38 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:41 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:31:42.965Z
+2025-06-19 13:31:45 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:48 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:51 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:55 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:31:58 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:01 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:04 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:08 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:11 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:14 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:17 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:21 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:25 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-19 13:32:25 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 13:32:25 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-19 13:32:27 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:27 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:32:27 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:32:27 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 13:32:27 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 13:32:27 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 13:32:27 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 13:32:27 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:32:30 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "107MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 13:32:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "107MB",
+  "heapTotal": "100MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 13:32:31 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 13:32:31 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 13:32:31 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:31 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:32:32 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 13:32:32 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 13:32:32 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:32:33 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 13:32:33 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 13:32:33 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:32:33 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 13:32:33 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 13:32:33 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:32:34 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:35 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:37 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:37 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:37 - printf.js - INFO - expertController.chartsSubject guest 遊客
+2025-06-19 13:32:37 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 13:32:37 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "expert",
+  "recordId": "23"
+}
+2025-06-19 13:32:37 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:37 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:32:37 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 13:32:37 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "23"
+}
+2025-06-19 13:32:37 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:37 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "23",
+  "period": "7 days",
+  "subject": "token_price"
+}
+2025-06-19 13:32:37 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:37 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "23",
+  "period": "7 days",
+  "subject": "total_message"
+}
+2025-06-19 13:32:37 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:37 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "23",
+  "period": "7 days",
+  "subject": "active_user"
+}
+2025-06-19 13:32:37 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:32:37 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:32:37 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:37 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "23",
+  "period": "7 days",
+  "subject": "model_status"
+}
+2025-06-19 13:32:37 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:37 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "23",
+  "period": "7 days",
+  "subject": "no_answer"
+}
+2025-06-19 13:32:37 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:37 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "23",
+  "period": "7 days",
+  "subject": "average_message"
+}
+2025-06-19 13:32:37 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:38 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:38 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:38 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 13:32:38 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 13:32:38 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:39 - printf.js - INFO - expertController.chartsSubject guest 遊客
+2025-06-19 13:32:39 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 13:32:39 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "expert",
+  "recordId": "17"
+}
+2025-06-19 13:32:39 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:39 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:39 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "no_answer"
+}
+2025-06-19 13:32:39 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:39 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "token_price"
+}
+2025-06-19 13:32:39 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:39 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "total_message"
+}
+2025-06-19 13:32:39 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:39 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "active_user"
+}
+2025-06-19 13:32:39 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:39 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "model_status"
+}
+2025-06-19 13:32:39 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:39 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "average_message"
+}
+2025-06-19 13:32:39 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:41 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:41 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:32:41 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 13:32:41 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "22"
+}
+2025-06-19 13:32:41 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 13:32:41 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "22"
+}
+2025-06-19 13:32:42 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 13:32:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:32:42.967Z
+2025-06-19 13:32:44 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 13:32:46 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:47 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:47 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:47 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 13:32:47 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 13:32:47 - printf.js - INFO - expertController.chartsSubject guest 遊客
+2025-06-19 13:32:47 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 13:32:47 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "expert",
+  "recordId": "17"
+}
+2025-06-19 13:32:48 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:48 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "token_price"
+}
+2025-06-19 13:32:48 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:48 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "active_user"
+}
+2025-06-19 13:32:48 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:48 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "total_message"
+}
+2025-06-19 13:32:48 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:48 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "no_answer"
+}
+2025-06-19 13:32:48 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:48 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "model_status"
+}
+2025-06-19 13:32:48 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 13:32:48 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "average_message"
+}
+2025-06-19 13:32:48 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:50 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:50 - printf.js - INFO - feedbackController.getFeedback guest 遊客
+2025-06-19 13:32:50 - printf.js - INFO - feedbackController.getFeedback: , extra={
+  "expertID": "17",
+  "startDate": "2025-06-12",
+  "endDate": "2025-06-19"
+}
+2025-06-19 13:32:50 - printf.js - INFO - feedbackController.getFeedbackOptions guest 遊客
+2025-06-19 13:32:57 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:58 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:32:58 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 13:32:58 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 13:33:00 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:33:13 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:33:13 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:33:13 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:33:13 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:33:13 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:33:13 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 13:33:13 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 13:33:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "127MB",
+  "heapTotal": "102MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 13:33:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "127MB",
+  "heapTotal": "102MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 13:33:42 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:33:42 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:33:42 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:33:42 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:33:42 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 13:33:42 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 13:33:42 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:33:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:33:42.979Z
+2025-06-19 13:33:43 - printf.js - INFO - usermanageController.getFiltedExpertChat guest 遊客
+2025-06-19 13:33:43 - printf.js - INFO - usermanageController.getFiltedExpertChat: {"expertId":"17","startTime":"2025-03-19 00:00:00","endTime":"2025-06-19 23:59:59","date":"All","chatType":[0,9,1,2,3,4],"userType":["1","2","3"],"userIds":[],"searchQuery":"","page":1,"itemsPerPage":10}
+2025-06-19 13:34:00 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:34:00 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:34:00 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 13:34:00 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 13:34:00 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:34:00 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:34:00 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:34:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "119MB",
+  "heapTotal": "102MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 13:34:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "119MB",
+  "heapTotal": "102MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 13:34:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:34:42.981Z
+2025-06-19 13:35:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "119MB",
+  "heapTotal": "102MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 13:35:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "119MB",
+  "heapTotal": "102MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 13:35:42 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:35:42.995Z
+2025-06-19 13:36:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "119MB",
+  "heapTotal": "102MB",
+  "heapUsed": "93MB"
+}
+2025-06-19 13:36:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "119MB",
+  "heapTotal": "102MB",
+  "heapUsed": "93MB"
+}
+2025-06-19 13:36:32 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:36:32 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:36:32 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 13:36:32 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:36:32 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 13:36:32 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 13:36:32 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 13:36:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:36:43.003Z
+2025-06-19 13:37:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "102MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 13:37:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "102MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 13:37:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:37:43.008Z
+2025-06-19 13:38:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "102MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 13:38:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "102MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 13:38:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:38:43.013Z
+2025-06-19 13:39:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "102MB",
+  "heapUsed": "93MB"
+}
+2025-06-19 13:39:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "102MB",
+  "heapUsed": "93MB"
+}
+2025-06-19 13:39:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:39:43.028Z
+2025-06-19 13:40:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "102MB",
+  "heapUsed": "93MB"
+}
+2025-06-19 13:40:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "102MB",
+  "heapUsed": "93MB"
+}
+2025-06-19 13:40:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:40:43.035Z
+2025-06-19 13:41:31 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "102MB",
+  "heapUsed": "93MB"
+}
+2025-06-19 13:41:31 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "78MB",
+  "heapTotal": "102MB",
+  "heapUsed": "93MB"
+}
+2025-06-19 13:41:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T05:41:43.047Z
+2025-06-19 13:41:50 - printf.js - INFO - Task executor is exiting, heartbeat stopped.
+2025-06-19 13:41:50 - printf.js - INFO - Main process exiting...
+2025-06-19 15:37:05 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 15:37:05 - printf.js - INFO - redis host: localhost
+2025-06-19 15:40:26 - printf.js - INFO - server is connection at http://localhost:8082
+2025-06-19 15:40:26 - printf.js - ERROR - Could not establish a connection with redis. Error: Connection timeout
+2025-06-19 15:40:26 - printf.js - ERROR - ❌ MongoDB 連線失敗： Socket 'connect' timed out after 167255ms (connectTimeoutMS: 90000)
+2025-06-19 15:40:26 - printf.js - INFO - Connected to redis successfully
+2025-06-19 15:40:27 - printf.js - INFO - {
+  "key": "is_db_ready",
+  "value": "1"
+}
+2025-06-19 15:40:27 - printf.js - INFO - 資料庫已準備
+2025-06-19 15:40:28 - printf.js - INFO - sync Settings table completed.
+2025-06-19 15:40:28 - printf.js - INFO - Database settings initialization completed.
+2025-06-19 15:40:30 - printf.js - INFO - All models were synchronized successfully.
+2025-06-19 15:40:30 - printf.js - INFO - FeedbackOptions 已有資料，不需要插入預設值。
+2025-06-19 15:40:30 - printf.js - INFO - ModelList 已有資料，不需要插入預設值。
+2025-06-19 15:40:30 - printf.js - INFO - CrawlerType 已有資料，不需要插入預設值。
+2025-06-19 15:40:30 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-19 15:40:30 - printf.js - INFO - Crawler 已有資料，不需要插入預設值。
+2025-06-19 15:40:31 - printf.js - INFO - LoginType 已有資料，不需要插入預設值。
+2025-06-19 15:40:31 - printf.js - INFO - DefaultPrompt 已有資料，不需要插入預設值。
+2025-06-19 15:40:31 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 15:40:31 - printf.js - INFO - UserPasswordHistory 預設值插入成功。
+2025-06-19 15:40:31 - printf.js - INFO - CronTask 已有資料，不需要插入預設值。
+2025-06-19 15:40:32 - printf.js - INFO - ChatTheme 已有資料，不需要插入預設值。
+2025-06-19 15:40:32 - printf.js - INFO - AuditLogEntityType 已有資料，不需要插入預設值。
+2025-06-19 15:40:32 - printf.js - INFO - AuditLogActionType 已有資料，不需要插入預設值。
+2025-06-19 15:40:32 - printf.js - INFO - taskScheduler 子進程啟動，PID: 142940
+2025-06-19 15:40:32 - printf.js - INFO - 已啟動 taskScheduler
+2025-06-19 15:40:32 - printf.js - INFO - taskExecutor 子進程啟動，PID: 145448
+2025-06-19 15:40:32 - printf.js - INFO - 已啟動 taskExecutor
+2025-06-19 15:40:32 - printf.js - WARN - COMMIT_SHA 或 BRANCH_NAME 環境變數未設置，跳過版本插入操作
+2025-06-19 15:40:33 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:40:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:40:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:40:34 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-19 15:40:35 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 15:40:38 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 15:40:38 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 15:40:38 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 15:40:38 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 15:40:39 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 15:40:39 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "expert",
+  "recordId": "17"
+}
+2025-06-19 15:40:39 - printf.js - INFO - expertController.chartsSubject guest 遊客
+2025-06-19 15:40:39 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 15:40:39 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 15:40:39 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "total_message"
+}
+2025-06-19 15:40:39 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 15:40:39 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "no_answer"
+}
+2025-06-19 15:40:39 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 15:40:39 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "model_status"
+}
+2025-06-19 15:40:40 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 15:40:40 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:40:40 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:40:40 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 15:40:40 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "active_user"
+}
+2025-06-19 15:40:40 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:40:40 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 15:40:40 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "average_message"
+}
+2025-06-19 15:40:40 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 15:40:40 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "token_price"
+}
+2025-06-19 15:40:42 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 15:40:42 - printf.js - INFO - systemController.getIconList guest 遊客
+2025-06-19 15:40:42 - printf.js - INFO - expertController.getPopularTagsIconList guest 遊客
+2025-06-19 15:40:42 - printf.js - INFO - expertController.getPopularTagsIconList: 17
+2025-06-19 15:40:46 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 15:40:54 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 15:40:54 - printf.js - INFO - feedbackController.getFeedbackOptions guest 遊客
+2025-06-19 15:40:56 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:40:56 - printf.js - INFO - feedbackController.getFeedback guest 遊客
+2025-06-19 15:40:56 - printf.js - INFO - feedbackController.getFeedback: , extra={
+  "expertID": "17",
+  "startDate": "2025-06-12",
+  "endDate": "2025-06-19"
+}
+2025-06-19 15:41:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:41:07 - printf.js - INFO - Scheduling task: 檢查過期文件 (6eaffa1a-b3c9-48a5-ae80-17c2e71d71be) to run every 15000 seconds.
+2025-06-19 15:41:07 - printf.js - INFO - Scheduling task: 清除快取資料 (3108e53f-1f65-46b3-80ae-b96c4fc5725f) to run every 600 seconds.
+2025-06-19 15:41:07 - printf.js - INFO - Scheduling task: 同步爬蟲 (1c5d5c77-cae2-4e04-b0dc-1b73d38ca203) to run every 10 seconds.
+2025-06-19 15:41:07 - printf.js - INFO - Scheduling task: 刪除爬蟲檔案 (6543de24-4b94-4b76-984f-092ee8e8adf2) to run every 7200 seconds.
+2025-06-19 15:41:07 - printf.js - INFO - Scheduling task: 刪除爬蟲附件檔案 (5edb02d6-0190-4734-8a4d-7f83e5ad1c12) to run every 7000 seconds.
+2025-06-19 15:41:07 - printf.js - INFO - Scheduling task: 同步爬蟲附件 (9ccb114b-33be-4f92-9c1b-b7015fee8280) to run every 20 seconds.
+2025-06-19 15:41:07 - printf.js - INFO - Task scheduler setup completed.
+2025-06-19 15:41:07 - printf.js - INFO - taskScheduler 已成功啟動
+2025-06-19 15:41:17 - printf.js - INFO - Task executor started.
+2025-06-19 15:41:17 - printf.js - INFO - 排程每 5 秒執行一次任務
+2025-06-19 15:41:22 - printf.js - INFO - taskExecutor 已成功啟動
+2025-06-19 15:41:22 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:41:27 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:41:32 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "141MB",
+  "heapTotal": "99MB",
+  "heapUsed": "91MB"
+}
+2025-06-19 15:41:32 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "141MB",
+  "heapTotal": "99MB",
+  "heapUsed": "91MB"
+}
+2025-06-19 15:41:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:41:49 - printf.js - INFO - Task executor is exiting, heartbeat stopped.
+2025-06-19 15:41:49 - printf.js - ERROR - taskExecutor 子進程已關閉，退出碼: 129
+2025-06-19 15:41:49 - printf.js - INFO - 嘗試第 1 次重啟 taskExecutor...
+2025-06-19 15:41:50 - printf.js - ERROR - taskScheduler 子進程已關閉，退出碼: 129
+2025-06-19 15:41:50 - printf.js - INFO - 嘗試第 1 次重啟 taskScheduler...
+2025-06-19 15:41:50 - printf.js - INFO - Main process exiting...
+2025-06-19 15:56:32 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 15:56:32 - printf.js - INFO - redis host: localhost
+2025-06-19 15:58:55 - printf.js - INFO - server is connection at http://localhost:8082
+2025-06-19 15:58:55 - printf.js - ERROR - Could not establish a connection with redis. Error: Connection timeout
+2025-06-19 15:58:55 - printf.js - ERROR - ❌ MongoDB 連線失敗： Socket 'connect' timed out after 99959ms (connectTimeoutMS: 90000)
+2025-06-19 15:58:55 - printf.js - INFO - Connected to redis successfully
+2025-06-19 15:58:56 - printf.js - INFO - {
+  "key": "is_db_ready",
+  "value": "1"
+}
+2025-06-19 15:58:56 - printf.js - INFO - 資料庫已準備
+2025-06-19 15:58:56 - printf.js - INFO - sync Settings table completed.
+2025-06-19 15:58:56 - printf.js - INFO - Database settings initialization completed.
+2025-06-19 15:58:57 - printf.js - INFO - All models were synchronized successfully.
+2025-06-19 15:58:57 - printf.js - INFO - FeedbackOptions 已有資料，不需要插入預設值。
+2025-06-19 15:58:57 - printf.js - INFO - ModelList 已有資料，不需要插入預設值。
+2025-06-19 15:58:57 - printf.js - INFO - CrawlerType 已有資料，不需要插入預設值。
+2025-06-19 15:58:57 - printf.js - INFO - Crawler 已有資料，不需要插入預設值。
+2025-06-19 15:58:58 - printf.js - INFO - LoginType 已有資料，不需要插入預設值。
+2025-06-19 15:58:58 - printf.js - INFO - DefaultPrompt 已有資料，不需要插入預設值。
+2025-06-19 15:58:58 - printf.js - INFO - UserPasswordHistory 預設值插入成功。
+2025-06-19 15:58:58 - printf.js - INFO - CronTask 已有資料，不需要插入預設值。
+2025-06-19 15:58:58 - printf.js - INFO - ChatTheme 已有資料，不需要插入預設值。
+2025-06-19 15:58:58 - printf.js - INFO - AuditLogEntityType 已有資料，不需要插入預設值。
+2025-06-19 15:58:58 - printf.js - INFO - AuditLogActionType 已有資料，不需要插入預設值。
+2025-06-19 15:58:58 - printf.js - INFO - taskScheduler 子進程啟動，PID: 155412
+2025-06-19 15:58:58 - printf.js - INFO - 已啟動 taskScheduler
+2025-06-19 15:58:58 - printf.js - INFO - taskExecutor 子進程啟動，PID: 155120
+2025-06-19 15:58:58 - printf.js - INFO - 已啟動 taskExecutor
+2025-06-19 15:58:58 - printf.js - WARN - COMMIT_SHA 或 BRANCH_NAME 環境變數未設置，跳過版本插入操作
+2025-06-19 15:59:17 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:59:17 - printf.js - INFO - Scheduling task: 檢查過期文件 (6eaffa1a-b3c9-48a5-ae80-17c2e71d71be) to run every 15000 seconds.
+2025-06-19 15:59:17 - printf.js - INFO - Scheduling task: 清除快取資料 (3108e53f-1f65-46b3-80ae-b96c4fc5725f) to run every 600 seconds.
+2025-06-19 15:59:17 - printf.js - INFO - Scheduling task: 同步爬蟲 (1c5d5c77-cae2-4e04-b0dc-1b73d38ca203) to run every 10 seconds.
+2025-06-19 15:59:17 - printf.js - INFO - Scheduling task: 刪除爬蟲檔案 (6543de24-4b94-4b76-984f-092ee8e8adf2) to run every 7200 seconds.
+2025-06-19 15:59:17 - printf.js - INFO - Scheduling task: 刪除爬蟲附件檔案 (5edb02d6-0190-4734-8a4d-7f83e5ad1c12) to run every 7000 seconds.
+2025-06-19 15:59:17 - printf.js - INFO - Scheduling task: 同步爬蟲附件 (9ccb114b-33be-4f92-9c1b-b7015fee8280) to run every 20 seconds.
+2025-06-19 15:59:17 - printf.js - INFO - Task scheduler setup completed.
+2025-06-19 15:59:17 - printf.js - INFO - taskScheduler 已成功啟動
+2025-06-19 15:59:24 - printf.js - INFO - Task executor started.
+2025-06-19 15:59:24 - printf.js - INFO - 排程每 5 秒執行一次任務
+2025-06-19 15:59:29 - printf.js - INFO - taskExecutor 已成功啟動
+2025-06-19 15:59:29 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:59:37 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:59:42 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-19 15:59:42 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 15:59:44 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:59:44 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:59:44 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:59:44 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-19 15:59:45 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 15:59:57 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 15:59:58 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "371MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 15:59:58 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "371MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 16:00:02 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:00:02 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:00:02 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:00:02 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:00:02 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 16:00:02 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 16:00:02 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:00:02 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:00:03 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:00:03 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:00:03 - printf.js - INFO - expertController.chartsSubject guest 遊客
+2025-06-19 16:00:03 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 16:00:03 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "expert",
+  "recordId": "17"
+}
+2025-06-19 16:00:03 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:00:03 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 16:00:03 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "token_price"
+}
+2025-06-19 16:00:03 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 16:00:03 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "total_message"
+}
+2025-06-19 16:00:03 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 16:00:03 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "active_user"
+}
+2025-06-19 16:00:03 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 16:00:03 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "no_answer"
+}
+2025-06-19 16:00:03 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 16:00:03 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "model_status"
+}
+2025-06-19 16:00:03 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 16:00:03 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "average_message"
+}
+2025-06-19 16:00:06 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:00:17 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:00:24 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:00:24.299Z
+2025-06-19 16:00:37 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:00:57 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:00:58 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "160MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-19 16:00:58 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "160MB",
+  "heapTotal": "97MB",
+  "heapUsed": "91MB"
+}
+2025-06-19 16:01:15 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:01:15 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:01:15 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:01:15 - printf.js - INFO - feedbackController.getFeedback guest 遊客
+2025-06-19 16:01:15 - printf.js - INFO - feedbackController.getFeedback: , extra={
+  "expertID": "17",
+  "startDate": "2025-06-12",
+  "endDate": "2025-06-19"
+}
+2025-06-19 16:01:16 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:01:16 - printf.js - INFO - feedbackController.getFeedbackOptions guest 遊客
+2025-06-19 16:01:17 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:01:24 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:01:24.301Z
+2025-06-19 16:01:37 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:01:57 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:01:58 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "160MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 16:01:58 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "160MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 16:02:17 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:02:24 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:02:24.308Z
+2025-06-19 16:02:37 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:02:57 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:02:58 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "74MB",
+  "heapTotal": "98MB",
+  "heapUsed": "91MB"
+}
+2025-06-19 16:02:58 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "74MB",
+  "heapTotal": "98MB",
+  "heapUsed": "91MB"
+}
+2025-06-19 16:03:17 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:03:24 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:03:24.321Z
+2025-06-19 16:03:37 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:03:57 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:03:58 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "74MB",
+  "heapTotal": "98MB",
+  "heapUsed": "91MB"
+}
+2025-06-19 16:03:58 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "74MB",
+  "heapTotal": "98MB",
+  "heapUsed": "91MB"
+}
+2025-06-19 16:04:17 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:04:24 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:04:24.322Z
+2025-06-19 16:04:37 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:04:57 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:04:58 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "74MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 16:04:58 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "74MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 16:05:17 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:05:24 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:05:24.328Z
+2025-06-19 16:05:37 - printf.js - INFO - Task executor is exiting, heartbeat stopped.
+2025-06-19 16:05:37 - printf.js - ERROR - taskExecutor 子進程已關閉，退出碼: 129
+2025-06-19 16:05:37 - printf.js - INFO - taskExecutor 運行超過 60000 毫秒，重置重試計數器
+2025-06-19 16:05:37 - printf.js - INFO - 嘗試第 1 次重啟 taskExecutor...
+2025-06-19 16:05:37 - printf.js - ERROR - taskScheduler 子進程已關閉，退出碼: 129
+2025-06-19 16:05:37 - printf.js - INFO - taskScheduler 運行超過 60000 毫秒，重置重試計數器
+2025-06-19 16:05:37 - printf.js - INFO - 嘗試第 1 次重啟 taskScheduler...
+2025-06-19 16:05:37 - printf.js - INFO - Main process exiting...
+2025-06-19 16:24:46 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 16:24:46 - printf.js - INFO - redis host: localhost
+2025-06-19 16:26:41 - printf.js - INFO - server is connection at http://localhost:8082
+2025-06-19 16:26:41 - printf.js - ERROR - Could not establish a connection with redis. Error: Connection timeout
+2025-06-19 16:26:41 - printf.js - INFO - Connected to redis successfully
+2025-06-19 16:26:46 - printf.js - ERROR - ❌ MongoDB 連線失敗： connect ECONNREFUSED 127.0.0.1:27018
+2025-06-19 16:26:46 - printf.js - INFO - {
+  "key": "is_db_ready",
+  "value": "1"
+}
+2025-06-19 16:26:46 - printf.js - INFO - 資料庫已準備
+2025-06-19 16:26:47 - printf.js - INFO - sync Settings table completed.
+2025-06-19 16:26:47 - printf.js - INFO - Database settings initialization completed.
+2025-06-19 16:26:47 - printf.js - INFO - All models were synchronized successfully.
+2025-06-19 16:26:47 - printf.js - INFO - FeedbackOptions 已有資料，不需要插入預設值。
+2025-06-19 16:26:47 - printf.js - INFO - ModelList 已有資料，不需要插入預設值。
+2025-06-19 16:26:47 - printf.js - INFO - CrawlerType 已有資料，不需要插入預設值。
+2025-06-19 16:26:48 - printf.js - INFO - Crawler 已有資料，不需要插入預設值。
+2025-06-19 16:26:48 - printf.js - INFO - LoginType 已有資料，不需要插入預設值。
+2025-06-19 16:26:48 - printf.js - INFO - DefaultPrompt 已有資料，不需要插入預設值。
+2025-06-19 16:26:48 - printf.js - INFO - UserPasswordHistory 預設值插入成功。
+2025-06-19 16:26:48 - printf.js - INFO - CronTask 已有資料，不需要插入預設值。
+2025-06-19 16:26:48 - printf.js - INFO - ChatTheme 已有資料，不需要插入預設值。
+2025-06-19 16:26:48 - printf.js - INFO - AuditLogEntityType 已有資料，不需要插入預設值。
+2025-06-19 16:26:48 - printf.js - INFO - AuditLogActionType 已有資料，不需要插入預設值。
+2025-06-19 16:26:48 - printf.js - INFO - taskScheduler 子進程啟動，PID: 169016
+2025-06-19 16:26:48 - printf.js - INFO - 已啟動 taskScheduler
+2025-06-19 16:26:48 - printf.js - INFO - taskExecutor 子進程啟動，PID: 163336
+2025-06-19 16:26:48 - printf.js - INFO - 已啟動 taskExecutor
+2025-06-19 16:26:48 - printf.js - WARN - COMMIT_SHA 或 BRANCH_NAME 環境變數未設置，跳過版本插入操作
+2025-06-19 16:27:02 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:27:02 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:27:02 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:27:03 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:27:03 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:27:03 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 16:27:03 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 16:27:28 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:27:28 - printf.js - INFO - Scheduling task: 檢查過期文件 (6eaffa1a-b3c9-48a5-ae80-17c2e71d71be) to run every 15000 seconds.
+2025-06-19 16:27:28 - printf.js - INFO - Scheduling task: 清除快取資料 (3108e53f-1f65-46b3-80ae-b96c4fc5725f) to run every 600 seconds.
+2025-06-19 16:27:28 - printf.js - INFO - Scheduling task: 同步爬蟲 (1c5d5c77-cae2-4e04-b0dc-1b73d38ca203) to run every 10 seconds.
+2025-06-19 16:27:28 - printf.js - INFO - Scheduling task: 刪除爬蟲檔案 (6543de24-4b94-4b76-984f-092ee8e8adf2) to run every 7200 seconds.
+2025-06-19 16:27:28 - printf.js - INFO - Scheduling task: 刪除爬蟲附件檔案 (5edb02d6-0190-4734-8a4d-7f83e5ad1c12) to run every 7000 seconds.
+2025-06-19 16:27:28 - printf.js - INFO - Scheduling task: 同步爬蟲附件 (9ccb114b-33be-4f92-9c1b-b7015fee8280) to run every 20 seconds.
+2025-06-19 16:27:28 - printf.js - INFO - Task scheduler setup completed.
+2025-06-19 16:27:28 - printf.js - INFO - taskScheduler 已成功啟動
+2025-06-19 16:27:36 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-19 16:27:36 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 16:27:42 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:27:42 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:27:42 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:27:42 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-19 16:27:43 - printf.js - INFO - Task executor started.
+2025-06-19 16:27:43 - printf.js - INFO - 排程每 5 秒執行一次任務
+2025-06-19 16:27:44 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:27:44 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:27:44 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 16:27:44 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 16:27:44 - printf.js - INFO - feedbackController.getFeedback guest 遊客
+2025-06-19 16:27:44 - printf.js - INFO - feedbackController.getFeedback: , extra={
+  "expertID": "17",
+  "startDate": "2025-06-12",
+  "endDate": "2025-06-19"
+}
+2025-06-19 16:27:45 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 16:27:45 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "expert",
+  "recordId": "17"
+}
+2025-06-19 16:27:45 - printf.js - INFO - feedbackController.getFeedbackOptions guest 遊客
+2025-06-19 16:27:45 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:27:45 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:27:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "103MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 16:27:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "103MB",
+  "heapTotal": "99MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 16:27:48 - printf.js - INFO - taskExecutor 已成功啟動
+2025-06-19 16:27:51 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:27:51 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:27:59 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:27:59 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:27:59 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 16:27:59 - printf.js - INFO - modelController.getModelListByModeType guest 遊客
+2025-06-19 16:28:00 - printf.js - INFO - modelController.getModelListByModeType: , extra={
+  "modeType": "embedding"
+}
+2025-06-19 16:28:09 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:28:15 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:28:15 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:28:15 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:28:15 - printf.js - INFO - datasets.getDatasetChartData guest 遊客
+2025-06-19 16:28:15 - printf.js - INFO - datasets.getDatasetChartData:, extra={
+  "datasets_id": "44631493-a5d4-414f-b143-979e6258b384",
+  "period": "7 days",
+  "subject": "embedding_cost"
+}
+2025-06-19 16:28:15 - printf.js - INFO - datasets.getDatasetsOverview guest 遊客
+2025-06-19 16:28:15 - printf.js - INFO - datasets.getDatasetsChunks guest 遊客
+2025-06-19 16:28:15 - printf.js - INFO - datasets.getDatasetsChunks:, extra={
+  "datasets_id": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:28:15 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:28:15 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 16:28:15 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:28:15 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 16:28:15 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:28:16 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 16:28:17 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 16:28:17 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 16:28:17 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:28:18 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:28:18 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 16:28:18 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:28:18 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 16:28:20 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 16:28:20 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:28:20 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 16:28:20 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:28:20 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 16:28:28 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:28:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:28:31 - printf.js - INFO - file.originalname 範例三工作表.xlsx
+2025-06-19 16:28:31 - printf.js - INFO - 如果檔案不是圖片或文本文件，也不是 PDF，就轉換成 PDF
+2025-06-19 16:28:31 - printf.js - ERROR - (node:168680) [DEP0044] DeprecationWarning: The `util.isArray` API is deprecated. Please use `Array.isArray()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+2025-06-19 16:28:32 - printf.js - INFO - pdfFileSize 43881
+2025-06-19 16:28:32 - printf.js - INFO - 批次上傳並刪除成功
+2025-06-19 16:28:32 - printf.js - INFO - datasets.sendFile guest 遊客
+2025-06-19 16:28:32 - printf.js - INFO - sendFile req.body, extra={
+  "separator": "null",
+  "datasets_id": "44631493-a5d4-414f-b143-979e6258b384",
+  "folder_name": "f30142ab-901b-424a-8a56-156400dc84a8",
+  "datasource_url": "",
+  "datasource_name": "",
+  "expiration_time": "undefined"
+}
+2025-06-19 16:28:32 - printf.js - INFO - sendFile req.files [
+  {
+    "fieldname": "files",
+    "originalname": "範例三工作表.xlsx",
+    "encoding": "7bit",
+    "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "destination": "D:\\Desktop\\achamp-ava\\ava-backend-server\\tempResource\\",
+    "filename": "776b7935-fab8-4941-82a1-0a47fd3558df.xlsx",
+    "path": "D:\\Desktop\\achamp-ava\\ava-backend-server\\tempResource\\776b7935-fab8-4941-82a1-0a47fd3558df.xlsx",
+    "size": 6350
+  }
+]
+2025-06-19 16:28:32 - printf.js - INFO - File deleted: D:\Desktop\achamp-ava\ava-backend-server\tempResource\776b7935-fab8-4941-82a1-0a47fd3558df.pdf
+2025-06-19 16:28:32 - printf.js - INFO - File deleted: D:\Desktop\achamp-ava\ava-backend-server\tempResource\776b7935-fab8-4941-82a1-0a47fd3558df.xlsx
+2025-06-19 16:28:32 - printf.js - INFO - rs.rows[0]: , extra={
+  "id": "f31702a9-8c95-4790-8194-13c81f7b1076"
+}
+2025-06-19 16:28:32 - printf.js - INFO - upload_folder_id:  f31702a9-8c95-4790-8194-13c81f7b1076
+2025-06-19 16:28:32 - printf.js - INFO - files [
+  {
+    "upload_documents_id": "776b7935-fab8-4941-82a1-0a47fd3558df",
+    "filename": "776b7935-fab8-4941-82a1-0a47fd3558df.xlsx",
+    "originalname": "範例三工作表.xlsx",
+    "upload_folder_id": "f31702a9-8c95-4790-8194-13c81f7b1076",
+    "datasets_id": "44631493-a5d4-414f-b143-979e6258b384",
+    "datasource_url": null,
+    "datasource_name": null,
+    "document_type": "document",
+    "separator": null,
+    "training_state": 2,
+    "created_by": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+    "expiration_time": null
+  }
+]
+2025-06-19 16:28:33 - printf.js - INFO - Audit log created with ID: 343
+2025-06-19 16:28:34 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 16:28:34 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:28:34 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:28:34 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:28:34 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 16:28:34 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:28:35 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 16:28:38 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:28:41 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:28:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:28:43.877Z
+2025-06-19 16:28:45 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:28:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "61MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 16:28:48 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:28:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "62MB",
+  "heapTotal": "101MB",
+  "heapUsed": "95MB"
+}
+2025-06-19 16:28:49 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:28:51 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:28:55 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:28:58 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:29:02 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:29:05 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:29:08 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:29:08 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:29:12 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:29:15 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:29:18 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:29:22 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:29:25 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:29:28 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:29:28 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:29:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:29:43.896Z
+2025-06-19 16:29:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "62MB",
+  "heapTotal": "102MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 16:29:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "62MB",
+  "heapTotal": "102MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 16:29:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:30:08 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:30:20 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:30:20 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:30:28 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:30:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:30:43.913Z
+2025-06-19 16:30:44 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:30:44 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:30:47 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:30:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "62MB",
+  "heapTotal": "103MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 16:30:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "62MB",
+  "heapTotal": "103MB",
+  "heapUsed": "96MB"
+}
+2025-06-19 16:30:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:30:51 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:30:54 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:30:57 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:01 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:04 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:07 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:08 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:31:11 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:14 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:17 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:21 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:24 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:27 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:30 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:31:31 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:34 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:37 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:41 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:42 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 16:31:42 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:31:42 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 16:31:42 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:31:43 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 16:31:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:31:43.922Z
+2025-06-19 16:31:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "49MB",
+  "heapTotal": "102MB",
+  "heapUsed": "97MB"
+}
+2025-06-19 16:31:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "49MB",
+  "heapTotal": "102MB",
+  "heapUsed": "97MB"
+}
+2025-06-19 16:31:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:31:49 - printf.js - INFO - file.originalname 1.xlsx
+2025-06-19 16:31:49 - printf.js - INFO - 如果檔案不是圖片或文本文件，也不是 PDF，就轉換成 PDF
+2025-06-19 16:31:49 - printf.js - INFO - pdfFileSize 16152
+2025-06-19 16:31:49 - printf.js - INFO - 批次上傳並刪除成功
+2025-06-19 16:31:49 - printf.js - INFO - datasets.sendFile guest 遊客
+2025-06-19 16:31:49 - printf.js - INFO - sendFile req.body, extra={
+  "separator": "null",
+  "datasets_id": "44631493-a5d4-414f-b143-979e6258b384",
+  "folder_name": "f30142ab-901b-424a-8a56-156400dc84a8",
+  "datasource_url": "",
+  "datasource_name": "",
+  "expiration_time": "undefined"
+}
+2025-06-19 16:31:49 - printf.js - INFO - sendFile req.files [
+  {
+    "fieldname": "files",
+    "originalname": "1.xlsx",
+    "encoding": "7bit",
+    "mimetype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "destination": "D:\\Desktop\\achamp-ava\\ava-backend-server\\tempResource\\",
+    "filename": "6536eb3e-4e26-4619-baa2-a44465a74573.xlsx",
+    "path": "D:\\Desktop\\achamp-ava\\ava-backend-server\\tempResource\\6536eb3e-4e26-4619-baa2-a44465a74573.xlsx",
+    "size": 10031
+  }
+]
+2025-06-19 16:31:49 - printf.js - INFO - File deleted: D:\Desktop\achamp-ava\ava-backend-server\tempResource\6536eb3e-4e26-4619-baa2-a44465a74573.xlsx
+2025-06-19 16:31:49 - printf.js - INFO - File deleted: D:\Desktop\achamp-ava\ava-backend-server\tempResource\6536eb3e-4e26-4619-baa2-a44465a74573.pdf
+2025-06-19 16:31:49 - printf.js - INFO - rs.rows[0]: , extra={
+  "id": "f31702a9-8c95-4790-8194-13c81f7b1076"
+}
+2025-06-19 16:31:50 - printf.js - INFO - upload_folder_id:  f31702a9-8c95-4790-8194-13c81f7b1076
+2025-06-19 16:31:50 - printf.js - INFO - files [
+  {
+    "upload_documents_id": "6536eb3e-4e26-4619-baa2-a44465a74573",
+    "filename": "6536eb3e-4e26-4619-baa2-a44465a74573.xlsx",
+    "originalname": "1.xlsx",
+    "upload_folder_id": "f31702a9-8c95-4790-8194-13c81f7b1076",
+    "datasets_id": "44631493-a5d4-414f-b143-979e6258b384",
+    "datasource_url": null,
+    "datasource_name": null,
+    "document_type": "document",
+    "separator": null,
+    "training_state": 2,
+    "created_by": "ebf008cf-8dd4-4223-acaf-b36c427c8b54",
+    "expiration_time": null
+  }
+]
+2025-06-19 16:31:50 - printf.js - INFO - Audit log created with ID: 344
+2025-06-19 16:31:50 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 16:31:50 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:31:51 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:31:51 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:51 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 16:31:51 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:31:51 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 16:31:54 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:31:57 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:01 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:04 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:07 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:08 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:32:11 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:14 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:17 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:21 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:24 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:28 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:31 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:34 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:38 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:41 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:32:43.937Z
+2025-06-19 16:32:44 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:32:48 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "103MB",
+  "heapUsed": "97MB"
+}
+2025-06-19 16:32:48 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "48MB",
+  "heapTotal": "103MB",
+  "heapUsed": "97MB"
+}
+2025-06-19 16:33:43 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:33:43.951Z
+2025-06-19 16:33:46 - printf.js - INFO - Task executor is exiting, heartbeat stopped.
+2025-06-19 16:33:46 - printf.js - ERROR - taskScheduler 子進程已關閉，退出碼: 129
+2025-06-19 16:33:46 - printf.js - INFO - taskScheduler 運行超過 60000 毫秒，重置重試計數器
+2025-06-19 16:33:46 - printf.js - INFO - 嘗試第 1 次重啟 taskScheduler...
+2025-06-19 16:33:46 - printf.js - ERROR - taskExecutor 子進程已關閉，退出碼: 129
+2025-06-19 16:33:46 - printf.js - INFO - taskExecutor 運行超過 60000 毫秒，重置重試計數器
+2025-06-19 16:33:46 - printf.js - INFO - 嘗試第 1 次重啟 taskExecutor...
+2025-06-19 16:33:46 - printf.js - INFO - Main process exiting...
+2025-06-19 16:36:30 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 16:36:30 - printf.js - INFO - redis host: localhost
+2025-06-19 16:38:38 - printf.js - INFO - server is connection at http://localhost:8082
+2025-06-19 16:38:38 - printf.js - ERROR - Could not establish a connection with redis. Error: Connection timeout
+2025-06-19 16:38:38 - printf.js - ERROR - ❌ MongoDB 連線失敗： Socket 'connect' timed out after 91390ms (connectTimeoutMS: 90000)
+2025-06-19 16:38:38 - printf.js - INFO - Connected to redis successfully
+2025-06-19 16:38:39 - printf.js - INFO - {
+  "key": "is_db_ready",
+  "value": "1"
+}
+2025-06-19 16:38:39 - printf.js - INFO - 資料庫已準備
+2025-06-19 16:38:39 - printf.js - INFO - sync Settings table completed.
+2025-06-19 16:38:39 - printf.js - INFO - Database settings initialization completed.
+2025-06-19 16:38:40 - printf.js - INFO - All models were synchronized successfully.
+2025-06-19 16:38:40 - printf.js - INFO - FeedbackOptions 已有資料，不需要插入預設值。
+2025-06-19 16:38:40 - printf.js - INFO - ModelList 已有資料，不需要插入預設值。
+2025-06-19 16:38:40 - printf.js - INFO - CrawlerType 已有資料，不需要插入預設值。
+2025-06-19 16:38:40 - printf.js - INFO - Crawler 已有資料，不需要插入預設值。
+2025-06-19 16:38:40 - printf.js - INFO - LoginType 已有資料，不需要插入預設值。
+2025-06-19 16:38:40 - printf.js - INFO - DefaultPrompt 已有資料，不需要插入預設值。
+2025-06-19 16:38:40 - printf.js - INFO - UserPasswordHistory 預設值插入成功。
+2025-06-19 16:38:40 - printf.js - INFO - CronTask 已有資料，不需要插入預設值。
+2025-06-19 16:38:40 - printf.js - INFO - ChatTheme 已有資料，不需要插入預設值。
+2025-06-19 16:38:40 - printf.js - INFO - AuditLogEntityType 已有資料，不需要插入預設值。
+2025-06-19 16:38:40 - printf.js - INFO - AuditLogActionType 已有資料，不需要插入預設值。
+2025-06-19 16:38:40 - printf.js - INFO - taskScheduler 子進程啟動，PID: 169296
+2025-06-19 16:38:40 - printf.js - INFO - 已啟動 taskScheduler
+2025-06-19 16:38:40 - printf.js - INFO - taskExecutor 子進程啟動，PID: 171280
+2025-06-19 16:38:40 - printf.js - INFO - 已啟動 taskExecutor
+2025-06-19 16:38:40 - printf.js - WARN - COMMIT_SHA 或 BRANCH_NAME 環境變數未設置，跳過版本插入操作
+2025-06-19 16:38:45 - printf.js - INFO - systemController.getSettings guest 遊客
+2025-06-19 16:38:45 - printf.js - INFO - (getUserPermissions)userNo guest
+2025-06-19 16:38:47 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:38:47 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:38:47 - printf.js - INFO - userController.getInfo guest 遊客
+2025-06-19 16:38:47 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:38:49 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:38:49 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:38:49 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 16:38:49 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:38:49 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 16:38:49 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:38:49 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 16:38:49 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 16:38:53 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:38:54 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 16:38:54 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "datasets",
+  "recordId": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:38:54 - printf.js - INFO - datasets.getDocuments guest 遊客
+2025-06-19 16:38:54 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 16:38:54 - printf.js - INFO - datasets.expertList guest 遊客
+2025-06-19 16:38:54 - printf.js - INFO - datasets.expertList:, extra={
+  "datasets_id": "44631493-a5d4-414f-b143-979e6258b384"
+}
+2025-06-19 16:38:54 - printf.js - INFO - datasets.getDatasets guest 遊客
+2025-06-19 16:38:55 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:38:57 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:38:57 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 16:38:57 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 16:38:57 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:38:58 - printf.js - INFO - expertController.chartsSubject guest 遊客
+2025-06-19 16:38:58 - printf.js - INFO - commonController.checkRecordEnableStatus guest 遊客
+2025-06-19 16:38:58 - printf.js - INFO - commonController.checkRecordEnableStatus: , extra={
+  "tableName": "expert",
+  "recordId": "17"
+}
+2025-06-19 16:38:58 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:38:58 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 16:38:58 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "token_price"
+}
+2025-06-19 16:38:58 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 16:38:58 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "model_status"
+}
+2025-06-19 16:38:58 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 16:38:58 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "no_answer"
+}
+2025-06-19 16:38:58 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:38:58 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:38:58 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:38:59 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 16:38:59 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "average_message"
+}
+2025-06-19 16:38:59 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 16:38:59 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "active_user"
+}
+2025-06-19 16:38:59 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:38:59 - printf.js - INFO - expertController.overview guest 遊客
+2025-06-19 16:38:59 - printf.js - INFO - expertController.overview:, extra={
+  "expert_id": "17",
+  "period": "7 days",
+  "subject": "total_message"
+}
+2025-06-19 16:39:01 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:39:01 - printf.js - INFO - feedbackController.getFeedback guest 遊客
+2025-06-19 16:39:01 - printf.js - INFO - feedbackController.getFeedback: , extra={
+  "expertID": "17",
+  "startDate": "2025-06-12",
+  "endDate": "2025-06-19"
+}
+2025-06-19 16:39:01 - printf.js - INFO - feedbackController.getFeedbackOptions guest 遊客
+2025-06-19 16:39:04 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:39:04 - printf.js - INFO - systemController.getIconList guest 遊客
+2025-06-19 16:39:04 - printf.js - INFO - expertController.getPopularTagsIconList guest 遊客
+2025-06-19 16:39:04 - printf.js - INFO - expertController.getPopularTagsIconList: 17
+2025-06-19 16:39:04 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:39:04 - printf.js - INFO - Scheduling task: 檢查過期文件 (6eaffa1a-b3c9-48a5-ae80-17c2e71d71be) to run every 15000 seconds.
+2025-06-19 16:39:04 - printf.js - INFO - Scheduling task: 清除快取資料 (3108e53f-1f65-46b3-80ae-b96c4fc5725f) to run every 600 seconds.
+2025-06-19 16:39:04 - printf.js - INFO - Scheduling task: 同步爬蟲 (1c5d5c77-cae2-4e04-b0dc-1b73d38ca203) to run every 10 seconds.
+2025-06-19 16:39:04 - printf.js - INFO - Scheduling task: 刪除爬蟲檔案 (6543de24-4b94-4b76-984f-092ee8e8adf2) to run every 7200 seconds.
+2025-06-19 16:39:04 - printf.js - INFO - Scheduling task: 刪除爬蟲附件檔案 (5edb02d6-0190-4734-8a4d-7f83e5ad1c12) to run every 7000 seconds.
+2025-06-19 16:39:04 - printf.js - INFO - Scheduling task: 同步爬蟲附件 (9ccb114b-33be-4f92-9c1b-b7015fee8280) to run every 20 seconds.
+2025-06-19 16:39:04 - printf.js - INFO - Task scheduler setup completed.
+2025-06-19 16:39:04 - printf.js - INFO - taskScheduler 已成功啟動
+2025-06-19 16:39:08 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:39:12 - printf.js - INFO - Task executor started.
+2025-06-19 16:39:12 - printf.js - INFO - 排程每 5 秒執行一次任務
+2025-06-19 16:39:17 - printf.js - INFO - taskExecutor 已成功啟動
+2025-06-19 16:39:17 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:39:25 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:39:40 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "373MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 16:39:40 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "373MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 16:39:46 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:39:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:39:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:39:48 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:39:48 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:39:48 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:39:48 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 16:39:48 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 16:39:57 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:39:57 - printf.js - INFO - expertController.getExpert guest 遊客
+2025-06-19 16:39:57 - printf.js - INFO - expertController.bindList guest 遊客
+2025-06-19 16:39:57 - printf.js - INFO - expertController.bindList:, extra={
+  "expert_id": "17"
+}
+2025-06-19 16:40:07 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:40:12 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:40:12.408Z
+2025-06-19 16:40:26 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:40:40 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "289MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 16:40:40 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "289MB",
+  "heapTotal": "98MB",
+  "heapUsed": "92MB"
+}
+2025-06-19 16:40:46 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:41:06 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:41:09 - printf.js - INFO - Task executor is exiting, heartbeat stopped.
+2025-06-19 16:41:09 - printf.js - ERROR - taskExecutor 子進程已關閉，退出碼: 129
+2025-06-19 16:41:09 - printf.js - INFO - taskExecutor 運行超過 60000 毫秒，重置重試計數器
+2025-06-19 16:41:09 - printf.js - INFO - 嘗試第 1 次重啟 taskExecutor...
+2025-06-19 16:41:09 - printf.js - ERROR - taskScheduler 子進程已關閉，退出碼: 129
+2025-06-19 16:41:09 - printf.js - INFO - taskScheduler 運行超過 60000 毫秒，重置重試計數器
+2025-06-19 16:41:09 - printf.js - INFO - 嘗試第 1 次重啟 taskScheduler...
+2025-06-19 16:41:09 - printf.js - INFO - Main process exiting...
+2025-06-19 16:45:21 - printf.js - INFO - db info: postgres@localhost:5430/chatAVA
+2025-06-19 16:45:21 - printf.js - INFO - redis host: localhost
+2025-06-19 16:47:58 - printf.js - INFO - server is connection at http://localhost:8082
+2025-06-19 16:47:58 - printf.js - ERROR - Could not establish a connection with redis. Error: Connection timeout
+2025-06-19 16:47:58 - printf.js - ERROR - ❌ MongoDB 連線失敗： Socket 'connect' timed out after 130789ms (connectTimeoutMS: 60000)
+2025-06-19 16:47:58 - printf.js - INFO - Connected to redis successfully
+2025-06-19 16:47:59 - printf.js - INFO - {
+  "key": "is_db_ready",
+  "value": "1"
+}
+2025-06-19 16:47:59 - printf.js - INFO - 資料庫已準備
+2025-06-19 16:48:00 - printf.js - INFO - sync Settings table completed.
+2025-06-19 16:48:00 - printf.js - INFO - Database settings initialization completed.
+2025-06-19 16:48:01 - printf.js - INFO - All models were synchronized successfully.
+2025-06-19 16:48:01 - printf.js - INFO - FeedbackOptions 已有資料，不需要插入預設值。
+2025-06-19 16:48:01 - printf.js - INFO - ModelList 已有資料，不需要插入預設值。
+2025-06-19 16:48:01 - printf.js - INFO - CrawlerType 已有資料，不需要插入預設值。
+2025-06-19 16:48:01 - printf.js - INFO - Crawler 已有資料，不需要插入預設值。
+2025-06-19 16:48:01 - printf.js - INFO - LoginType 已有資料，不需要插入預設值。
+2025-06-19 16:48:01 - printf.js - INFO - DefaultPrompt 已有資料，不需要插入預設值。
+2025-06-19 16:48:01 - printf.js - INFO - UserPasswordHistory 預設值插入成功。
+2025-06-19 16:48:01 - printf.js - INFO - CronTask 已有資料，不需要插入預設值。
+2025-06-19 16:48:01 - printf.js - INFO - ChatTheme 已有資料，不需要插入預設值。
+2025-06-19 16:48:01 - printf.js - INFO - AuditLogEntityType 已有資料，不需要插入預設值。
+2025-06-19 16:48:01 - printf.js - INFO - AuditLogActionType 已有資料，不需要插入預設值。
+2025-06-19 16:48:01 - printf.js - INFO - taskScheduler 子進程啟動，PID: 176284
+2025-06-19 16:48:01 - printf.js - INFO - 已啟動 taskScheduler
+2025-06-19 16:48:02 - printf.js - INFO - taskExecutor 子進程啟動，PID: 176268
+2025-06-19 16:48:02 - printf.js - INFO - 已啟動 taskExecutor
+2025-06-19 16:48:02 - printf.js - WARN - COMMIT_SHA 或 BRANCH_NAME 環境變數未設置，跳過版本插入操作
+2025-06-19 16:48:30 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:48:30 - printf.js - INFO - Scheduling task: 檢查過期文件 (6eaffa1a-b3c9-48a5-ae80-17c2e71d71be) to run every 15000 seconds.
+2025-06-19 16:48:30 - printf.js - INFO - Scheduling task: 清除快取資料 (3108e53f-1f65-46b3-80ae-b96c4fc5725f) to run every 600 seconds.
+2025-06-19 16:48:30 - printf.js - INFO - Scheduling task: 同步爬蟲 (1c5d5c77-cae2-4e04-b0dc-1b73d38ca203) to run every 10 seconds.
+2025-06-19 16:48:30 - printf.js - INFO - Scheduling task: 刪除爬蟲檔案 (6543de24-4b94-4b76-984f-092ee8e8adf2) to run every 7200 seconds.
+2025-06-19 16:48:30 - printf.js - INFO - Scheduling task: 刪除爬蟲附件檔案 (5edb02d6-0190-4734-8a4d-7f83e5ad1c12) to run every 7000 seconds.
+2025-06-19 16:48:30 - printf.js - INFO - Scheduling task: 同步爬蟲附件 (9ccb114b-33be-4f92-9c1b-b7015fee8280) to run every 20 seconds.
+2025-06-19 16:48:30 - printf.js - INFO - Task scheduler setup completed.
+2025-06-19 16:48:30 - printf.js - INFO - taskScheduler 已成功啟動
+2025-06-19 16:48:38 - printf.js - INFO - Task executor started.
+2025-06-19 16:48:38 - printf.js - INFO - 排程每 5 秒執行一次任務
+2025-06-19 16:48:43 - printf.js - INFO - taskExecutor 已成功啟動
+2025-06-19 16:48:44 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:48:51 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:49:01 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "268MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:49:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "268MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:49:11 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:49:30 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:49:38 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:49:38.881Z
+2025-06-19 16:49:51 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:50:01 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "162MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:50:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "162MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:50:10 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:50:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:50:38 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:50:38.890Z
+2025-06-19 16:50:51 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:51:01 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "122MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:51:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "122MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:51:11 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:51:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:51:38 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:51:38.900Z
+2025-06-19 16:51:51 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:52:01 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "122MB",
+  "heapTotal": "97MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:52:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "122MB",
+  "heapTotal": "97MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:52:11 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:52:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:52:38 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:52:38.913Z
+2025-06-19 16:52:51 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:53:02 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "122MB",
+  "heapTotal": "97MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:53:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "122MB",
+  "heapTotal": "97MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:53:11 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:53:31 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:53:38 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:53:38.920Z
+2025-06-19 16:53:51 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:54:02 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "80MB",
+  "heapTotal": "97MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:54:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "80MB",
+  "heapTotal": "97MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:54:11 - printf.js - DEBUG - Connected to PostgreSQL database successfully.
+2025-06-19 16:54:38 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:54:38.930Z
+2025-06-19 16:55:02 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "38MB",
+  "heapTotal": "97MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:55:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "38MB",
+  "heapTotal": "97MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:55:38 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:55:38.946Z
+2025-06-19 16:56:02 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "38MB",
+  "heapTotal": "97MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:56:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "38MB",
+  "heapTotal": "97MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:56:38 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:56:38.948Z
+2025-06-19 16:57:02 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "38MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:57:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "38MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:57:38 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:57:38.962Z
+2025-06-19 16:58:02 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "38MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:58:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "38MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:58:38 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:58:38.973Z
+2025-06-19 16:59:02 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "41MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:59:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "41MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 16:59:38 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T08:59:38.986Z
+2025-06-19 17:00:02 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 17:00:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 17:00:38 - printf.js - INFO - taskExecutor 心跳收到，時間戳: 2025-06-19T09:00:38.991Z
+2025-06-19 17:01:02 - printf.js - INFO - taskScheduler 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "96MB",
+  "heapUsed": "90MB"
+}
+2025-06-19 17:01:02 - printf.js - INFO - taskExecutor 記憶體使用情況:, extra={
+  "rss": "39MB",
+  "heapTotal": "96MB",
+  "heapUsed": "89MB"
+}
+2025-06-19 17:01:12 - printf.js - ERROR - Unexpected error on idle client, extra={
+  "client": {
+    "_events": {},
+    "_eventsCount": 1,
+    "connectionParameters": {
+      "user": "postgres",
+      "database": "chatAVA",
+      "port": 5430,
+      "host": "localhost",
+      "binary": false,
+      "ssl": false,
+      "client_encoding": "",
+      "isDomainSocket": false,
+      "statement_timeout": false,
+      "lock_timeout": false,
+      "idle_in_transaction_session_timeout": false,
+      "query_timeout": false,
+      "connect_timeout": 60
+    },
+    "user": "postgres",
+    "database": "chatAVA",
+    "port": 5430,
+    "host": "localhost",
+    "_types": {
+      "_types": {
+        "arrayParser": {},
+        "builtins": {
+          "BOOL": 16,
+          "BYTEA": 17,
+          "CHAR": 18,
+          "INT8": 20,
+          "INT2": 21,
+          "INT4": 23,
+          "REGPROC": 24,
+          "TEXT": 25,
+          "OID": 26,
+          "TID": 27,
+          "XID": 28,
+          "CID": 29,
+          "JSON": 114,
+          "XML": 142,
+          "PG_NODE_TREE": 194,
+          "SMGR": 210,
+          "PATH": 602,
+          "POLYGON": 604,
+          "CIDR": 650,
+          "FLOAT4": 700,
+          "FLOAT8": 701,
+          "ABSTIME": 702,
+          "RELTIME": 703,
+          "TINTERVAL": 704,
+          "CIRCLE": 718,
+          "MACADDR8": 774,
+          "MONEY": 790,
+          "MACADDR": 829,
+          "INET": 869,
+          "ACLITEM": 1033,
+          "BPCHAR": 1042,
+          "VARCHAR": 1043,
+          "DATE": 1082,
+          "TIME": 1083,
+          "TIMESTAMP": 1114,
+          "TIMESTAMPTZ": 1184,
+          "INTERVAL": 1186,
+          "TIMETZ": 1266,
+          "BIT": 1560,
+          "VARBIT": 1562,
+          "NUMERIC": 1700,
+          "REFCURSOR": 1790,
+          "REGPROCEDURE": 2202,
+          "REGOPER": 2203,
+          "REGOPERATOR": 2204,
+          "REGCLASS": 2205,
+          "REGTYPE": 2206,
+          "UUID": 2950,
+          "TXID_SNAPSHOT": 2970,
+          "PG_LSN": 3220,
+          "PG_NDISTINCT": 3361,
+          "PG_DEPENDENCIES": 3402,
+          "TSVECTOR": 3614,
+          "TSQUERY": 3615,
+          "GTSVECTOR": 3642,
+          "REGCONFIG": 3734,
+          "REGDICTIONARY": 3769,
+          "JSONB": 3802,
+          "REGNAMESPACE": 4089,
+          "REGROLE": 4096
+        }
+      },
+      "text": {},
+      "binary": {}
+    },
+    "_ending": true,
+    "_ended": true,
+    "_connecting": false,
+    "_connected": true,
+    "_connectionError": false,
+    "_queryable": false,
+    "connection": {
+      "_events": {},
+      "_eventsCount": 22,
+      "stream": {
+        "connecting": false,
+        "_hadError": false,
+        "_parent": null,
+        "_host": "localhost",
+        "_closeAfterHandlingError": false,
+        "_events": {
+          "end": [
+            null,
+            null
+          ]
+        },
+        "_readableState": {
+          "highWaterMark": 16384,
+          "buffer": [],
+          "bufferIndex": 0,
+          "length": 0,
+          "pipes": [],
+          "awaitDrainWriters": null
+        },
+        "_writableState": {
+          "highWaterMark": 16384,
+          "length": 0,
+          "corked": 0,
+          "writelen": 0,
+          "bufferedIndex": 0,
+          "pendingcb": 0
+        },
+        "allowHalfOpen": false,
+        "_eventsCount": 4,
+        "_sockname": null,
+        "_pendingData": null,
+        "_pendingEncoding": "",
+        "server": null,
+        "_server": null,
+        "autoSelectFamilyAttemptedAddresses": [
+          "::1:5430"
+        ]
+      },
+      "_keepAlive": false,
+      "_keepAliveInitialDelayMillis": 0,
+      "lastBuffer": false,
+      "parsedStatements": {},
+      "ssl": false,
+      "_ending": true,
+      "_emitMessage": false,
+      "_connecting": true
+    },
+    "queryQueue": [],
+    "binary": false,
+    "processID": 897,
+    "secretKey": 1717208977,
+    "ssl": false,
+    "_connectionTimeoutMillis": 60000,
+    "_connectionCallback": null,
+    "connectionTimeoutHandle": {
+      "_idleTimeout": -1,
+      "_idlePrev": null,
+      "_idleNext": null,
+      "_idleStart": 368651,
+      "_onTimeout": null,
+      "_repeat": null,
+      "_destroyed": true
+    },
+    "saslSession": null,
+    "activeQuery": null,
+    "readyForQuery": true,
+    "hasExecuted": true,
+    "_poolUseCount": 65
+  }
+}
+2025-06-19 17:01:12 - printf.js - ERROR - Could not establish a connection with redis. Error: Socket closed unexpectedly
+2025-06-19 17:01:12 - printf.js - ERROR - Unexpected error on idle client, extra={
+  "client": {
+    "_events": {},
+    "_eventsCount": 1,
+    "connectionParameters": {
+      "user": "postgres",
+      "database": "chatAVA",
+      "port": 5430,
+      "host": "localhost",
+      "binary": false,
+      "ssl": false,
+      "client_encoding": "",
+      "isDomainSocket": false,
+      "statement_timeout": false,
+      "lock_timeout": false,
+      "idle_in_transaction_session_timeout": false,
+      "query_timeout": false,
+      "connect_timeout": 60
+    },
+    "user": "postgres",
+    "database": "chatAVA",
+    "port": 5430,
+    "host": "localhost",
+    "_types": {
+      "_types": {
+        "arrayParser": {},
+        "builtins": {
+          "BOOL": 16,
+          "BYTEA": 17,
+          "CHAR": 18,
+          "INT8": 20,
+          "INT2": 21,
+          "INT4": 23,
+          "REGPROC": 24,
+          "TEXT": 25,
+          "OID": 26,
+          "TID": 27,
+          "XID": 28,
+          "CID": 29,
+          "JSON": 114,
+          "XML": 142,
+          "PG_NODE_TREE": 194,
+          "SMGR": 210,
+          "PATH": 602,
+          "POLYGON": 604,
+          "CIDR": 650,
+          "FLOAT4": 700,
+          "FLOAT8": 701,
+          "ABSTIME": 702,
+          "RELTIME": 703,
+          "TINTERVAL": 704,
+          "CIRCLE": 718,
+          "MACADDR8": 774,
+          "MONEY": 790,
+          "MACADDR": 829,
+          "INET": 869,
+          "ACLITEM": 1033,
+          "BPCHAR": 1042,
+          "VARCHAR": 1043,
+          "DATE": 1082,
+          "TIME": 1083,
+          "TIMESTAMP": 1114,
+          "TIMESTAMPTZ": 1184,
+          "INTERVAL": 1186,
+          "TIMETZ": 1266,
+          "BIT": 1560,
+          "VARBIT": 1562,
+          "NUMERIC": 1700,
+          "REFCURSOR": 1790,
+          "REGPROCEDURE": 2202,
+          "REGOPER": 2203,
+          "REGOPERATOR": 2204,
+          "REGCLASS": 2205,
+          "REGTYPE": 2206,
+          "UUID": 2950,
+          "TXID_SNAPSHOT": 2970,
+          "PG_LSN": 3220,
+          "PG_NDISTINCT": 3361,
+          "PG_DEPENDENCIES": 3402,
+          "TSVECTOR": 3614,
+          "TSQUERY": 3615,
+          "GTSVECTOR": 3642,
+          "REGCONFIG": 3734,
+          "REGDICTIONARY": 3769,
+          "JSONB": 3802,
+          "REGNAMESPACE": 4089,
+          "REGROLE": 4096
+        }
+      },
+      "text": {},
+      "binary": {}
+    },
+    "_ending": true,
+    "_ended": true,
+    "_connecting": false,
+    "_connected": true,
+    "_connectionError": false,
+    "_queryable": false,
+    "connection": {
+      "_events": {},
+      "_eventsCount": 22,
+      "stream": {
+        "connecting": false,
+        "_hadError": false,
+        "_parent": null,
+        "_host": "localhost",
+        "_closeAfterHandlingError": false,
+        "_events": {
+          "end": [
+            null,
+            null
+          ]
+        },
+        "_readableState": {
+          "highWaterMark": 16384,
+          "buffer": [],
+          "bufferIndex": 0,
+          "length": 0,
+          "pipes": [],
+          "awaitDrainWriters": null
+        },
+        "_writableState": {
+          "highWaterMark": 16384,
+          "length": 0,
+          "corked": 0,
+          "writelen": 0,
+          "bufferedIndex": 0,
+          "pendingcb": 0
+        },
+        "allowHalfOpen": false,
+        "_eventsCount": 4,
+        "_sockname": null,
+        "_pendingData": null,
+        "_pendingEncoding": "",
+        "server": null,
+        "_server": null,
+        "autoSelectFamilyAttemptedAddresses": [
+          "::1:5430"
+        ]
+      },
+      "_keepAlive": false,
+      "_keepAliveInitialDelayMillis": 0,
+      "lastBuffer": false,
+      "parsedStatements": {},
+      "ssl": false,
+      "_ending": true,
+      "_emitMessage": false,
+      "_connecting": true
+    },
+    "queryQueue": [],
+    "binary": false,
+    "processID": 864,
+    "secretKey": 1672909884,
+    "ssl": false,
+    "_connectionTimeoutMillis": 60000,
+    "_connectionCallback": null,
+    "connectionTimeoutHandle": {
+      "_idleTimeout": -1,
+      "_idlePrev": null,
+      "_idleNext": null,
+      "_idleStart": 41402,
+      "_onTimeout": null,
+      "_repeat": null,
+      "_destroyed": true
+    },
+    "saslSession": null,
+    "activeQuery": null,
+    "readyForQuery": true,
+    "hasExecuted": true,
+    "_poolUseCount": 150
+  }
+}
+2025-06-19 17:01:12 - printf.js - INFO - Connected to redis successfully
+2025-06-19 17:01:15 - printf.js - ERROR - (processFile.js)未處理的 Promise 拒絕:, extra={
+  "code": "ECONNREFUSED"
+}
+2025-06-19 17:01:15 - printf.js - ERROR - (processFile.js)Promise:
+2025-06-19 17:01:15 - printf.js - ERROR - (processFile.js)未處理的 Promise 拒絕:, extra={
+  "code": "ECONNREFUSED"
+}
+2025-06-19 17:01:15 - printf.js - ERROR - (processFile.js)Promise:
+2025-06-19 17:01:17 - printf.js - INFO - Attempting to reconnect to the database...
+2025-06-19 17:01:17 - printf.js - INFO - Attempting to reconnect to the database...
+2025-06-19 17:01:20 - printf.js - ERROR - (processFile.js)未處理的 Promise 拒絕:, extra={
+  "code": "ECONNREFUSED"
+}
+2025-06-19 17:01:20 - printf.js - ERROR - (processFile.js)Promise:
+2025-06-19 17:01:20 - printf.js - ERROR - (processFile.js)未處理的 Promise 拒絕:, extra={
+  "code": "ECONNREFUSED"
+}
+2025-06-19 17:01:20 - printf.js - ERROR - (processFile.js)Promise:
+2025-06-19 17:01:21 - printf.js - ERROR - taskScheduler 子進程已關閉，退出碼: 1
+2025-06-19 17:01:21 - printf.js - INFO - taskScheduler 運行超過 60000 毫秒，重置重試計數器
+2025-06-19 17:01:21 - printf.js - INFO - 嘗試第 1 次重啟 taskScheduler...
+2025-06-19 17:01:22 - printf.js - ERROR - taskExecutor 子進程已關閉，退出碼: 1073807364
+2025-06-19 17:01:22 - printf.js - INFO - taskExecutor 運行超過 60000 毫秒，重置重試計數器
+2025-06-19 17:01:22 - printf.js - INFO - 嘗試第 1 次重啟 taskExecutor...

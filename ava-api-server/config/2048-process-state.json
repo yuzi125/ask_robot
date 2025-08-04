@@ -1,0 +1,68 @@
+{
+    "output_action": "f'您可以透過此 [連結]({f'{ERP_HOST}/eas/dt/maintain/dt20?_action=query&empCall={empCall}'}) 看到您的維修狀況'",
+    "action_type": "output",
+    "description": "設備故障報修進度查詢",
+    "entrance_message": {
+        "text": "entrance_message！",
+        "component": [
+            {
+                "tag": "button",
+                "text": "這是 entrance_message",
+                "action": "tunnelStart",
+                "args": ["arg1"]
+            }
+        ]
+    },
+    "start_message": {
+        "text": "這是 start_message",
+        "component": [
+            {
+                "tag": "button",
+                "text": "start_message",
+                "action": "tunnelStart",
+                "args": ["arg1"]
+            }
+        ]
+    },
+    "end_message": {
+        "text": "這是 end_message ！",
+        "component": [
+            {
+                "tag": "button",
+                "text": "end_message",
+                "action": "tunnelStart",
+                "args": ["arg1"]
+            }
+        ]
+    },
+    "success_message": {
+      "text": "這是 success_message！",
+      "component": [
+        {
+          "tag": "p",
+          "text": "設備故葬報修進度查詢成功"
+        }
+      ]
+    },
+    "error_message": {
+        "text": "這是 error_message！",
+        "component": [
+            {
+                "tag": "button",
+                "text": "error_message",
+                "action": "tunnelStart",
+                "args": ["arg1"]
+            }
+        ]
+    },
+    "fields": [
+        {
+            "field_name": "empCall",
+            "field_label": "職工編號",
+            "field_format": "6碼數字",
+            "default": "user.login_info['csc_sso']['uid']",
+            "is_show": true,
+            "editable": false
+        }
+    ]
+}

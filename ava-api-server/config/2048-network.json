@@ -1,0 +1,100 @@
+{
+    "form_action": "{ERP_HOST}/eas/dt/rest/dt10/create",
+    "action_type": "form",
+    "input_field": "remark",
+    "description": "網路故障報修單",
+    "success_message": {
+      "text": "這是 success_message！",
+      "component": [
+        {
+          "tag": "p",
+          "text": "網路故障報修成功"
+        }
+      ]
+    },
+    "fields": [
+        {
+            "field_name": "remark",
+            "field_label": "故障說明",
+            "field_format": "描述故障原因的文字",
+            "is_show": true,
+            "editable": true
+        },
+        {
+            "field_name": "empCall",
+            "field_label": "職工編號",
+            "field_format": "6碼數字",
+            "default": "user.login_info['csc_sso']['uid']",
+            "is_show": true,
+            "editable": false
+        },
+        {
+            "field_name": "fixAssetNo",
+            "field_label": "資產編號",
+            "field_format": "至少8碼的數字",
+            "validate": "\\d{7,}",
+            "is_show": true,
+            "editable": true,
+            "exit_on": {
+                "condition": "{ERP_HOST}/eas/dt/rest/dt10/queryAsset?assetNo={fixAssetNo}&_format=json",
+                "request_fail_reply": "ERP系統錯誤，若有問題請聯絡管理員",
+                "_extra": [],
+                "status_check_list": [
+                    {
+                        "path": "root['status']",
+                        "condition": "int(value)==200"
+                    },
+                    {
+                        "path": "root['data'][0]['isOANet']",
+                        "condition": "value=='Y'",
+                        "false_message": "非OA網斷或未於DT系統登錄IP隻電話請撥2048洽克服人員"
+                    }
+                ],
+                "result_message": "root['error']",
+                "error_message": "API錯誤，請稍後再試，若有問題請聯絡管理員"
+            }
+        },
+        {
+            "field_name": "telNo",
+            "field_label": "分機號碼",
+            "field_format": "4碼數字或5碼數字",
+            "is_show": true,
+            "editable": true,
+            "children": [
+                {
+                    "triggered_by": "len('{telNo}')==5",
+                    "field_name": "position",
+                    "field_label": "所在樓層",
+                    "field_format": "阿拉伯數字",
+                    "validate": "\\b\\d{1,2}\\b",
+                    "field_parent": "telNo"
+                }
+            ]
+        }
+    ],
+    "extra_append_fields": {
+        "dateCall": "today_date",
+        "dateNotify": "today_date",
+        "timeNotify": "now_hour_min_sec",
+        "emergenceTag": "",
+        "repairType": "'B'",
+        "firNotifyDt": "",
+        "secNotifyDt": "",
+        "thdNotifyDt": "",
+        "dp1aCode": "form_data['problemNo'] if form_data['problemNo'] != 'XXXX' else '9O99'",
+        "createFrom": "'A'",
+        "position": "form_data['position'] if 'position' in form_data else ''",
+        "problemType": "'DEVICE'"
+    },
+    "field_inference": [
+        {
+            "input": "remark",
+            "hint": "problem_code",
+            "output": "problemNo"
+        }
+    ],
+    "status_check_field": "",
+    "hints": {
+        "problem_code": ["9N01 網路異常", "XXXX 以上皆非"]
+    }
+}
